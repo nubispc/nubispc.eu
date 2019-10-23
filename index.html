@@ -70,6 +70,12 @@
                     </li>
                 
                 
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#contact">
+                             Contact 
+                        </a>
+                    </li>
+                
             </ul>
         </div>
     </nav>
@@ -81,7 +87,7 @@
     <section id="home" class="hero-area" style='background-image: url(" images/header-bg.jpg");'>
         <div class="container">
             <div class="row">
-                <div class="col-lg-7 col-md-6">
+                <div class="">
                     <div class="block">
                          
                         <h1 class="wow fadeInDown" data-wow-delay="0.3s" data-wow-duration=".2s">
@@ -95,7 +101,7 @@
                         
                         
                         <div class="wow fadeInDown" data-wow-delay="0.7s" data-wow-duration=".7s">
-                            <a class="btn btn-home" href="#about" role="button">
+                            <a class="btn btn-home" href="#serverless" role="button">
                                 Read More
                             </a>
                         </div>
@@ -127,7 +133,7 @@
                 
                     <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="0s">
                         <div class="block">
-                            <i class="tf-strategy"></i>
+                            <i class="tf-beaker"></i>
                             <h3>Highly-optimized hypervisor</h3>
                             <p>Nubificus develops a highly-optimized hypervisor based on KVM. Our home-brewed hypervisor delivers native performance for I/O-intensive workloads, while maintaining secure execution in multi-tenant environments.</p>
                         </div>
@@ -135,7 +141,7 @@
                 
                     <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="0.2s">
                         <div class="block">
-                            <i class="tf-circle-compass"></i>
+                            <i class="tf-hotairballoon"></i>
                             <h3>Lightweight execution</h3>
                             <p>At Nubificus, we minimize the application execution overhead. We achieve this with the use of unikernels while building on the concept of library operating systems.</p>
                         </div>
@@ -143,7 +149,7 @@
                 
                     <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="0.4s">
                         <div class="block">
-                            <i class="tf-anchor2"></i>
+                            <i class="tf-bargraph"></i>
                             <h3>Hardware Acceleration</h3>
                             <p>We bridge the gap between hardware accelerators and virtualized workloads. We define the simplest interface for common snippets of code that can be accelerated and transparently execute the code, in hardware, while the rest of the application execution flow is progressing.</p>
                         </div>
@@ -151,7 +157,7 @@
                 
                     <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="0.4s">
                         <div class="block">
-                            <i class="tf-ion-disc"></i>
+                            <i class="tf-layers"></i>
                             <h3>Efficient Container Storage</h3>
                             <p>We bring containerized storage to unikernel containers. Most of the benefits of container storage are now available on lightweight, single-app microVM instances, spawned as containers.</p>
                         </div>
@@ -177,61 +183,83 @@
                     
                 </div>
                 
-                    <div class="col-sm-8 col-md-4 wow fadeInLeft" data-wow-delay="0s">
+                    <div class="col-sm-8 col-md-6 wow fadeInLeft" data-wow-delay="0s">
                         <div class="block">
-                            <i class="tf-strategy"></i>
+                            <i class="tf-magnifying-glass"></i>
+                            <h3>Virtualization Research</h3>
+                            <p>We collaborate with academic institutions and R&amp;D departments, to conduct systems research and move beyond the state-of-the-art on systems design and implementation.</p>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-8 col-md-6 wow fadeInLeft" data-wow-delay="0s">
+                        <div class="block">
+                            <i class="tf-ion-erlenmeyer-flask"></i>
                             <h3>Low-level systems development</h3>
-                            <p></p>
+                            <p>With our expertise in low-level systems software, distributed systems and security, we are building a powerful set of tools which we combine to deliver bespoke virtualisation solutions.</p>
                         </div>
                     </div>
                 
-                    <div class="col-sm-8 col-md-4 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="col-sm-8 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
                         <div class="block">
-                            <i class="tf-circle-compass"></i>
+                            <i class="tf-ion-play"></i>
                             <h3>Application porting</h3>
-                            <p></p>
+                            <p>We enhance your monolithic application workflow with satelite micro-services running as unikernels, with minimal overhead and near-instant response times.</p>
                         </div>
                     </div>
                 
-                    <div class="col-sm-8 col-md-4 wow fadeInLeft" data-wow-delay="0.4s">
+                    <div class="col-sm-8 col-md-6 wow fadeInLeft" data-wow-delay="0.4s">
                         <div class="block">
-                            <i class="tf-anchor2"></i>
+                            <i class="tf-ion-network"></i>
                             <h3>Deployment &amp; Maintenance</h3>
-                            <p></p>
+                            <p>We design, deploy, and maintain your application in various environments: the cloud, on-prem or at the edge. With more than 20 years of experience in systems administration, we relieve you from the burden of deploying, monitoring &amp; maintaining your application.</p>
                         </div>
                     </div>
                 
             </div>
         </div>
     </section>
+
+
+
 
 
 
 
     <!-- About Section -->
-    <section id="about" class="section about bg-gray">
+    <section id="about" class="section about">
         <div class="container">
             <div class="row">
-                <div class="col-md-7 col-sm-12 wow fadeInLeft">
+                
+                <div class="heading wow fadeInLeft">
                     <div class="content">
                         <div class="sub-heading">
                         
-                            <h3>Redefining the virtualization stack</h3>
+                            <h3>Embracing the open-source ecosystem</h3>
                         
                         </div>
                         
-                            <p>Nubificus brings lightweight application &amp; function execution at the Edge, leveraging state of the art virtualization and containerization technologies. Workloads are deployed as unikernels, secured by our home-brewed minimal hypervisor and managed by popular orchestration platforms (docker, kubernetes).</p>
+                            <p>We are day-to-day users of open-source software. We develop, build, maintain, and promote open-source software. Most of the projects we are involved in are built on open-source components. Specifically, we use and try to contribute to the following open-source projects:</p>
                         
                     </div>
                 </div>
-                <div class="col-md-5 col-sm-12 wow fadeInLeft" data-wow-delay="0.3s">
-                    <div class="about-slider">
-                        
-                            <img src="images/about/vim3.jpg" alt="slider-image">
-                        
-                            <img src="images/about/rpi4.jpg" alt="slider-image">
-                        
+                <div class="col-md-12 col-sm-12 wow fadeInLeft" data-wow-delay="0.3s">
+                    
+                    <div class="about-slider col-md-3 col-sm-3 text-center">
+                            <a href="https://nabla-containers.github.io" target="_blank"><img src="images/about/nabla-logo.png" height="100px" alt="slider-image"></a>
                     </div>
+                    
+                    <div class="about-slider col-md-3 col-sm-3 text-center">
+                            <a href="https://rumpkernel.org" target="_blank"><img src="images/about/rumpkernel-logo.png" height="100px" alt="slider-image"></a>
+                    </div>
+                    
+                    <div class="about-slider col-md-3 col-sm-3 text-center">
+                            <a href="https://docker.com" target="_blank"><img src="images/about/docker-logo.png" height="100px" alt="slider-image"></a>
+                    </div>
+                    
+                    <div class="about-slider col-md-3 col-sm-3 text-center">
+                            <a href="https://firecracker-microvm.github.io" target="_blank"><img src="images/about/fc-logo.png" height="100px" alt="slider-image"></a>
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -242,44 +270,96 @@
 
 
 
+    <!-- Contact Section -->
+    <section id="contact" class="section contact bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="block">
+                        <div class="heading wow fadeInUp">
+                            
+                            <h2>Get In Touch</h2>
+                            
+                            
+                                <p>We would love to hear from you</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 offset-md-3">
+                    <div class="form-group">
+                        
+                        <form action="https://getform.io/f/f4526eff-1f86-4fdc-8e51-0f91bc697fa5" method="post" id="contact-form">
+                        
+                            <div class="input-field">
+                                <input type="text" class="form-control" placeholder="Your Name" name="name">
+                            </div>
+                            <div class="input-field">
+                                <input type="email" class="form-control" placeholder="Email Address" name="email">
+                            </div>
+                            <div class="input-field">
+                                <textarea class="form-control" placeholder="Your Message" rows="3" name="message"></textarea>
+                            </div>
+                            <button class="btn btn-send" type="submit">Submit</button>
+                        </form>
+
+                        <div id="success">
+                            <p>Your Message was sent successfully</p>
+                        </div>
+                        <div id="error">
+                            <p>Your Message was not sent successfully</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
-<footer class="page-footer font-small pt-4">
+
+
+<footer>
 
   
-  <div class="container-fluid text-center text-md-left">
+  <div class="container text-center text-md-left">
 
     
     <div class="row">
 
       
-      <div class="col-md-8 mt-md-0 mt-4">
+      <div class="col-md-12 text-center py-1">
 
         
       <h5 class="text-uppercase">Get in Touch</h5>
-        <p>Drop us an email at info@nubificus.co.uk
+        <p>Drop us an email at <a href="mailto:info@nubificus.co.uk">info@nubificus.co.uk</a>
       </div> 
       
+    </div>
 
-      <hr class="clearfix w-100 d-md-none pb-3">
+    <div class="row text-center">
 
       
-      <div class="col-md-8 mb-md-0 mb-4">
+      <div class="col-md-6">
 
         
         <h5 class="text-uppercase">Follow Us</h5>
 
         <ul class="list-unstyled">
           <li>
-            <a href="https://twitter.com/nubificus" target="_blank"><span class="tf-ion-social-twitter" style="padding: 0 10px 0 0;"></span><span class="edgtf-social-icon-text" style="font-size: 12px;">Twitter</span>       
+            <a href="https://twitter.com/nubificus" target="_blank"><span class="tf-ion-social-twitter" style="padding: 0 5px 0 0;"></span>Twitter
             </a>
           </li>
            <li>
-            <a href="https://linkedin.com/company/nubificus" target="_blank"><span class="tf-ion-social-linkedin" style="padding: 0 10px 0 0;"></span><span class="tf-social-icon-text" style="font-size: 12px;">LinkedIn</span>       
+            <a href="https://linkedin.com/company/nubificus" target="_blank"><span class="tf-ion-social-linkedin" style="padding: 0 7px 0 0;"></span>LinkedIn
             </a>
           </li>
          <li>
-            <a href="https://github.com/nubificus" target="_blank"><span class="tf-ion-social-github" style="padding: 0 10px 0 0;"></span><span class="tf-social-icon-text" style="font-size: 12px;">LinkedIn</span>       
+            <a href="https://github.com/nubificus" target="_blank"><span class="tf-ion-social-github" style="padding: 0 5px 0 0;"></span>Github       
+            </a>
+          </li>
+
+         <li>
+            <a href="https://blog.cloudkernels.net" target="_blank"><span class="tf-ion-ios-book" style="padding: 0 7px 0 0;"></span>Blog
             </a>
           </li>
 
@@ -287,10 +367,10 @@
       
 
       
-      <div class="col-md-4 mb-md-0 mb-1">
+      <div class="col-md-6">
 
         
-        <h5 class="text-uppercase">Quick Navigation</h5>
+        <h5 class="text-uppercase">Navigation</h5>
 
         <ul class="list-unstyled">
           <li>
@@ -302,9 +382,6 @@
            <li>
             <a href="#services">Services</a>
           </li>
-         <li>
-            <a href="https://blog.cloudkernels.net">Blog</a>
-          </li>
           <li>
             <a href="#about">About</a>
           </li>
@@ -313,11 +390,8 @@
       </div>
       
 
-    </div>
-    
+ </div>
 
-  </div>
-  
 
   
  <div class="row">
