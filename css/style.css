@@ -292,7 +292,7 @@ a:active {
 
 .hero-area h1 {
   color: #fff;
-  font-size: 60px;
+  /*font-size: 100%;*/
   text-transform: uppercase;
   font-weight: bold;
   padding-bottom: 19px;
