@@ -34,7 +34,7 @@
     <nav class="navbar navbar-fixed-top  navigation " id="top-nav">
         <a class="navbar-brand float-none float-lg-left" href="/">
             
-            <img src="images/logo.png" width=70px alt="logo">
+            <img src="images/logo.png" height=50px alt="logo">
 	    
 	    
         </a>
@@ -42,7 +42,7 @@
             <i class="tf-ion-android-menu"></i>
         </button>
         <div class="collapse navbar-toggleable-md" id="navbarResponsive">
-            <ul class="nav navbar-nav menu float-lg-right" id="top-nav">
+            <ul class="nav navbar-nav menu float-lg-right" id="top-nav" style="float:right">
                 <li class="nav-item active">
                     <a class="nav-link" href="/#home">
                          Home 
@@ -50,8 +50,8 @@
                 </li>
                 
                     <li class="nav-item">
-                        <a class="nav-link" href="/#about">
-                             About 
+                        <a class="nav-link" href="/#service">
+                             Serverless 
                         </a>
                     </li>
                 
@@ -59,6 +59,13 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/#service">
                              Services 
+                        </a>
+                    </li>
+                
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#about">
+                             About 
                         </a>
                     </li>
                 
@@ -74,7 +81,7 @@
     <section id="home" class="hero-area" style='background-image: url(" images/header-bg.jpg");'>
         <div class="container">
             <div class="row">
-                <div class="col-lg-9 col-md-6">
+                <div class="col-lg-7 col-md-6">
                     <div class="block">
                          
                         <h1 class="wow fadeInDown" data-wow-delay="0.3s" data-wow-duration=".2s">
@@ -99,6 +106,103 @@
             
         </div>
         
+    </section>
+
+
+
+
+
+    <!-- Service Section -->
+    <section id="serverless" class="serverless section bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="heading wow fadeInUp">
+                    
+                        <h2>Serverless at the Edge</h2>
+                    
+                    
+                        <p>We enable serverless computing at the edge: Workloads are able to run on low-power devices, orchestrated by popular frameworks, on top of our home-brewed, ultra-lightweight hypervisor, taking advantage of hardware accelerators.</p>
+                    
+                </div>
+                
+                    <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="0s">
+                        <div class="block">
+                            <i class="tf-strategy"></i>
+                            <h3>Highly-optimized hypervisor</h3>
+                            <p>Nubificus develops a highly-optimized hypervisor based on KVM. Our home-brewed hypervisor delivers native performance for I/O-intensive workloads, while maintaining secure execution in multi-tenant environments.</p>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="block">
+                            <i class="tf-circle-compass"></i>
+                            <h3>Lightweight execution</h3>
+                            <p>At Nubificus, we minimize the application execution overhead. We achieve this with the use of unikernels while building on the concept of library operating systems.</p>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="0.4s">
+                        <div class="block">
+                            <i class="tf-anchor2"></i>
+                            <h3>Hardware Acceleration</h3>
+                            <p>We bridge the gap between hardware accelerators and virtualized workloads. We define the simplest interface for common snippets of code that can be accelerated and transparently execute the code, in hardware, while the rest of the application execution flow is progressing.</p>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="0.4s">
+                        <div class="block">
+                            <i class="tf-ion-disc"></i>
+                            <h3>Efficient Container Storage</h3>
+                            <p>We bring containerized storage to unikernel containers. Most of the benefits of container storage are now available on lightweight, single-app microVM instances, spawned as containers.</p>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Service Section -->
+    <section id="service" class="service section">
+        <div class="container">
+            <div class="row">
+                <div class="heading wow fadeInUp">
+                    
+                        <h2>Virtualization Systems Research</h2>
+                    
+                    
+                        <p>We design, develop, and optimize bespoke systems</p>
+                    
+                </div>
+                
+                    <div class="col-sm-8 col-md-4 wow fadeInLeft" data-wow-delay="0s">
+                        <div class="block">
+                            <i class="tf-strategy"></i>
+                            <h3>Low-level systems development</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-8 col-md-4 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="block">
+                            <i class="tf-circle-compass"></i>
+                            <h3>Application porting</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-8 col-md-4 wow fadeInLeft" data-wow-delay="0.4s">
+                        <div class="block">
+                            <i class="tf-anchor2"></i>
+                            <h3>Deployment &amp; Maintenance</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
     </section>
 
 
@@ -133,56 +237,6 @@
         </div>
     </section>
 
-
-
-    <!-- Service Section -->
-    <section id="service" class="service section">
-        <div class="container">
-            <div class="row">
-                <div class="heading wow fadeInUp">
-                    
-                        <h2>Virtualization Systems Research</h2>
-                    
-                    
-                        <p>Get in touch for designing, building, or optimizing your system</p>
-                    
-                </div>
-                
-                    <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="0s">
-                        <div class="block">
-                            <i class="tf-strategy"></i>
-                            <h3>Highly-optimized</h3>
-                            <p>Nubificus develops a highly-optimized hypervisor based on KVM. Our home-brewed hypervisor delivers native performance for I/O-intensive workloads, while maintaining secure execution in multi-tenant environments.</p>
-                        </div>
-                    </div>
-                
-                    <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="0.2s">
-                        <div class="block">
-                            <i class="tf-circle-compass"></i>
-                            <h3>Lightweight execution</h3>
-                            <p>At Nubificus, we minimize the application execution overhead. We achieve this with the use of unikernels while building on the concept of library operating systems.</p>
-                        </div>
-                    </div>
-                
-                    <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="0.4s">
-                        <div class="block">
-                            <i class="tf-anchor2"></i>
-                            <h3>Hardware Acceleration</h3>
-                            <p>We bridge the gap between hardware accelerators and virtualized workloads. We define the simplest interface for common snippets of code that can be accelerated and transparently execute the code, in hardware, while the rest of the application execution flow is progressing.</p>
-                        </div>
-                    </div>
-                
-                    <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="0.6s">
-                        <div class="block">
-                            <i class="tf-globe"></i>
-                            <h3>Open Source</h3>
-                            <p>We value the open-source software community, and we keep our code fully open-source and available. We build on open-source components and contribute to various projects depending on our available time, expertise &amp; needs</p>
-                        </div>
-                    </div>
-                
-            </div>
-        </div>
-    </section>
 
 
 

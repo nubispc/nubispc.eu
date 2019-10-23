@@ -377,10 +377,12 @@ a:active {
 }
 
 .navigation .navbar-toggler {
-  background: #fff;
+  background: none;
   outline: none;
   border-radius: 0;
   float: right;
+  padding-top: 20px;
+  vertical-align: middle;
 }
 
 .navigation .navbar-toggler i {
@@ -396,6 +398,9 @@ a:active {
   color: #666;
 }
 
+.menu ul {
+float:right;
+}
 .menu li a {
   color: #fff;
   font-size: 16px;
@@ -405,6 +410,37 @@ a:active {
 .menu li a:hover,
 .menu li a:focus {
   background: none;
+}
+
+/*--
+    serverless start
+--*/
+.serverless {
+  text-align: center;
+}
+
+.serverless .block {
+  margin-bottom: 50px;
+}
+
+.serverless .block i {
+  font-size: 30px;
+  display: inline-block;
+  margin-bottom: 15px;
+  color: #1bafb4;
+}
+
+.serverless .block h3 {
+  color: #333333;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.serverless .block p {
+  color: #666;
 }
 
 /*--
