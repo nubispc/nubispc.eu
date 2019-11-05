@@ -114,7 +114,7 @@ a:active {
 
 .btn-home {
   /*background-color: #1bafb4;*/
-  background-color: #000081;
+  background-color: #0000ff;
   border-radius: 0px;
   color: #fff;
   font-size: 18px;
@@ -163,7 +163,7 @@ a:active {
   border-bottom: 5px solid #ecf0f1;
   border-right: 5px solid #ecf0f1;
   /*background: #1bafb4;*/
-  background: #000081;
+  background: #0000ff;
   width: 50px;
   height: 60px;
   -webkit-transform-origin: 0% 50%;
@@ -200,17 +200,17 @@ a:active {
   }
 
   20% {
-    background: #000081;
+    background: #0000ff;
   }
 
   29.9% {
-    background: #000081;
+    background: #0000ff;
   }
 
   30% {
     -webkit-transform: perspective(200px) rotateY(-90deg);
     transform: perspective(200px) rotateY(-90deg);
-    background: #000081;
+    background: #0000ff;
   }
 
   54.999% {
@@ -224,13 +224,13 @@ a:active {
   60% {
     -webkit-transform: perspective(200px) rotateY(-180deg);
     transform: perspective(200px) rotateY(-180deg);
-    background: #000081;
+    background: #0000ff;
   }
 
   100% {
     -webkit-transform: perspective(200px) rotateY(-180deg);
     transform: perspective(200px) rotateY(-180deg);
-    background: #000081;
+    background: #0000ff;
   }
 }
 
@@ -241,17 +241,17 @@ a:active {
   }
 
   20% {
-    background: #000081;
+    background: #0000ff;
   }
 
   29.9% {
-    background: #000081;
+    background: #0000ff;
   }
 
   30% {
     -webkit-transform: perspective(200px) rotateY(-90deg);
     transform: perspective(200px) rotateY(-90deg);
-    background: #000081;
+    background: #0000ff;
   }
 
   54.999% {
@@ -265,13 +265,13 @@ a:active {
   60% {
     -webkit-transform: perspective(200px) rotateY(-180deg);
     transform: perspective(200px) rotateY(-180deg);
-    background: #000081;
+    background: #0000ff;
   }
 
   100% {
     -webkit-transform: perspective(200px) rotateY(-180deg);
     transform: perspective(200px) rotateY(-180deg);
-    background: #000081;
+    background: #0000ff;
   }
 }
 
@@ -429,7 +429,7 @@ float:right;
   font-size: 30px;
   display: inline-block;
   margin-bottom: 15px;
-  color: #000081;
+  color: #0000ff;
 }
 
 .serverless .block h3 {
@@ -460,7 +460,7 @@ float:right;
   font-size: 30px;
   display: inline-block;
   margin-bottom: 15px;
-  color: #000081;
+  color: #0000ff;
 }
 
 .service .block h3 {
@@ -565,7 +565,7 @@ float:right;
   border-radius: 0;
   border: none;
   box-shadow: none;
-  background: #000081;
+  background: #0000ff;
   padding: 0px 35px;
   color: #fff;
   font-weight: bold;
@@ -584,9 +584,9 @@ float:right;
 
 .btn-send {
   line-height: 48px;
-  border: 2px solid #000081;
+  border: 2px solid #0000ff;
   /*background: #1bafb4;*/
-  background: #000081;
+  background: #0000ff;
   color: #fff;
   width: 100%;
   font-size: 14px;
