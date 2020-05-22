@@ -1,2 +1,2 @@
-# nubificus.github.io
-blog
+# nubis-pc.eu
+nubispc website
