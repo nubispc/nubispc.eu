@@ -468,28 +468,29 @@
 				email: "Please enter a valid email address"
 			},
 			submitHandler: function(form) {
-				$(form).ajaxSubmit({
+				var formAction =  $(form).attr('action');
+				$.ajax({
 					type:"POST",
-					data: $(form).serialize(),
-					url:"mail.php",
-					success: function() {
-						$('#contact-form :input').attr('disabled', 'disabled');
-						$('#contact-form').fadeTo( "slow", 0.15, function() {
-							$(this).find(':input').attr('disabled', 'disabled');
-							$(this).find('label').css('cursor','default');
-							$('#success').fadeIn();
-						});
-					},
-					error: function() {
-						$('#contact-form').fadeTo( "slow", 0.15, function() {
-							$('#error').fadeIn();
-						});
-					}
+					data: new FormData($(form)[0]),
+					url: formAction,
+					crossDomain: true,
+					processData: false,
+					contentType: false
+				}).done(function() {
+					$('#contact-form :input').attr('disabled', 'disabled');
+					$('#contact-form').fadeTo( "slow", 0.15, function() {
+						$(this).find(':input').attr('disabled', 'disabled');
+						$(this).find('label').css('cursor','default');
+						$('#success').fadeIn();
+					});
+				}).fail(function() {
+					$('#contact-form').fadeTo( "slow", 0.15, function() {
+						$('#error').fadeIn();
+					});
 				});
 			}
 		});
 	};
-
 
 	var togglerAutoCollapse = function() {
 		$('.navbar-nav>li>a').on('click', function(){
