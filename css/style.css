@@ -743,7 +743,7 @@ section,
   border: 2px solid #fff; }
 
 .carousel-fullwidth .item, .carousel-fullwidth .nbfc-carousel-text-wrap {
-  height: 800px;
+  height: 600px;
   display: table;
   width: 100%; }
   @media screen and (max-width: 576px) {
