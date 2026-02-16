@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Serverless | Nubificus</title>
+    <link>/tag/serverless/</link>
+      <atom:link href="/tag/serverless/index.xml" rel="self" type="application/rss+xml" />
+    <description>Serverless</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 22 Mar 2024 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu_f553cb9eef83bc41.png</url>
+      <title>Serverless</title>
+      <link>/tag/serverless/</link>
+    </image>
+    
+    <item>
+      <title>KubeCon &#43; CloudNativeCon Europe 2024: Unikernels in K8s - Performance and Isolation for Serverless Computing with Knative</title>
+      <link>/event/kubeconeu2024/</link>
+      <pubDate>Fri, 22 Mar 2024 13:00:00 +0000</pubDate>
+      <guid>/event/kubeconeu2024/</guid>
+      <description>&lt;h2 id=&#34;code--resources&#34;&gt;Code &amp;amp; Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/urunc-dev/urunc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;urunc - Container Runtime Repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OSS 2023: URUNC - A Unikernel Container Runtime</title>
+      <link>/event/oss2023/</link>
+      <pubDate>Wed, 20 Sep 2023 12:40:00 +0000</pubDate>
+      <guid>/event/oss2023/</guid>
+      <description>&lt;h2 id=&#34;code--resources&#34;&gt;Code &amp;amp; Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/urunc-dev/urunc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;urunc - Container Runtime Repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nubificus/bima&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bima - Unikernel Containerization Tool&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DUAC 2022: vAccel - Interoperable Application Hardware Acceleration</title>
+      <link>/event/duac2022/</link>
+      <pubDate>Thu, 01 Sep 2022 09:00:00 +0000</pubDate>
+      <guid>/event/duac2022/</guid>
+      <description>&lt;h2 id=&#34;code--resources&#34;&gt;Code &amp;amp; Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.vaccel.org/latest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vAccel Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nubificus/vaccel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vAccel Core Library Source&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=-_mgEVP4Dnc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vAccel Demo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OpenInfra Summit 2022: Interoperable Hardware Acceleration for Serverless</title>
+      <link>/event/openinfra2022/</link>
+      <pubDate>Wed, 08 Jun 2022 09:00:00 +0000</pubDate>
+      <guid>/event/openinfra2022/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

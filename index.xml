@@ -1,72 +1,2319 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nubis PC</title>
+    <title>Nubificus</title>
     <link>/</link>
-    <description>Recent content on Nubis PC</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 30 Jul 2021 08:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nubificus</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu_f553cb9eef83bc41.png</url>
+      <title>Nubificus</title>
+      <link>/</link>
+    </image>
+    
     <item>
-      <title>EU Project Manager (EPMR)</title>
-      <link>/jobs/job6/</link>
-      <pubDate>Fri, 30 Jul 2021 08:00:00 +0000</pubDate>
-      
-      <guid>/jobs/job6/</guid>
-      <description>Responsibilities:
- Plan and organize project activities, perform risk management and propose contingency measures and adaptations to achieve project goals Directly implement projects’ activities such as organizing field research, drafting studies/reports/deliverables, planning &amp;amp; organizing events, etc., according to the project needs, as well as financial and human resources limitations Coordinate the implementation of projects’ tasks when assigned to project partners and/or colleagues ensuring final delivery Ensure comprehensive and up-to-date project documentation Contribute to new project ideas generation and development opportunities.</description>
+      <title>edgeLink</title>
+      <link>/solutions/edgelink/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>/solutions/edgelink/</guid>
+      <description>&lt;style&gt;
+/* edgeLink theme: blue */
+:root {
+  --el-primary: #1565c0;
+  --el-light: #42a5f5;
+  --el-gradient-start: #0d47a1;
+  --el-gradient-mid: #1976d2;
+  --el-gradient-end: #42a5f5;
+}
+body.dark {
+  --el-primary: #64b5f6;
+  --el-light: #90caf9;
+}
+
+.sol-badge.el { background: rgba(21,101,192,0.08); color: var(--el-primary); }
+body.dark .sol-badge.el { background: rgba(100,181,246,0.12); color: var(--el-light); }
+
+.sol-section-title.el { border-bottom: 2px solid rgba(21,101,192,0.15); }
+.sol-section-title.el i { color: var(--el-primary); }
+body.dark .sol-section-title.el { border-bottom-color: rgba(100,181,246,0.2); }
+body.dark .sol-section-title.el i { color: var(--el-light); }
+
+.sol-feature-card.el { background: linear-gradient(135deg, rgba(21,101,192,0.02) 0%, rgba(21,101,192,0.06) 100%); }
+.sol-feature-card.el::before { background: linear-gradient(180deg, var(--el-primary), var(--el-light)); }
+body.dark .sol-feature-card.el { background: linear-gradient(135deg, rgba(100,181,246,0.03) 0%, rgba(100,181,246,0.08) 100%); }
+.sol-feature-icon.el { color: var(--el-primary); }
+body.dark .sol-feature-icon.el { color: var(--el-light); }
+
+.sol-usecase-icon.el { color: var(--el-primary); }
+body.dark .sol-usecase-icon.el { color: var(--el-light); }
+
+.sol-cta.el { background: linear-gradient(135deg, var(--el-gradient-start) 0%, var(--el-gradient-mid) 50%, var(--el-gradient-end) 100%); }
+.sol-cta-btn.el { color: var(--el-primary); }
+.sol-cta-btn.el:hover { color: var(--el-gradient-start); }
+
+/* Architecture colors */
+.sol-arch-wrapper.el {
+  background: linear-gradient(180deg, rgba(21,101,192,0.03) 0%, rgba(21,101,192,0.08) 100%);
+  border: 1px solid rgba(21,101,192,0.1);
+}
+body.dark .sol-arch-wrapper.el {
+  background: linear-gradient(180deg, rgba(100,181,246,0.02) 0%, rgba(100,181,246,0.07) 100%);
+  border-color: rgba(100,181,246,0.12);
+}
+.sol-arch-badge.el { color: var(--el-primary); background: rgba(21,101,192,0.06); border-color: rgba(21,101,192,0.12); }
+body.dark .sol-arch-badge.el { color: var(--el-light); background: rgba(100,181,246,0.08); border-color: rgba(100,181,246,0.15); }
+
+.el .sol-tier-label { color: var(--el-primary); border-right-color: rgba(21,101,192,0.1); }
+body.dark .el .sol-tier-label { color: var(--el-light); border-right-color: rgba(100,181,246,0.1); }
+
+.el .sol-tier-node { border: 1.5px solid rgba(21,101,192,0.15); box-shadow: 0 2px 8px rgba(21,101,192,0.06); }
+.el .sol-tier-node:hover { box-shadow: 0 6px 20px rgba(21,101,192,0.14); }
+body.dark .el .sol-tier-node { border-color: rgba(100,181,246,0.2); box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
+body.dark .el .sol-tier-node:hover { box-shadow: 0 6px 20px rgba(100,181,246,0.12); }
+
+.sol-node-icon.el-cloud  { background: rgba(21,101,192,0.1); color: #1565c0; }
+.sol-node-icon.el-edge   { background: rgba(46,125,50,0.1);  color: #2e7d32; }
+.sol-node-icon.el-device { background: rgba(230,81,0,0.1);   color: #e65100; }
+body.dark .sol-node-icon.el-cloud  { background: rgba(100,181,246,0.15); color: #90caf9; }
+body.dark .sol-node-icon.el-edge   { background: rgba(129,199,132,0.15); color: #81c784; }
+body.dark .sol-node-icon.el-device { background: rgba(255,183,77,0.15);  color: #ffb74d; }
+
+.el .sol-connector-tag-col { border-right-color: rgba(21,101,192,0.1); }
+body.dark .el .sol-connector-tag-col { border-right-color: rgba(100,181,246,0.1); }
+.el .sol-connector-pipe { background: linear-gradient(180deg, #1565c0, #42a5f5); }
+body.dark .el .sol-connector-pipe { background: linear-gradient(180deg, #64b5f6, #90caf9); }
+.el .sol-connector-dot { background: #42a5f5; }
+body.dark .el .sol-connector-dot { background: #90caf9; }
+.el .sol-connector-tag { color: #42a5f5; background: rgba(66,165,245,0.08); }
+body.dark .el .sol-connector-tag { color: #90caf9; background: rgba(144,202,249,0.1); }
+&lt;/style&gt;
+&lt;div class=&#34;sol-hero&#34;&gt;
+  &lt;p class=&#34;sol-hero-tagline&#34;&gt;
+    edgeLink develops integration layers that unify workload and device orchestration across
+    multiple tiers of infrastructure — from cloud clusters to embedded IoT endpoints.
+  &lt;/p&gt;
+  &lt;div class=&#34;sol-hero-badges&#34;&gt;
+    &lt;span class=&#34;sol-badge el&#34;&gt;&lt;i class=&#34;fas fa-shield-alt&#34;&gt;&lt;/i&gt; Zero-Trust&lt;/span&gt;
+    &lt;span class=&#34;sol-badge el&#34;&gt;&lt;i class=&#34;fas fa-cloud&#34;&gt;&lt;/i&gt; Cloud-Native&lt;/span&gt;
+    &lt;span class=&#34;sol-badge el&#34;&gt;&lt;i class=&#34;fas fa-microchip&#34;&gt;&lt;/i&gt; Edge-First&lt;/span&gt;
+    &lt;span class=&#34;sol-badge el&#34;&gt;&lt;i class=&#34;fas fa-lock&#34;&gt;&lt;/i&gt; Hardware-Rooted Identity&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 class=&#34;sol-section-title el&#34;&gt;&lt;i class=&#34;fas fa-layer-group&#34;&gt;&lt;/i&gt; Architecture Overview&lt;/h3&gt;
+&lt;div class=&#34;sol-arch-wrapper el&#34;&gt;
+  &lt;div class=&#34;sol-arch-badge el&#34;&gt;&lt;i class=&#34;fas fa-project-diagram&#34;&gt;&lt;/i&gt; edgeLink Continuum&lt;/div&gt;
+  &lt;!-- Cloud Tier --&gt;
+  &lt;div class=&#34;sol-tier&#34;&gt;
+    &lt;div class=&#34;sol-tier-label&#34;&gt;Cloud&lt;/div&gt;
+    &lt;div class=&#34;sol-tier-nodes&#34;&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon el-cloud&#34;&gt;&lt;i class=&#34;fas fa-cloud&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;Cloud Control Plane&lt;/h5&gt;
+        &lt;p&gt;GitOps &amp; policy management&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon el-cloud&#34;&gt;&lt;i class=&#34;fas fa-dharmachakra&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;K8s Orchestration&lt;/h5&gt;
+        &lt;p&gt;Workload scheduling &amp; scaling&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon el-cloud&#34;&gt;&lt;i class=&#34;fas fa-chart-line&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;Observability&lt;/h5&gt;
+        &lt;p&gt;Monitoring &amp; fleet analytics&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- Connector: Cloud → Edge --&gt;
+  &lt;div class=&#34;sol-tier-connector&#34;&gt;
+    &lt;div class=&#34;sol-connector-tag-col&#34;&gt;
+      &lt;span class=&#34;sol-connector-tag&#34;&gt;OTA &amp;&lt;br&gt;Telemetry&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;sol-connector-dots&#34;&gt;
+      &lt;div class=&#34;sol-connector-line&#34;&gt;
+        &lt;span class=&#34;sol-connector-dot&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;sol-connector-pipe&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;sol-connector-dot&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;sol-connector-pipe&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;sol-connector-dot&#34;&gt;&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- Edge Tier --&gt;
+  &lt;div class=&#34;sol-tier&#34;&gt;
+    &lt;div class=&#34;sol-tier-label&#34;&gt;Edge&lt;/div&gt;
+    &lt;div class=&#34;sol-tier-nodes&#34;&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon el-edge&#34;&gt;&lt;i class=&#34;fas fa-server&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;Edge Gateway&lt;/h5&gt;
+        &lt;p&gt;Local orchestration &amp; caching&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon el-edge&#34;&gt;&lt;i class=&#34;fas fa-shield-alt&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;Zero-Trust Broker&lt;/h5&gt;
+        &lt;p&gt;DICE/EAT attestation&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon el-edge&#34;&gt;&lt;i class=&#34;fas fa-bolt&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;vAccel Runtime&lt;/h5&gt;
+        &lt;p&gt;HW acceleration &amp; offload&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- Connector: Edge → Devices --&gt;
+  &lt;div class=&#34;sol-tier-connector&#34;&gt;
+    &lt;div class=&#34;sol-connector-tag-col&#34;&gt;
+      &lt;span class=&#34;sol-connector-tag&#34;&gt;Secure&lt;br&gt;Channel&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;sol-connector-dots&#34;&gt;
+      &lt;div class=&#34;sol-connector-line&#34;&gt;
+        &lt;span class=&#34;sol-connector-dot&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;sol-connector-pipe&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;sol-connector-dot&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;sol-connector-pipe&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;sol-connector-dot&#34;&gt;&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- Device Tier --&gt;
+  &lt;div class=&#34;sol-tier&#34;&gt;
+    &lt;div class=&#34;sol-tier-label&#34;&gt;Device&lt;/div&gt;
+    &lt;div class=&#34;sol-tier-nodes&#34;&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon el-device&#34;&gt;&lt;i class=&#34;fas fa-microchip&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;MCU / SoC&lt;/h5&gt;
+        &lt;p&gt;Constrained endpoints&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon el-device&#34;&gt;&lt;i class=&#34;fas fa-memory&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;Embedded Linux&lt;/h5&gt;
+        &lt;p&gt;Lightweight runtimes&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon el-device&#34;&gt;&lt;i class=&#34;fas fa-satellite-dish&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;Sensors &amp; Actuators&lt;/h5&gt;
+        &lt;p&gt;Field data collection&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon el-device&#34;&gt;&lt;i class=&#34;fas fa-robot&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;Smart Devices&lt;/h5&gt;
+        &lt;p&gt;AI-capable endpoints&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p class=&#34;sol-intro&#34;&gt;
+  Our work ensures alignment with Kubernetes and GitOps-based operational models, while extending
+  orchestration semantics to devices that cannot run a full container orchestration stack.
+  By leveraging zero-trust principles and cloud-native orchestration, edgeLink enables scalable,
+  secure management of heterogeneous IoT devices at the edge — from provisioning to runtime
+  monitoring and firmware updates.
+&lt;/p&gt;
+&lt;h3 class=&#34;sol-section-title el&#34;&gt;&lt;i class=&#34;fas fa-bolt&#34;&gt;&lt;/i&gt; Key Capabilities&lt;/h3&gt;
+&lt;div class=&#34;sol-features&#34;&gt;
+  &lt;div class=&#34;sol-feature-card el&#34;&gt;
+    &lt;div class=&#34;sol-feature-icon el&#34;&gt;&lt;i class=&#34;fas fa-route&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h4&gt;Distributed Offloading&lt;/h4&gt;
+    &lt;p&gt;Workload routing and compute offloading via vAccel, enabling hardware acceleration across distributed infrastructure.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;sol-feature-card el&#34;&gt;
+    &lt;div class=&#34;sol-feature-icon el&#34;&gt;&lt;i class=&#34;fas fa-file-code&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h4&gt;Declarative Configuration&lt;/h4&gt;
+    &lt;p&gt;Policy-driven resource management with GitOps-aligned declarative configuration for consistent deployments.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;sol-feature-card el&#34;&gt;
+    &lt;div class=&#34;sol-feature-icon el&#34;&gt;&lt;i class=&#34;fas fa-fingerprint&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h4&gt;Hardware-Rooted Identity&lt;/h4&gt;
+    &lt;p&gt;Secure device onboarding using DICE/EAT attestation, establishing hardware-rooted trust from first boot.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;sol-feature-card el&#34;&gt;
+    &lt;div class=&#34;sol-feature-icon el&#34;&gt;&lt;i class=&#34;fas fa-sync-alt&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h4&gt;Secure OTA Updates&lt;/h4&gt;
+    &lt;p&gt;Continuous and cryptographically verified over-the-air updates for both firmware and application workloads.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;sol-feature-card el&#34;&gt;
+    &lt;div class=&#34;sol-feature-icon el&#34;&gt;&lt;i class=&#34;fas fa-box-open&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h4&gt;Reproducible Supply Chains&lt;/h4&gt;
+    &lt;p&gt;End-to-end reproducible software supply chains for embedded and edge systems, ensuring build integrity.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;sol-feature-card el&#34;&gt;
+    &lt;div class=&#34;sol-feature-icon el&#34;&gt;&lt;i class=&#34;fas fa-users-cog&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h4&gt;Multi-Tenant Management&lt;/h4&gt;
+    &lt;p&gt;Cloud-aligned device repurposing mechanisms with multi-tenant isolation for shared infrastructure.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 class=&#34;sol-section-title el&#34;&gt;&lt;i class=&#34;fas fa-bullseye&#34;&gt;&lt;/i&gt; Use Cases&lt;/h3&gt;
+&lt;div class=&#34;sol-usecases&#34;&gt;
+  &lt;div class=&#34;sol-usecase&#34;&gt;
+    &lt;div class=&#34;sol-usecase-icon el&#34;&gt;&lt;i class=&#34;fas fa-industry&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;div&gt;
+      &lt;h4&gt;Industrial IoT&lt;/h4&gt;
+      &lt;p&gt;Manage and orchestrate thousands of industrial sensors and controllers across factory floors with zero-touch provisioning and continuous monitoring.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;sol-usecase&#34;&gt;
+    &lt;div class=&#34;sol-usecase-icon el&#34;&gt;&lt;i class=&#34;fas fa-city&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;div&gt;
+      &lt;h4&gt;Smart Infrastructure&lt;/h4&gt;
+      &lt;p&gt;Deploy and maintain heterogeneous edge devices across smart buildings, campuses, and urban infrastructure with cloud-native workflows.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;sol-usecase&#34;&gt;
+    &lt;div class=&#34;sol-usecase-icon el&#34;&gt;&lt;i class=&#34;fas fa-broadcast-tower&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;div&gt;
+      &lt;h4&gt;Telco Edge&lt;/h4&gt;
+      &lt;p&gt;Extend Kubernetes orchestration to far-edge telecom nodes, enabling consistent workload management from core to RAN.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;sol-usecase&#34;&gt;
+    &lt;div class=&#34;sol-usecase-icon el&#34;&gt;&lt;i class=&#34;fas fa-tractor&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;div&gt;
+      &lt;h4&gt;Precision Agriculture&lt;/h4&gt;
+      &lt;p&gt;Securely onboard and manage fleets of agricultural sensors and actuators with firmware lifecycle management across remote locations.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sol-cta el&#34;&gt;
+  &lt;h3&gt;Explore edgeLink&lt;/h3&gt;
+  &lt;p&gt;Discover the full technical documentation, architecture guides, and getting started resources.&lt;/p&gt;
+  &lt;a href=&#34;https://edgelink.nbfc.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; class=&#34;sol-cta-btn el&#34;&gt;
+    &lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; Visit edgeLink Website
+  &lt;/a&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
-      <title>DevOps Engineer (DER)</title>
-      <link>/jobs/job5/</link>
-      <pubDate>Thu, 29 Jul 2021 08:00:00 +0000</pubDate>
-      
-      <guid>/jobs/job5/</guid>
-      <description>Responsibilities:
- Define and set development, test, release, update, and support processes for the product and service offerings. Implement and set up development, testing, automation tools, and IT infrastructure. Plan the team structure, activities, and participate in project management activities Monitor the processes during the entire lifecycle for its adherence and update or create new processes for improvement. Encourage and build automated processes wherever possible Evaluate / select / build and deploy appropriate CI/CD tools  Requirements:</description>
+      <title>urunc</title>
+      <link>/solutions/urunc/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>/solutions/urunc/</guid>
+      <description>&lt;style&gt;
+/* urunc theme: #15616d teal + #ff7d00 orange from logo */
+:root {
+  --ur-primary: #15616d;
+  --ur-light: #ff7d00;
+  --ur-gradient-start: #0e3f47;
+  --ur-gradient-mid: #15616d;
+  --ur-gradient-end: #ff7d00;
+}
+body.dark {
+  --ur-primary: #3a9aa6;
+  --ur-light: #ffa040;
+}
+
+.sol-badge.ur { background: rgba(21,97,109,0.08); color: var(--ur-primary); }
+body.dark .sol-badge.ur { background: rgba(58,154,166,0.12); color: var(--ur-light); }
+
+.sol-section-title.ur { border-bottom: 2px solid rgba(21,97,109,0.15); }
+.sol-section-title.ur i { color: var(--ur-primary); }
+body.dark .sol-section-title.ur { border-bottom-color: rgba(58,154,166,0.2); }
+body.dark .sol-section-title.ur i { color: var(--ur-light); }
+
+.sol-feature-card.ur { background: linear-gradient(135deg, rgba(21,97,109,0.02) 0%, rgba(21,97,109,0.06) 100%); }
+.sol-feature-card.ur::before { background: linear-gradient(180deg, var(--ur-primary), var(--ur-light)); }
+body.dark .sol-feature-card.ur { background: linear-gradient(135deg, rgba(58,154,166,0.03) 0%, rgba(58,154,166,0.08) 100%); }
+.sol-feature-icon.ur { color: var(--ur-primary); }
+body.dark .sol-feature-icon.ur { color: var(--ur-light); }
+
+.sol-usecase-icon.ur { color: var(--ur-primary); }
+body.dark .sol-usecase-icon.ur { color: var(--ur-light); }
+
+.sol-cta.ur { background: linear-gradient(135deg, var(--ur-gradient-start) 0%, var(--ur-gradient-mid) 60%, var(--ur-gradient-end) 100%); }
+.sol-cta-btn.ur { color: var(--ur-primary); }
+.sol-cta-btn.ur:hover { color: var(--ur-gradient-start); }
+
+/* Architecture colors */
+.sol-arch-wrapper.ur {
+  background: linear-gradient(180deg, rgba(21,97,109,0.03) 0%, rgba(21,97,109,0.08) 100%);
+  border: 1px solid rgba(21,97,109,0.1);
+}
+body.dark .sol-arch-wrapper.ur {
+  background: linear-gradient(180deg, rgba(58,154,166,0.02) 0%, rgba(58,154,166,0.07) 100%);
+  border-color: rgba(58,154,166,0.12);
+}
+.sol-arch-badge.ur { color: var(--ur-primary); background: rgba(21,97,109,0.06); border-color: rgba(21,97,109,0.12); }
+body.dark .sol-arch-badge.ur { color: var(--ur-light); background: rgba(255,125,0,0.08); border-color: rgba(255,125,0,0.15); }
+
+.ur .sol-tier-label { color: var(--ur-primary); border-right-color: rgba(21,97,109,0.1); }
+body.dark .ur .sol-tier-label { color: var(--ur-primary); border-right-color: rgba(58,154,166,0.1); }
+
+.ur .sol-tier-node { border: 1.5px solid rgba(21,97,109,0.15); box-shadow: 0 2px 8px rgba(21,97,109,0.06); }
+.ur .sol-tier-node:hover { box-shadow: 0 6px 20px rgba(21,97,109,0.14); }
+body.dark .ur .sol-tier-node { border-color: rgba(58,154,166,0.2); box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
+body.dark .ur .sol-tier-node:hover { box-shadow: 0 6px 20px rgba(58,154,166,0.12); }
+
+.sol-node-icon.ur-app  { background: rgba(21,97,109,0.1);  color: #15616d; }
+.sol-node-icon.ur-rt   { background: rgba(255,125,0,0.1);  color: #ff7d00; }
+.sol-node-icon.ur-vmm  { background: rgba(21,97,109,0.08); color: #15616d; }
+body.dark .sol-node-icon.ur-app { background: rgba(58,154,166,0.15); color: #3a9aa6; }
+body.dark .sol-node-icon.ur-rt  { background: rgba(255,160,64,0.15); color: #ffa040; }
+body.dark .sol-node-icon.ur-vmm { background: rgba(58,154,166,0.12); color: #3a9aa6; }
+
+.ur .sol-connector-tag-col { border-right-color: rgba(21,97,109,0.1); }
+body.dark .ur .sol-connector-tag-col { border-right-color: rgba(58,154,166,0.1); }
+.ur .sol-connector-pipe { background: linear-gradient(180deg, #15616d, #ff7d00); }
+body.dark .ur .sol-connector-pipe { background: linear-gradient(180deg, #3a9aa6, #ffa040); }
+.ur .sol-connector-dot { background: #ff7d00; }
+body.dark .ur .sol-connector-dot { background: #ffa040; }
+.ur .sol-connector-tag { color: #15616d; background: rgba(21,97,109,0.08); }
+body.dark .ur .sol-connector-tag { color: #3a9aa6; background: rgba(58,154,166,0.1); }
+
+/* Compat table theme */
+.sol-compat-table.ur thead th {
+  background: rgba(21,97,109,0.06);
+  color: var(--ur-primary);
+  border-bottom-color: var(--ur-primary);
+}
+body.dark .sol-compat-table.ur thead th {
+  background: rgba(58,154,166,0.08);
+  color: var(--ur-light);
+  border-bottom-color: var(--ur-light);
+}
+&lt;/style&gt;
+&lt;div class=&#34;sol-hero&#34;&gt;
+  &lt;p class=&#34;sol-hero-tagline&#34;&gt;
+    urunc bridges the gap between traditional unikernels and containerized environments,
+    bringing ultra-lightweight, immutable execution to cloud-native workflows.
+  &lt;/p&gt;
+  &lt;div class=&#34;sol-hero-badges&#34;&gt;
+    &lt;span class=&#34;sol-badge ur&#34;&gt;&lt;i class=&#34;fas fa-box&#34;&gt;&lt;/i&gt; OCI-Compatible&lt;/span&gt;
+    &lt;span class=&#34;sol-badge ur&#34;&gt;&lt;i class=&#34;fas fa-dharmachakra&#34;&gt;&lt;/i&gt; CRI Support&lt;/span&gt;
+    &lt;span class=&#34;sol-badge ur&#34;&gt;&lt;i class=&#34;fas fa-feather-alt&#34;&gt;&lt;/i&gt; Lightweight&lt;/span&gt;
+    &lt;span class=&#34;sol-badge ur&#34;&gt;&lt;i class=&#34;fas fa-shield-alt&#34;&gt;&lt;/i&gt; VM-Isolated&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 class=&#34;sol-section-title ur&#34;&gt;&lt;i class=&#34;fas fa-layer-group&#34;&gt;&lt;/i&gt; Architecture Overview&lt;/h3&gt;
+&lt;div class=&#34;sol-arch-wrapper ur&#34;&gt;
+  &lt;div class=&#34;sol-arch-badge ur&#34;&gt;&lt;i class=&#34;fas fa-project-diagram&#34;&gt;&lt;/i&gt; urunc Stack&lt;/div&gt;
+  &lt;!-- Application Layer --&gt;
+  &lt;div class=&#34;sol-tier&#34;&gt;
+    &lt;div class=&#34;sol-tier-label&#34;&gt;App&lt;/div&gt;
+    &lt;div class=&#34;sol-tier-nodes&#34;&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon ur-app&#34;&gt;&lt;i class=&#34;fas fa-cube&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;OCI Image&lt;/h5&gt;
+        &lt;p&gt;Unikernel packaged as container&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon ur-app&#34;&gt;&lt;i class=&#34;fas fa-terminal&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;bunny CLI&lt;/h5&gt;
+        &lt;p&gt;Build &amp; package tooling&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon ur-app&#34;&gt;&lt;i class=&#34;fas fa-boxes&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;Container Registry&lt;/h5&gt;
+        &lt;p&gt;Standard OCI distribution&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- Connector --&gt;
+  &lt;div class=&#34;sol-tier-connector&#34;&gt;
+    &lt;div class=&#34;sol-connector-tag-col&#34;&gt;
+      &lt;span class=&#34;sol-connector-tag&#34;&gt;OCI&lt;br&gt;Spec&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;sol-connector-dots&#34;&gt;
+      &lt;div class=&#34;sol-connector-line&#34;&gt;
+        &lt;span class=&#34;sol-connector-dot&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;sol-connector-pipe&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;sol-connector-dot&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;sol-connector-pipe&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;sol-connector-dot&#34;&gt;&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- Runtime Layer --&gt;
+  &lt;div class=&#34;sol-tier&#34;&gt;
+    &lt;div class=&#34;sol-tier-label&#34;&gt;Runtime&lt;/div&gt;
+    &lt;div class=&#34;sol-tier-nodes&#34;&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon ur-rt&#34;&gt;&lt;i class=&#34;fas fa-cog&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;urunc Runtime&lt;/h5&gt;
+        &lt;p&gt;CRI-compatible unikernel launcher&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon ur-rt&#34;&gt;&lt;i class=&#34;fas fa-plug&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;containerd Shim&lt;/h5&gt;
+        &lt;p&gt;Container runtime integration&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon ur-rt&#34;&gt;&lt;i class=&#34;fas fa-dharmachakra&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;Kubernetes CRI&lt;/h5&gt;
+        &lt;p&gt;K8s pod scheduling&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- Connector --&gt;
+  &lt;div class=&#34;sol-tier-connector&#34;&gt;
+    &lt;div class=&#34;sol-connector-tag-col&#34;&gt;
+      &lt;span class=&#34;sol-connector-tag&#34;&gt;VMM&lt;br&gt;API&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;sol-connector-dots&#34;&gt;
+      &lt;div class=&#34;sol-connector-line&#34;&gt;
+        &lt;span class=&#34;sol-connector-dot&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;sol-connector-pipe&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;sol-connector-dot&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;sol-connector-pipe&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;sol-connector-dot&#34;&gt;&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- VMM / Sandbox Layer --&gt;
+  &lt;div class=&#34;sol-tier&#34;&gt;
+    &lt;div class=&#34;sol-tier-label&#34;&gt;VMM&lt;/div&gt;
+    &lt;div class=&#34;sol-tier-nodes&#34;&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon ur-vmm&#34;&gt;&lt;i class=&#34;fas fa-fire&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;Firecracker&lt;/h5&gt;
+        &lt;p&gt;Lightweight microVM&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon ur-vmm&#34;&gt;&lt;i class=&#34;fas fa-desktop&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;QEMU&lt;/h5&gt;
+        &lt;p&gt;Full-featured VMM&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon ur-vmm&#34;&gt;&lt;i class=&#34;fas fa-bolt&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;Solo5 (hvt/spt)&lt;/h5&gt;
+        &lt;p&gt;Minimal sandbox monitor&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p class=&#34;sol-intro&#34;&gt;
+  Rather than spawning simple processes, urunc uses Virtual Machine Monitors or sandbox monitors
+  to launch unikernels, maintaining strong isolation with minimal overhead. Its un-opinionated design
+  enables straightforward integration of new unikernel frameworks without porting overhead, while
+  developers and administrators use familiar container workflows to package, deliver, deploy, and
+  manage unikernels.
+&lt;/p&gt;
+&lt;h3 class=&#34;sol-section-title ur&#34;&gt;&lt;i class=&#34;fas fa-bolt&#34;&gt;&lt;/i&gt; Key Capabilities&lt;/h3&gt;
+&lt;div class=&#34;sol-features&#34;&gt;
+  &lt;div class=&#34;sol-feature-card ur&#34;&gt;
+    &lt;div class=&#34;sol-feature-icon ur&#34;&gt;&lt;i class=&#34;fas fa-box&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h4&gt;OCI Compatibility&lt;/h4&gt;
+    &lt;p&gt;Unikernels are packaged inside standard OCI-compatible images, enabling use of existing container registries and tooling.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;sol-feature-card ur&#34;&gt;
+    &lt;div class=&#34;sol-feature-icon ur&#34;&gt;&lt;i class=&#34;fas fa-dharmachakra&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h4&gt;CRI Integration&lt;/h4&gt;
+    &lt;p&gt;Full compatibility with Kubernetes Container Runtime Interface for seamless pod scheduling and orchestration.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;sol-feature-card ur&#34;&gt;
+    &lt;div class=&#34;sol-feature-icon ur&#34;&gt;&lt;i class=&#34;fas fa-shield-alt&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h4&gt;VM-Level Isolation&lt;/h4&gt;
+    &lt;p&gt;Strong security boundaries via lightweight VM monitors, minimizing the attack surface with single-application kernels.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;sol-feature-card ur&#34;&gt;
+    &lt;div class=&#34;sol-feature-icon ur&#34;&gt;&lt;i class=&#34;fas fa-feather-alt&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h4&gt;Minimal Overhead&lt;/h4&gt;
+    &lt;p&gt;Ultra-lightweight runtimes with deterministic performance, suitable for real-time and resource-constrained edge environments.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;sol-feature-card ur&#34;&gt;
+    &lt;div class=&#34;sol-feature-icon ur&#34;&gt;&lt;i class=&#34;fas fa-puzzle-piece&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h4&gt;Multi-Framework Support&lt;/h4&gt;
+    &lt;p&gt;Un-opinionated design supports Rumprun, Unikraft, MirageOS, Mewz, and Linux guests without porting overhead.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;sol-feature-card ur&#34;&gt;
+    &lt;div class=&#34;sol-feature-icon ur&#34;&gt;&lt;i class=&#34;fas fa-rocket&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h4&gt;Fast Instantiation&lt;/h4&gt;
+    &lt;p&gt;Millisecond-level boot times enable serverless and event-driven workloads with near-instant cold starts.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 class=&#34;sol-section-title ur&#34;&gt;&lt;i class=&#34;fas fa-table&#34;&gt;&lt;/i&gt; Supported Platforms&lt;/h3&gt;
+&lt;table class=&#34;sol-compat-table ur&#34;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Unikernel&lt;/th&gt;
+      &lt;th&gt;Monitor&lt;/th&gt;
+      &lt;th&gt;Architecture&lt;/th&gt;
+      &lt;th&gt;Storage&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Rumprun&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Solo5-hvt, Solo5-spt&lt;/td&gt;
+      &lt;td&gt;x86, aarch64&lt;/td&gt;
+      &lt;td&gt;Block / Devmapper&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Unikraft&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;QEMU, Firecracker&lt;/td&gt;
+      &lt;td&gt;x86&lt;/td&gt;
+      &lt;td&gt;Initrd, 9pfs&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;MirageOS&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;QEMU, Solo5-hvt, Solo5-spt&lt;/td&gt;
+      &lt;td&gt;x86, aarch64&lt;/td&gt;
+      &lt;td&gt;Block / Devmapper&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Mewz&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;QEMU&lt;/td&gt;
+      &lt;td&gt;x86&lt;/td&gt;
+      &lt;td&gt;In-memory&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Linux&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;QEMU, Firecracker&lt;/td&gt;
+      &lt;td&gt;x86, aarch64&lt;/td&gt;
+      &lt;td&gt;Initrd, Block, 9pfs, Virtiofs&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 class=&#34;sol-section-title ur&#34;&gt;&lt;i class=&#34;fas fa-bullseye&#34;&gt;&lt;/i&gt; Use Cases&lt;/h3&gt;
+&lt;div class=&#34;sol-usecases&#34;&gt;
+  &lt;div class=&#34;sol-usecase&#34;&gt;
+    &lt;div class=&#34;sol-usecase-icon ur&#34;&gt;&lt;i class=&#34;fas fa-cubes&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;div&gt;
+      &lt;h4&gt;Microservices&lt;/h4&gt;
+      &lt;p&gt;Lightweight single-application OS reduces overhead in microservice architectures, offering stronger isolation than traditional containers.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;sol-usecase&#34;&gt;
+    &lt;div class=&#34;sol-usecase-icon ur&#34;&gt;&lt;i class=&#34;fas fa-bolt&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;div&gt;
+      &lt;h4&gt;Serverless / FaaS&lt;/h4&gt;
+      &lt;p&gt;Millisecond boot times and minimal footprint make unikernels ideal for event-driven, short-lived function execution.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;sol-usecase&#34;&gt;
+    &lt;div class=&#34;sol-usecase-icon ur&#34;&gt;&lt;i class=&#34;fas fa-microchip&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;div&gt;
+      &lt;h4&gt;Edge Computing&lt;/h4&gt;
+      &lt;p&gt;Resource-constrained environments benefit from unikernel efficiency, enabling cloud-native execution on devices with limited memory and compute.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;sol-usecase&#34;&gt;
+    &lt;div class=&#34;sol-usecase-icon ur&#34;&gt;&lt;i class=&#34;fas fa-lock&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;div&gt;
+      &lt;h4&gt;Sensitive Environments&lt;/h4&gt;
+      &lt;p&gt;VM-based isolation with a minimized attack surface provides strong security guarantees for workloads handling sensitive data.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sol-cta ur&#34;&gt;
+  &lt;h3&gt;Explore urunc&lt;/h3&gt;
+  &lt;p&gt;Get started with tutorials, Kubernetes integration guides, and performance benchmarks.&lt;/p&gt;
+  &lt;a href=&#34;https://urunc.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; class=&#34;sol-cta-btn ur&#34;&gt;
+    &lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; Visit urunc Website
+  &lt;/a&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
-      <title>Operations Lead Engineer (OLER)</title>
-      <link>/jobs/job1/</link>
-      <pubDate>Thu, 29 Jul 2021 08:00:00 +0000</pubDate>
-      
-      <guid>/jobs/job1/</guid>
-      <description>Responsibilities:
- Define and set development, test, release, update, and support processes for the product and service offerings. Implement and set up development, testing, automation tools, and IT infrastructure. Plan the team structure, activities, and participate in project management activities Monitor the processes during the entire lifecycle for its adherence and update or create new processes for improvement. Encourage and build automated processes wherever possible Evaluate / select / build and deploy appropriate CI/CD tools  Requirements:</description>
+      <title>vAccel</title>
+      <link>/solutions/vaccel/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>/solutions/vaccel/</guid>
+      <description>&lt;style&gt;
+/* vAccel theme: magenta/purple from logo (#841a6b, #5e0d4f) + orange accent (#ef6c33) */
+:root {
+  --va-primary: #841a6b;
+  --va-light: #a84d91;
+  --va-accent: #ef6c33;
+  --va-gradient-start: #5e0d4f;
+  --va-gradient-mid: #841a6b;
+  --va-gradient-end: #ef6c33;
+}
+body.dark {
+  --va-primary: #c77db5;
+  --va-light: #e0a8d3;
+  --va-accent: #f4a373;
+}
+
+.sol-badge.va { background: rgba(132,26,107,0.08); color: var(--va-primary); }
+body.dark .sol-badge.va { background: rgba(199,125,181,0.12); color: var(--va-light); }
+
+.sol-section-title.va { border-bottom: 2px solid rgba(132,26,107,0.15); }
+.sol-section-title.va i { color: var(--va-primary); }
+body.dark .sol-section-title.va { border-bottom-color: rgba(199,125,181,0.2); }
+body.dark .sol-section-title.va i { color: var(--va-light); }
+
+.sol-feature-card.va { background: linear-gradient(135deg, rgba(132,26,107,0.02) 0%, rgba(132,26,107,0.06) 100%); }
+.sol-feature-card.va::before { background: linear-gradient(180deg, var(--va-primary), var(--va-accent)); }
+body.dark .sol-feature-card.va { background: linear-gradient(135deg, rgba(199,125,181,0.03) 0%, rgba(199,125,181,0.08) 100%); }
+.sol-feature-icon.va { color: var(--va-primary); }
+body.dark .sol-feature-icon.va { color: var(--va-light); }
+
+.sol-usecase-icon.va { color: var(--va-primary); }
+body.dark .sol-usecase-icon.va { color: var(--va-light); }
+
+.sol-cta.va { background: linear-gradient(135deg, var(--va-gradient-start) 0%, var(--va-gradient-mid) 50%, var(--va-gradient-end) 100%); }
+.sol-cta-btn.va { color: var(--va-primary); }
+.sol-cta-btn.va:hover { color: var(--va-gradient-start); }
+
+/* Architecture colors */
+.sol-arch-wrapper.va {
+  background: linear-gradient(180deg, rgba(132,26,107,0.03) 0%, rgba(132,26,107,0.08) 100%);
+  border: 1px solid rgba(132,26,107,0.1);
+}
+body.dark .sol-arch-wrapper.va {
+  background: linear-gradient(180deg, rgba(199,125,181,0.02) 0%, rgba(199,125,181,0.07) 100%);
+  border-color: rgba(199,125,181,0.12);
+}
+.sol-arch-badge.va { color: var(--va-primary); background: rgba(132,26,107,0.06); border-color: rgba(132,26,107,0.12); }
+body.dark .sol-arch-badge.va { color: var(--va-light); background: rgba(199,125,181,0.08); border-color: rgba(199,125,181,0.15); }
+
+.va .sol-tier-label { color: var(--va-primary); border-right-color: rgba(132,26,107,0.1); }
+body.dark .va .sol-tier-label { color: var(--va-light); border-right-color: rgba(199,125,181,0.1); }
+
+.va .sol-tier-node { border: 1.5px solid rgba(132,26,107,0.15); box-shadow: 0 2px 8px rgba(132,26,107,0.06); }
+.va .sol-tier-node:hover { box-shadow: 0 6px 20px rgba(132,26,107,0.14); }
+body.dark .va .sol-tier-node { border-color: rgba(199,125,181,0.2); box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
+body.dark .va .sol-tier-node:hover { box-shadow: 0 6px 20px rgba(199,125,181,0.12); }
+
+.sol-node-icon.va-app  { background: rgba(132,26,107,0.1);  color: #841a6b; }
+.sol-node-icon.va-fw   { background: rgba(239,108,51,0.1);  color: #ef6c33; }
+.sol-node-icon.va-hw   { background: rgba(94,13,79,0.1);    color: #5e0d4f; }
+body.dark .sol-node-icon.va-app { background: rgba(199,125,181,0.15); color: #e0a8d3; }
+body.dark .sol-node-icon.va-fw  { background: rgba(244,163,115,0.15); color: #f4a373; }
+body.dark .sol-node-icon.va-hw  { background: rgba(168,77,145,0.15);  color: #c77db5; }
+
+.va .sol-connector-tag-col { border-right-color: rgba(132,26,107,0.1); }
+body.dark .va .sol-connector-tag-col { border-right-color: rgba(199,125,181,0.1); }
+.va .sol-connector-pipe { background: linear-gradient(180deg, #841a6b, #ef6c33); }
+body.dark .va .sol-connector-pipe { background: linear-gradient(180deg, #c77db5, #f4a373); }
+.va .sol-connector-dot { background: #a84d91; }
+body.dark .va .sol-connector-dot { background: #e0a8d3; }
+.va .sol-connector-tag { color: #a84d91; background: rgba(168,77,145,0.08); }
+body.dark .va .sol-connector-tag { color: #e0a8d3; background: rgba(224,168,211,0.1); }
+
+/* Plugin table theme */
+.sol-compat-table.va thead th {
+  background: rgba(132,26,107,0.06);
+  color: var(--va-primary);
+  border-bottom-color: var(--va-primary);
+}
+body.dark .sol-compat-table.va thead th {
+  background: rgba(199,125,181,0.08);
+  color: var(--va-light);
+  border-bottom-color: var(--va-light);
+}
+&lt;/style&gt;
+&lt;div class=&#34;sol-hero&#34;&gt;
+  &lt;p class=&#34;sol-hero-tagline&#34;&gt;
+    vAccel is a lightweight, modular framework that exposes hardware acceleration functionality
+    to workloads in virtualized or otherwise isolated environments — write once, accelerate anywhere.
+  &lt;/p&gt;
+  &lt;div class=&#34;sol-hero-badges&#34;&gt;
+    &lt;span class=&#34;sol-badge va&#34;&gt;&lt;i class=&#34;fas fa-microchip&#34;&gt;&lt;/i&gt; Hardware-Agnostic&lt;/span&gt;
+    &lt;span class=&#34;sol-badge va&#34;&gt;&lt;i class=&#34;fas fa-plug&#34;&gt;&lt;/i&gt; Plugin Architecture&lt;/span&gt;
+    &lt;span class=&#34;sol-badge va&#34;&gt;&lt;i class=&#34;fas fa-feather-alt&#34;&gt;&lt;/i&gt; Lightweight&lt;/span&gt;
+    &lt;span class=&#34;sol-badge va&#34;&gt;&lt;i class=&#34;fas fa-code&#34;&gt;&lt;/i&gt; Multi-Language&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 class=&#34;sol-section-title va&#34;&gt;&lt;i class=&#34;fas fa-layer-group&#34;&gt;&lt;/i&gt; Architecture Overview&lt;/h3&gt;
+&lt;div class=&#34;sol-arch-wrapper va&#34;&gt;
+  &lt;div class=&#34;sol-arch-badge va&#34;&gt;&lt;i class=&#34;fas fa-project-diagram&#34;&gt;&lt;/i&gt; vAccel Framework&lt;/div&gt;
+  &lt;!-- Application Layer --&gt;
+  &lt;div class=&#34;sol-tier&#34;&gt;
+    &lt;div class=&#34;sol-tier-label&#34;&gt;App&lt;/div&gt;
+    &lt;div class=&#34;sol-tier-nodes&#34;&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon va-app&#34;&gt;&lt;i class=&#34;fas fa-code&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;Application Code&lt;/h5&gt;
+        &lt;p&gt;User workload (C, Python, Go, Rust)&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon va-app&#34;&gt;&lt;i class=&#34;fas fa-book&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;vAccel API&lt;/h5&gt;
+        &lt;p&gt;Unified operations interface&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon va-app&#34;&gt;&lt;i class=&#34;fas fa-brain&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;ML / Compute Ops&lt;/h5&gt;
+        &lt;p&gt;TF, Torch, image, BLAS, exec&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- Connector --&gt;
+  &lt;div class=&#34;sol-tier-connector&#34;&gt;
+    &lt;div class=&#34;sol-connector-tag-col&#34;&gt;
+      &lt;span class=&#34;sol-connector-tag&#34;&gt;Unified&lt;br&gt;API&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;sol-connector-dots&#34;&gt;
+      &lt;div class=&#34;sol-connector-line&#34;&gt;
+        &lt;span class=&#34;sol-connector-dot&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;sol-connector-pipe&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;sol-connector-dot&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;sol-connector-pipe&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;sol-connector-dot&#34;&gt;&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- Plugin / Transport Layer --&gt;
+  &lt;div class=&#34;sol-tier&#34;&gt;
+    &lt;div class=&#34;sol-tier-label&#34;&gt;Plugin&lt;/div&gt;
+    &lt;div class=&#34;sol-tier-nodes&#34;&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon va-fw&#34;&gt;&lt;i class=&#34;fas fa-puzzle-piece&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;Accel Plugins&lt;/h5&gt;
+        &lt;p&gt;TensorFlow, Torch, TVM&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon va-fw&#34;&gt;&lt;i class=&#34;fas fa-exchange-alt&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;Transport Plugins&lt;/h5&gt;
+        &lt;p&gt;RPC, VirtIO for remote exec&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon va-fw&#34;&gt;&lt;i class=&#34;fas fa-wrench&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;Utility Plugins&lt;/h5&gt;
+        &lt;p&gt;Exec, MBench, NoOp&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- Connector --&gt;
+  &lt;div class=&#34;sol-tier-connector&#34;&gt;
+    &lt;div class=&#34;sol-connector-tag-col&#34;&gt;
+      &lt;span class=&#34;sol-connector-tag&#34;&gt;Driver&lt;br&gt;Layer&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;sol-connector-dots&#34;&gt;
+      &lt;div class=&#34;sol-connector-line&#34;&gt;
+        &lt;span class=&#34;sol-connector-dot&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;sol-connector-pipe&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;sol-connector-dot&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;sol-connector-pipe&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;sol-connector-dot&#34;&gt;&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- Hardware Layer --&gt;
+  &lt;div class=&#34;sol-tier&#34;&gt;
+    &lt;div class=&#34;sol-tier-label&#34;&gt;HW&lt;/div&gt;
+    &lt;div class=&#34;sol-tier-nodes&#34;&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon va-hw&#34;&gt;&lt;i class=&#34;fas fa-microchip&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;GPUs&lt;/h5&gt;
+        &lt;p&gt;NVIDIA, AMD, Intel&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon va-hw&#34;&gt;&lt;i class=&#34;fas fa-brain&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;TPUs / NPUs&lt;/h5&gt;
+        &lt;p&gt;Neural accelerators&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon va-hw&#34;&gt;&lt;i class=&#34;fas fa-th&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;FPGAs&lt;/h5&gt;
+        &lt;p&gt;Custom fabric acceleration&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;sol-tier-node&#34;&gt;
+        &lt;div class=&#34;sol-node-icon va-hw&#34;&gt;&lt;i class=&#34;fas fa-server&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;h5&gt;Remote Backends&lt;/h5&gt;
+        &lt;p&gt;Network-attached accelerators&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p class=&#34;sol-intro&#34;&gt;
+  vAccel provides a unified abstraction layer that allows applications to offload compute-intensive
+  operations — such as image processing, machine-learning inference, and cryptographic functions —
+  to a wide range of accelerators without requiring platform-specific code. Built to integrate seamlessly
+  with existing runtimes, vAccel supports local and remote acceleration backends, offering a consistent
+  API across GPUs, FPGAs, NPUs, and custom devices. Its design emphasises portability, minimal overhead,
+  and interoperability with containerised and unikernel-based workloads.
+&lt;/p&gt;
+&lt;h3 class=&#34;sol-section-title va&#34;&gt;&lt;i class=&#34;fas fa-bolt&#34;&gt;&lt;/i&gt; Key Capabilities&lt;/h3&gt;
+&lt;div class=&#34;sol-features&#34;&gt;
+  &lt;div class=&#34;sol-feature-card va&#34;&gt;
+    &lt;div class=&#34;sol-feature-icon va&#34;&gt;&lt;i class=&#34;fas fa-random&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h4&gt;Hardware Agnostic&lt;/h4&gt;
+    &lt;p&gt;Write accelerated code once and deploy on any backend — GPUs, TPUs, NPUs, or FPGAs — without vendor lock-in or driver-level integration.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;sol-feature-card va&#34;&gt;
+    &lt;div class=&#34;sol-feature-icon va&#34;&gt;&lt;i class=&#34;fas fa-puzzle-piece&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h4&gt;Plugin Architecture&lt;/h4&gt;
+    &lt;p&gt;Modular plugin system supporting acceleration (TensorFlow, PyTorch, TVM), transport (RPC, VirtIO), and utility backends.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;sol-feature-card va&#34;&gt;
+    &lt;div class=&#34;sol-feature-icon va&#34;&gt;&lt;i class=&#34;fas fa-cloud&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h4&gt;Remote Acceleration&lt;/h4&gt;
+    &lt;p&gt;Transparent remote execution via RPC and VirtIO transport plugins, enabling acceleration from VMs and constrained environments.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;sol-feature-card va&#34;&gt;
+    &lt;div class=&#34;sol-feature-icon va&#34;&gt;&lt;i class=&#34;fas fa-code&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h4&gt;Multi-Language Bindings&lt;/h4&gt;
+    &lt;p&gt;Native bindings for C, Python, Go, and Rust, with a unified operations API across all supported languages.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;sol-feature-card va&#34;&gt;
+    &lt;div class=&#34;sol-feature-icon va&#34;&gt;&lt;i class=&#34;fas fa-feather-alt&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h4&gt;Minimal Overhead&lt;/h4&gt;
+    &lt;p&gt;Lightweight framework with negligible performance penalty, designed for highly constrained serverless and edge environments.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;sol-feature-card va&#34;&gt;
+    &lt;div class=&#34;sol-feature-icon va&#34;&gt;&lt;i class=&#34;fas fa-cubes&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h4&gt;Runtime Integration&lt;/h4&gt;
+    &lt;p&gt;Seamless interoperability with containers, unikernels (via urunc), and Kubernetes for cloud-native accelerated workloads.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 class=&#34;sol-section-title va&#34;&gt;&lt;i class=&#34;fas fa-table&#34;&gt;&lt;/i&gt; Plugin Ecosystem&lt;/h3&gt;
+&lt;table class=&#34;sol-compat-table va&#34;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Category&lt;/th&gt;
+      &lt;th&gt;Plugin&lt;/th&gt;
+      &lt;th&gt;Operations&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Acceleration&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;TensorFlow&lt;/td&gt;
+      &lt;td&gt;Image classification, object detection, model inference&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Acceleration&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;PyTorch&lt;/td&gt;
+      &lt;td&gt;Tensor ops, model inference, jit forward&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Acceleration&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;TVM&lt;/td&gt;
+      &lt;td&gt;Compiled model execution, cross-platform inference&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Transport&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;RPC&lt;/td&gt;
+      &lt;td&gt;Network-based remote acceleration dispatch&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Transport&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;VirtIO&lt;/td&gt;
+      &lt;td&gt;VM-to-host hardware passthrough&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Utility&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Exec, MBench, NoOp&lt;/td&gt;
+      &lt;td&gt;Generic exec, benchmarking, testing&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 class=&#34;sol-section-title va&#34;&gt;&lt;i class=&#34;fas fa-bullseye&#34;&gt;&lt;/i&gt; Use Cases&lt;/h3&gt;
+&lt;div class=&#34;sol-usecases&#34;&gt;
+  &lt;div class=&#34;sol-usecase&#34;&gt;
+    &lt;div class=&#34;sol-usecase-icon va&#34;&gt;&lt;i class=&#34;fas fa-brain&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;div&gt;
+      &lt;h4&gt;ML Inference at the Edge&lt;/h4&gt;
+      &lt;p&gt;Run TensorFlow and PyTorch models on edge devices with transparent offloading to available accelerators, no code changes needed.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;sol-usecase&#34;&gt;
+    &lt;div class=&#34;sol-usecase-icon va&#34;&gt;&lt;i class=&#34;fas fa-cloud&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;div&gt;
+      &lt;h4&gt;Serverless Acceleration&lt;/h4&gt;
+      &lt;p&gt;Enable hardware acceleration in serverless functions and lightweight VMs without requiring direct driver access or GPU passthrough.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;sol-usecase&#34;&gt;
+    &lt;div class=&#34;sol-usecase-icon va&#34;&gt;&lt;i class=&#34;fas fa-image&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;div&gt;
+      &lt;h4&gt;Image &amp; Video Processing&lt;/h4&gt;
+      &lt;p&gt;Offload compute-intensive image classification, object detection, and video analytics to heterogeneous accelerators at scale.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;sol-usecase&#34;&gt;
+    &lt;div class=&#34;sol-usecase-icon va&#34;&gt;&lt;i class=&#34;fas fa-dharmachakra&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;div&gt;
+      &lt;h4&gt;Kubernetes GPU Sharing&lt;/h4&gt;
+      &lt;p&gt;Deploy accelerated workloads as standard K8s pods with vAccel managing hardware multiplexing across tenants.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sol-cta va&#34;&gt;
+  &lt;h3&gt;Explore vAccel&lt;/h3&gt;
+  &lt;p&gt;Dive into the documentation, API reference, tutorials, and plugin development guides.&lt;/p&gt;
+  &lt;a href=&#34;https://docs.vaccel.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; class=&#34;sol-cta-btn va&#34;&gt;
+    &lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; Visit vAccel Docs
+  &lt;/a&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
-      <title>Runtime Software Engineer (RSER)</title>
-      <link>/jobs/job3/</link>
-      <pubDate>Tue, 11 May 2021 11:00:00 +0000</pubDate>
-      
-      <guid>/jobs/job3/</guid>
-      <description>Responsibilities:
- Develop software for a cutting edge technology project Design and develop reusable and reliable code using at least one of the following: C / Python / GO / C++ / Rust Participate in upstreaming efforts to contribute to open-source projects  Requirements:
- Minimum 3 years of experience in software development BSc or MSc degree in Computer Science/Engineering, Telecommunications or similar Good understanding of best practices in software development Working knowledge of control systems like git Working knowledge of Go Familiarity with container runtimes and orchestrators (Kubernetes) Proficiency in spoken and written English Ability to work in a distributed team  Location:</description>
+      <title>EMPYREAN</title>
+      <link>/projects/empyrean/</link>
+      <pubDate>Fri, 01 Jan 2027 00:00:00 +0000</pubDate>
+      <guid>/projects/empyrean/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;NUBIS contribution:&lt;/strong&gt; NUBIS develops the secure and efficient interoperable execution of workloads across the IoT-Edge-Cloud continuum.&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Systems Software Engineer (SSER)</title>
-      <link>/jobs/job2/</link>
-      <pubDate>Mon, 10 May 2021 11:00:00 +0000</pubDate>
-      
-      <guid>/jobs/job2/</guid>
-      <description>Responsibilities:
- Develop software for a cutting edge technology project Design and develop reusable and reliable code using at least one of the following: C / Python / GO / C++ / Rust Participate in upstreaming efforts to contribute to open-source projects  Requirements:
- Minimum 3 years of experience in software development BSc or MSc degree in Computer Science/Engineering, Telecommunications or similar Good understanding of best practices in software development Working knowledge of C Working knowledge of control systems like git Experience with Linux kernel and virtualization development Proficiency in spoken and written English Ability to work in a distributed team  Location:</description>
+      <title>TEXTaiLES</title>
+      <link>/projects/textailes/</link>
+      <pubDate>Fri, 01 Jan 2027 00:00:00 +0000</pubDate>
+      <guid>/projects/textailes/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;NUBIS contribution:&lt;/strong&gt; As WP6 leader, NUBIS orchestrates the integration of all TexTailes digital tools into a coherent portal. Additionally, NUBIS leads the API integration effort with ECHOES and ECCCH.&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Office Admin (OAR)</title>
-      <link>/jobs/job4/</link>
-      <pubDate>Sat, 11 May 2019 11:00:00 +0000</pubDate>
-      
-      <guid>/jobs/job4/</guid>
-      <description>Responsibilities:
- Coordinate office activities and operations to secure efficiency and compliance to company policies Supervise administrative staff and divide responsibilities to ensure performance Manage agendas / travel arrangements / appointments etc. Manage phone calls and correspondence (e-mail, letters, packages etc.) Support budgeting and bookkeeping procedures Create and update records and databases with personnel, financial and other data Track stock of office supplies and place orders when necessary Submit timely reports and prepare presentations/proposals as assigned Assist colleagues whenever necessary  Requirements:</description>
+      <title>AMBITIOUS</title>
+      <link>/projects/ambitious/</link>
+      <pubDate>Tue, 01 Dec 2026 00:00:00 +0000</pubDate>
+      <guid>/projects/ambitious/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;NUBIS contribution:&lt;/strong&gt; NUBIS contributes expertise in cloud-native computing and edge infrastructure, supporting the deployment of advanced computing continuum solutions across heterogeneous 5G testbeds.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MLSysOps</title>
+      <link>/projects/mlsysops/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/projects/mlsysops/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;NUBIS contribution:&lt;/strong&gt; As WP3 leader, NUBIS orchestrated the development of efficient mechanisms for optimizing application execution, resource utilization and energy consumption across the whole continuum.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NEPHELE: DROP</title>
+      <link>/projects/nephele-drop/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>/projects/nephele-drop/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;NUBIS contribution:&lt;/strong&gt; Through the DROP proposal, NUBIS develops a distributed resource offloading mechanism leveraging the vAccel framework for ESP32-based IoT devices. DROP enables real-time processing capabilities for resource-constrained devices while reducing latency and improving system efficiency, fostering innovation in logistics, smart home, and industrial automation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DESIRE6G</title>
+      <link>/projects/desire6g/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>/projects/desire6g/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;NUBIS contribution:&lt;/strong&gt; As WP3 leader, NUBIS designed and developed a lightweight, ultra-performant SMO for Desire6G, able to scale out compute-intensive parts of service decomposition as standalone, scalable serverless functions. Additionally, NUBIS enabled interoperable hardware acceleration mechanisms for full data-plane programmability.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>People</title>
+      <link>/people/</link>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/people/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ContainerDays Hamburg 2025: Unikernel Deployment Made Easy: A CRI-Compatible Runtime for Secure Cloud Deployments</title>
+      <link>/event/containerdays2025/</link>
+      <pubDate>Wed, 03 Sep 2025 17:30:00 +0000</pubDate>
+      <guid>/event/containerdays2025/</guid>
+      <description>&lt;h2 id=&#34;further-reading&#34;&gt;Further Reading&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.cloudkernels.net/posts/urunc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;urunc - A Container Runtime for Unikernels&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.cloudkernels.net/posts/wasm-urunc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WebAssembly and urunc Integration&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Container Plumbing Days - urunc: A Container runtime for unikernels and single application kernels</title>
+      <link>/event/containerplumbing2025/</link>
+      <pubDate>Thu, 28 Aug 2025 13:50:00 +0000</pubDate>
+      <guid>/event/containerplumbing2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OSS 2025 - Cloud Native IoT: OTA Updates and Device Repurposing</title>
+      <link>/event/oss2025/</link>
+      <pubDate>Tue, 26 Aug 2025 11:55:00 +0000</pubDate>
+      <guid>/event/oss2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>urunc v0.6.0 Released: Linux Guests, Volume Mounts &amp; CNCF Sandbox</title>
+      <link>/post/2025-07-03-urunc-v060-released-linux-guests-volume-mounts-cncf-sandbox/</link>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>/post/2025-07-03-urunc-v060-released-linux-guests-volume-mounts-cncf-sandbox/</guid>
+      <description>&lt;p&gt;We are thrilled to announce the release of &lt;a href=&#34;https://github.com/urunc-dev/urunc/releases/tag/v0.6.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;urunc&lt;/code&gt; v0.6.0&lt;/a&gt;, a feature-packed
+update that pushes unikernel-native infrastructure even closer to everyday
+container workflows.&lt;/p&gt;
+&lt;p&gt;This release marks a major milestone:
+&lt;a href=&#34;https://github.com/urunc-dev/urunc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;urunc&lt;/code&gt;&lt;/a&gt; is now an official &lt;a href=&#34;https://www.cncf.io/projects/urunc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CNCF Sandbox
+Project&lt;/a&gt;, a strong signal of our
+commitment to open collaboration, cloud-native principles, and production-grade
+reliability.&lt;/p&gt;
+&lt;figure&gt;
+        &lt;img src=&#34;images/urunc-logo-light.svg#floatright&#34; alt=&#34;&#34; width=&#34;100px&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;This release adds support for WASM &lt;strong&gt;&lt;a href=&#34;https://github.com/mewz-dev&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mewz
+unikernels&lt;/a&gt;&lt;/strong&gt;, and significantly, for single-app, Linux-based
+containers by &lt;a href=&#34;https://github.com/nubificus/bunny&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;transforming them&lt;/a&gt; into
+minimal Linux VMs. You can now:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pivot and execute the monitor process from a freshly created root filesystem (&lt;code&gt;chroot&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Share the container’s root filesystem with the guest using 9pfs&lt;/li&gt;
+&lt;li&gt;Mount volumes into the container&amp;rsquo;s rootfs&lt;/li&gt;
+&lt;li&gt;Boot single-application, Linux-based guests, not just unikernels&lt;/li&gt;
+&lt;li&gt;Set CLI options at runtime&lt;/li&gt;
+&lt;li&gt;Pass environment variables into the guest&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It also enhances logging and error handling, introduces more intuitive CLI
+semantics, and brings a polished documentation redesign, complete with a brand
+new logo and improved usability.&lt;/p&gt;
+&lt;h4 id=&#34;breaking-changes&#34;&gt;Breaking Changes&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;useDMBlock&lt;/code&gt; annotation has been &lt;strong&gt;replaced&lt;/strong&gt; with &lt;code&gt;mountRootfs&lt;/code&gt;,
+offering a &lt;strong&gt;unified way&lt;/strong&gt; to mount the container rootfs using block devices
+or shared filesystems.&lt;/li&gt;
+&lt;li&gt;Unikraft CLI handling now reserves &lt;code&gt;argv[0]&lt;/code&gt; for consistency with
+kraftkit&amp;rsquo;s behavior.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;cicd--internals&#34;&gt;CI/CD &amp;amp; Internals&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Moved entirely to GitHub-hosted runners&lt;/li&gt;
+&lt;li&gt;Added automated docs publishing, better license checking, and spellchecks (code &amp;amp; docs)&lt;/li&gt;
+&lt;li&gt;Improved isolation and test reproducibility by removing org-wide secret dependencies&lt;/li&gt;
+&lt;li&gt;Refactored CI workflows to facilitate external (non-org) PRs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/urunc-dev/urunc/compare/v0.5.0...v0.6.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Full Changelog&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;docs-governance--community&#34;&gt;Docs, Governance &amp;amp; Community&lt;/h4&gt;
+&lt;p&gt;We&amp;rsquo;re especially excited about the community-building steps in this release. In
+addition to technical improvements, we’ve:&lt;/p&gt;
+&lt;figure&gt;
+        &lt;img src=&#34;images/cncf-color.svg#floatright&#34; alt=&#34;&#34; /&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduced clear project governance&lt;/li&gt;
+&lt;li&gt;Published a dedicated security policy&lt;/li&gt;
+&lt;li&gt;Refreshed the &lt;code&gt;README&lt;/code&gt; with:
+&lt;ul&gt;
+&lt;li&gt;Roadmap links&lt;/li&gt;
+&lt;li&gt;Contribution guidelines&lt;/li&gt;
+&lt;li&gt;OpenSSF best practices badge&lt;/li&gt;
+&lt;li&gt;A public &lt;a href=&#34;https://cloud-native.slack.com/archives/C08V201G35J&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Slack channel&lt;/a&gt; to join the conversation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We invite developers, researchers, and users to collaborate, share feedback,
+and help shape the future of Urunc.&lt;/p&gt;
+&lt;h4 id=&#34;cncf-milestone&#34;&gt;CNCF Milestone&lt;/h4&gt;
+&lt;p&gt;Becoming a &lt;a href=&#34;https://www.cncf.io/sandbox-projects/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CNCF Sandbox Project&lt;/a&gt; marks
+an important milestone for &lt;code&gt;urunc&lt;/code&gt;. This recognition opens up new collaboration
+opportunities and validates our vision: to bring secure, low-overhead,
+unikernel-native execution to cloud-native environments through familiar
+interfaces and open standards.&lt;/p&gt;
+&lt;p&gt;For more information, demos, tutorials, and contribution details, visit: &lt;strong&gt;&lt;a href=&#34;https://urunc.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://urunc.io&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;try-it-out&#34;&gt;Try it out&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://urunc.io/tutorials/How-to-urunc-on-k8s/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Run Urunc in Kubernetes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://urunc.io/tutorials/knative/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Use Knative with Urunc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://urunc.io/tutorials/existing-container-linux/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Boot OCI Containers as VMs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://urunc.io/developer-guide/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Join the Slack &amp;amp; Get Involved&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Contact
+&lt;a href=&#34;mailto:info@urunc.io&#34;&gt;info@urunc.io&lt;/a&gt;&lt;br&gt;
+GitHub: &lt;a href=&#34;https://github.com/urunc-dev/urunc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github.com/urunc-dev/urunc&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>vAccel v0.7 Released!</title>
+      <link>/post/2025-06-25-vaccel-v07-released/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>/post/2025-06-25-vaccel-v07-released/</guid>
+      <description>&lt;p&gt;Simplified Session Management, Extended RPC Support, and Robust Backend Integration&lt;/p&gt;
+&lt;figure&gt;
+        &lt;img src=&#34;images/vaccel-logo.png#floatright&#34; alt=&#34;&#34; /&gt;
+&lt;/figure&gt;
+&lt;h4 id=&#34;key-features-and-improvements&#34;&gt;Key Features and Improvements&lt;/h4&gt;
+&lt;h6 id=&#34;v070-highlights&#34;&gt;v0.7.0 Highlights&lt;/h6&gt;
+&lt;p&gt;&lt;em&gt;Released: &lt;a href=&#34;https://github.com/nubificus/vaccel/releases/tag/v0.7.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;June 18, 2025&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Enable runtime plugin loading and coexistence of remote and local plugins&lt;/li&gt;
+&lt;li&gt;Allow selection of inference model at runtime&lt;/li&gt;
+&lt;li&gt;Add unified config and enable explicit bootstrap/cleanup&lt;/li&gt;
+&lt;li&gt;Refactor vAccel resources&lt;/li&gt;
+&lt;li&gt;Enable robust plugin versioning and compatibility checks&lt;/li&gt;
+&lt;li&gt;Cleanup and reorganize headers and plugin functions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h6 id=&#34;v071-highlights&#34;&gt;v0.7.1 Highlights&lt;/h6&gt;
+&lt;p&gt;&lt;em&gt;Released: &lt;a href=&#34;https://github.com/nubificus/vaccel/releases/tag/v0.7.1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;June 24, 2025&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bug Fixes &amp;amp; Stability, Resolves memory issues and plugin initialization bugs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;extending-the-vaccel-ecosystem&#34;&gt;Extending the vAccel Ecosystem&lt;/h5&gt;
+&lt;p&gt;With its refactored resource architecture and plugin lifecycle improvements,
+vAccel can now better support heterogeneous accelerators, serverless runtimes,
+and secure offloading at the edge. These improvements build on ongoing research
+into cloud-native compute offloading.&lt;/p&gt;
+&lt;h5 id=&#34;availability&#34;&gt;Availability&lt;/h5&gt;
+&lt;p&gt;Source code and binaries are available under the Apache 2.0 License:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nubificus/vaccel/releases/tag/v0.7.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;v0.7.0 Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nubificus/vaccel/releases/tag/v0.7.1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;v0.7.1 Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Visit the GitHub repository: &lt;a href=&#34;https://github.com/nubificus/vaccel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github.com/nubificus/vaccel&lt;/a&gt;&lt;/p&gt;
+&lt;h5 id=&#34;about-vaccel&#34;&gt;About vAccel&lt;/h5&gt;
+&lt;p&gt;vAccel is an open-source virtualization acceleration framework by Nubificus
+LTD, enabling efficient offloading of compute workloads to accelerators or
+remote endpoints across the edge–cloud continuum. It features modular plugins
+for backends, transports, and runtimes, and is designed to work seamlessly with
+containerized and serverless environments.&lt;/p&gt;
+&lt;h5 id=&#34;hands-on&#34;&gt;Hands-on!&lt;/h5&gt;
+&lt;p&gt;For more information, tutorials, and links, visit:
+&lt;a href=&#34;https://docs.vaccel.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://docs.vaccel.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Contact:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;mailto:vaccel@nubificus.co.uk&#34;&gt;vaccel@nubificus.co.uk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub: &lt;a href=&#34;https://github.com/nubificus/vaccel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github.com/nubificus/vaccel&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>urunc v0.5.0 Released: More Unikernel Power, Now K8s-Native!</title>
+      <link>/post/2025-04-10-urunc-v050-released-more-unikernel-power-now-k8s-native/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/post/2025-04-10-urunc-v050-released-more-unikernel-power-now-k8s-native/</guid>
+      <description>&lt;figure&gt;
+        &lt;img src=&#34;images/urunc-logo.png#floatright&#34; alt=&#34;&#34; /&gt;
+        &lt;img src=&#34;images/k8s-logo.png#floatright&#34; alt=&#34;&#34; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;The &lt;code&gt;urunc&lt;/code&gt; team is excited to announce the release of &lt;code&gt;urunc&lt;/code&gt; v0.5.0, a major
+step forward in our mission to make unikernel-based deployments seamless,
+secure, and cloud-native. This release expands &lt;code&gt;urunc&lt;/code&gt;’s capabilities across
+containerized and orchestrated environments, with powerful new features,
+enhanced monitor control, and expanded compatibility.&lt;/p&gt;
+&lt;h4 id=&#34;whats-new-in-v050&#34;&gt;What’s New in v0.5.0&lt;/h4&gt;
+&lt;h6 id=&#34;namespace--compatibility-enhancements&#34;&gt;Namespace &amp;amp; Compatibility Enhancements&lt;/h6&gt;
+&lt;p&gt;Full namespace support (except user namespaces) unlocks broader container and
+runtime integrations. MirageOS support brings OCaml-based unikernels into the
+fold, expanding Urunc’s reach across the unikernel ecosystem.&lt;/p&gt;
+&lt;h6 id=&#34;kubernetes-first-deployments&#34;&gt;Kubernetes-First Deployments&lt;/h6&gt;
+&lt;p&gt;&lt;code&gt;urunc_deploy&lt;/code&gt; introduced for one-command installation and configuration in
+existing Kubernetes clusters. Non-root monitor execution now supported,
+enhancing security and compliance for enterprise-grade environments.&lt;/p&gt;
+&lt;h6 id=&#34;smarter-monitor-interface&#34;&gt;Smarter Monitor Interface&lt;/h6&gt;
+&lt;p&gt;A revamped monitor interface introduces specialized CLI hooks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;MonitorBlockCli()&lt;/code&gt; for block device options&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;MonitorNetCli()&lt;/code&gt; for network-specific flags&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;MonitorCli()&lt;/code&gt; for general monitor options&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Monitors now spawn directly from the container’s root filesystem.&lt;/p&gt;
+&lt;h6 id=&#34;cloud-native-integrations&#34;&gt;Cloud-Native Integrations&lt;/h6&gt;
+&lt;p&gt;Fixes for Knative readiness probes and improvements to devmapper/rootfs
+handling ensure tighter integration with serverless platforms and container
+runtimes.&lt;/p&gt;
+&lt;h6 id=&#34;cicd-docs--developer-experience&#34;&gt;CI/CD, Docs &amp;amp; Developer Experience&lt;/h6&gt;
+&lt;p&gt;Go updated to v1.24.1, introduced End-to-end testing powered by Incus,
+replacing legacy VM spawning.  CI enhancements include warning handling during
+container ops and a cleanup workflow for stale issues/PRs.&lt;/p&gt;
+&lt;h6 id=&#34;documentation-improvements-include&#34;&gt;Documentation improvements include:&lt;/h6&gt;
+&lt;p&gt;Updated Kubernetes YAML examples, added new tutorials for EKS and Knative, and expanded examples on unikernel packaging&lt;/p&gt;
+&lt;h5 id=&#34;read-the-full-changelog&#34;&gt;Read the Full Changelog&lt;/h5&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/nubificus/urunc/compare/v0.4.0...v0.5.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;View on GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;h5 id=&#34;hands-on&#34;&gt;Hands-on!&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://urunc.io/tutorials/How-to-urunc-on-k8s&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;urunc&lt;/code&gt; in k8s&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://urunc.io/tutorials/knative/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Knative &amp;amp; &lt;code&gt;urunc&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://urunc.io/tutorials/eks-tutorial&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;urunc&lt;/code&gt; on EKS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;urunc&lt;/code&gt; continues to push the boundaries of lightweight virtualization,
+bringing the benefits of unikernels to modern cloud-native environments. With
+v0.5.0, we&amp;rsquo;re building the foundation for secure, performant, and flexible
+infrastructure at scale.&lt;/p&gt;
+&lt;p&gt;For more information, tutorials, and community links, visit: &lt;a href=&#34;https://urunc.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://urunc.io&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Contact:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;mailto:info@urunc.io&#34;&gt;info@urunc.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub: &lt;a href=&#34;https://github.com/nubificus/urunc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github.com/nubificus/urunc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cloud-native Summit Munich 2025: Isolating Workloads in Multi-Tenant Kubernetes Clusters</title>
+      <link>/event/cloudnativesummit2025/</link>
+      <pubDate>Tue, 04 Feb 2025 16:00:00 +0000</pubDate>
+      <guid>/event/cloudnativesummit2025/</guid>
+      <description>&lt;h2 id=&#34;further-reading&#34;&gt;Further Reading&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.cloudkernels.net/posts/urunc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;urunc - A Container Runtime for Unikernels&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.cloudkernels.net/posts/wasm-urunc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WebAssembly and urunc Integration&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FOSDEM 2025: WASM Meets Unikernels - Secure and Efficient Cloud-Native Deployments</title>
+      <link>/event/fosdem2025-1/</link>
+      <pubDate>Sun, 02 Feb 2025 09:00:00 +0000</pubDate>
+      <guid>/event/fosdem2025-1/</guid>
+      <description>&lt;h2 id=&#34;further-reading&#34;&gt;Further Reading&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.cloudkernels.net/posts/wasm-urunc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WASM and urunc Integration&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;code--resources&#34;&gt;Code &amp;amp; Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/urunc-dev/urunc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;urunc - Container Runtime Repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nubificus/bunny&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bunny - Building Tool Repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FOSDEM 2025: Less Overhead, Strong Isolation - Running Containers in Minimal Specialized Linux VMs</title>
+      <link>/event/fosdem2025-2/</link>
+      <pubDate>Sat, 01 Feb 2025 16:20:00 +0000</pubDate>
+      <guid>/event/fosdem2025-2/</guid>
+      <description>&lt;h2 id=&#34;code--resources&#34;&gt;Code &amp;amp; Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/urunc-dev/urunc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;urunc - Container Runtime Repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nubificus/bunny&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bunny - Kernel Building Tool&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Application sandboxing talk wins Best Talk award in HiPEAC&#39;s workshop ML4ECS</title>
+      <link>/post/2025-01-22-application-sandboxing-talk-wins-best-talk-award-in-hipeacs-workshop-ml4ecs/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/post/2025-01-22-application-sandboxing-talk-wins-best-talk-award-in-hipeacs-workshop-ml4ecs/</guid>
+      <description>&lt;figure&gt;
+        &lt;img src=&#34;images/hipeac-logo.png#floatright&#34; alt=&#34;&#34; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;Our team has been honored with the 3rd Best Talk Award at the ML4ECS workshop,
+held during the prestigious HiPEAC conference. Our presentation, titled
+&amp;ldquo;Scalable and Lightweight Cloud-Native Application Sandboxing&amp;rdquo;, showcased
+innovative approaches to enhancing scalability and efficiency in cloud-native
+environments.&lt;/p&gt;
+&lt;p&gt;This recognition highlights the team&amp;rsquo;s groundbreaking work in developing
+advanced solutions for secure and lightweight application isolation, addressing
+critical challenges in edge and cloud computing.&lt;/p&gt;
+&lt;p&gt;This award comes shortly after the most stable release of urunc so far, along
+with significant efforts from our team to streamline Firecracker support for
+the rust runtime of kata-containers.&lt;/p&gt;
+&lt;p&gt;Explore &lt;code&gt;urunc&lt;/code&gt; 0.4.0 today! Discover the &lt;a href=&#34;https://github.com/nubificus/urunc/releases/tag/v0.4.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;full release
+details&lt;/a&gt; and download
+&lt;a href=&#34;https://github.com/nubificus/urunc/releases/tag/v0.4.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;urunc&lt;/code&gt; 0.4.0&lt;/a&gt; from
+GitHub.&lt;/p&gt;
+&lt;figure&gt;
+        &lt;img src=&#34;images/hipeac-logo.png#floatright&#34; alt=&#34;&#34; /&gt;
+&lt;/figure&gt;
+HiPEAC (High-Performance Embedded Architecture and Compilation) is Europe’s
+leading network for researchers and industry professionals in computer
+architecture, programming models, and systems software. Its annual conference
+brings together experts from academia and industry to showcase cutting-edge
+research and technological advancements in computing systems, making it a key
+platform for innovation and collaboration in the field.
+&lt;figure&gt;
+        &lt;img src=&#34;images/urunc-logo.png#floatleft&#34; alt=&#34;&#34; /&gt;
+&lt;/figure&gt;
+Urunc is an open-source unikernel container runtime, designed to unlock the
+potential of unikernels in cloud-native environments. By combining efficiency,
+security, and ease of use, Urunc sets a new standard for lightweight container
+orchestration.
+</description>
+    </item>
+    
+    <item>
+      <title>Harnessing Artificial Intelligence for Early Identification of Autism Spectrum Disorder</title>
+      <link>/publication/vitanidi-2025/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/vitanidi-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integrating Heterogeneous Hardware and Software Platforms towards the Edge-Cloud-HPC Continuum</title>
+      <link>/publication/kretsis-2025-integrating/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/kretsis-2025-integrating/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MLIoT: Transparent and Secure ML Offloading in the Cloud-Edge-IoT Continuum</title>
+      <link>/publication/nanos-2025-mliot/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/nanos-2025-mliot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>urunc 0.4.0 Released!</title>
+      <link>/post/2024-12-09-urunc-040-released/</link>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/post/2024-12-09-urunc-040-released/</guid>
+      <description>&lt;figure&gt;
+        &lt;img src=&#34;images/urunc-logo.png#floatright&#34; alt=&#34;&#34; /&gt;
+        &lt;img src=&#34;images/docker-logo.webp#floatright&#34; alt=&#34;&#34; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;Nubificus proudly announces the release of &lt;code&gt;urunc&lt;/code&gt; 0.4.0, the next-generation
+unikernel container runtime. This release introduces new features, internal
+improvements, and expanded documentation, reflecting our commitment to enabling
+lightweight, secure, and high-performance unikernel adoption in modern
+containerized environments.&lt;/p&gt;
+&lt;h4 id=&#34;whats-new-in-urunc-040&#34;&gt;What’s new in &lt;code&gt;urunc&lt;/code&gt; 0.4.0?&lt;/h4&gt;
+&lt;h5 id=&#34;new-features&#34;&gt;New Features&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Docker Support: Seamless integration with Docker for broader compatibility
+and usability.&lt;/li&gt;
+&lt;li&gt;Seccomp Support in VMMs: Enhanced security through syscall filtering.&lt;/li&gt;
+&lt;li&gt;Block Image Support: Ability to use block images directly within &lt;code&gt;urunc&lt;/code&gt;&amp;rsquo;s
+container image.&lt;/li&gt;
+&lt;li&gt;Configurable Memory: Dynamically allocate memory based on container
+specifications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;documentation-revamp&#34;&gt;Documentation Revamp&lt;/h5&gt;
+&lt;p&gt;&lt;code&gt;urunc&lt;/code&gt;&amp;rsquo;s documentation has undergone a significant overhaul, now providing
+detailed guidance for users &amp;amp; developers. Explore the &lt;a href=&#34;https://nubificus.github.io/urunc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;new
+documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;h5 id=&#34;enhancements-to-internals&#34;&gt;Enhancements to Internals&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Network Cleanup: Automated deletion of TC rules and TAP devices when
+terminating unikernels.&lt;/li&gt;
+&lt;li&gt;Advanced Unikernel Interface: New functions for checking supported features, such as:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Init()&lt;/code&gt;: Initializes the unikernel structure based on arguments.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SupportsBlock()&lt;/code&gt;: Verifies block device support.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SupportsFS()&lt;/code&gt;: Checks compatibility with specific filesystem types.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Devmapper Enhancements: Refactored snapshot handling with a new
+&lt;code&gt;USE_DEVMAPPER_AS_BLOCK&lt;/code&gt; environment variable.&lt;/li&gt;
+&lt;li&gt;Static Networking: Enabled NAT and IP forwarding for improved connectivity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;annotations&#34;&gt;Annotations&lt;/h5&gt;
+&lt;p&gt;Urunc now supports custom annotations to streamline unikernel configurations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;com.urunc.unikernel.block&lt;/code&gt;: Specifies the block image path within the
+container.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;com.urunc.unikernel.blkMntPoint&lt;/code&gt;: Defines the mount point for the block
+image.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;com.urunc.unikernel.unikernelVersion&lt;/code&gt;: Indicates the version of the
+unikernel.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;cicd-and-building-improvements&#34;&gt;CI/CD and Building Improvements&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;New actions for unit testing and a restructured CI job workflow.&lt;/li&gt;
+&lt;li&gt;Transition to Github ARC runners for enhanced efficiency.&lt;/li&gt;
+&lt;li&gt;Build system refactor to improve usability and flexibility.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;miscellaneous-updates&#34;&gt;Miscellaneous Updates&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Support for Unikraft boot on arm64 Firecracker.&lt;/li&gt;
+&lt;li&gt;Refactor of container handling and improvements in path and annotation management.&lt;/li&gt;
+&lt;li&gt;Bug fixes and internal refinements to ensure stability and performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;why-this-matters&#34;&gt;Why This Matters&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;urunc&lt;/code&gt; 0.4.0 represents a step forward in making unikernels a practical and
+efficient choice for modern workloads. By introducing features like Docker
+support and block image compatibility, it bridges the gap between traditional
+containers and unikernels, offering a hybrid solution tailored to the needs of
+today’s developers.&lt;/p&gt;
+&lt;h5 id=&#34;quote-from-the-team&#34;&gt;Quote from the Team&lt;/h5&gt;
+&lt;p&gt;“This release is the result of tireless work and collaboration across our team.
+With &lt;code&gt;urunc&lt;/code&gt; 0.4.0, we are giving developers the opportunity to fully leverage
+the advantages of unikernels without sacrificing usability or compatibility
+with existing ecosystems”.&lt;/p&gt;
+&lt;p&gt;Explore &lt;code&gt;urunc&lt;/code&gt; 0.4.0 today! Discover the &lt;a href=&#34;https://github.com/nubificus/urunc/releases/tag/v0.4.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;full release
+details&lt;/a&gt; and download
+&lt;a href=&#34;https://github.com/nubificus/urunc/releases/tag/v0.4.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;urunc&lt;/code&gt; 0.4.0&lt;/a&gt; from
+GitHub.&lt;/p&gt;
+&lt;p&gt;Stay tuned for our next planned release featuring shared FS support, WASM
+unikernel support, MirageOS and many more!&lt;/p&gt;
+&lt;h5 id=&#34;about-urunc&#34;&gt;About Urunc&lt;/h5&gt;
+&lt;figure&gt;
+        &lt;img src=&#34;/images/urunc-logo.png#floatleft&#34; width=&#34;50px&#34; alt=&#34;&#34; /&gt;
+&lt;/figure&gt;
+Urunc is an open-source unikernel container runtime, designed to unlock the
+potential of unikernels in cloud-native environments. By combining efficiency,
+security, and ease of use, Urunc sets a new standard for lightweight container
+orchestration.
+</description>
+    </item>
+    
+    <item>
+      <title>Kata-containers: sandboxing container workloads for security and efficiency</title>
+      <link>/post/2024-07-10-kata-containers-sandboxing-container-workloads-for-security-and-efficiency/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>/post/2024-07-10-kata-containers-sandboxing-container-workloads-for-security-and-efficiency/</guid>
+      <description>&lt;figure&gt;
+        &lt;img src=&#34;images/kata-logo.png#floatleft&#34; alt=&#34;&#34; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;Anastassios Nanos delivered an insightful
+&lt;a href=&#34;https://youtu.be/2pNo8F3AMrw?t=10654&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;presentation&lt;/a&gt; at &lt;a href=&#34;https://oideurope2024.openinfra.dev/hungary/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenInfra Days
+Hungary&lt;/a&gt;, in Budapest, earlier
+this June, highlighting the innovative capabilities of the &lt;a href=&#34;https://katacontainers.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kata
+Containers&lt;/a&gt; project. The talk focused on the
+project&amp;rsquo;s advancements, particularly the introduction and maturity of the Rust
+runtimes, alongside the go version of the runtime, and demonstrated how the
+Kata team is leveraging these technologies to enhance the performance and
+security of serverless workloads. As a first time Architecture Committee member
+since April 2024, Dr Nanos presented the current status of the project, and how
+the team at Nubificus &amp;amp; Nubis is using kata-containers to sandbox serverless
+workloads, while exposing hardware acceleration capabilities by integrating
+vAccel to the container runtime.&lt;/p&gt;
+&lt;h5 id=&#34;key-highlights-of-the-presentation&#34;&gt;Key Highlights of the Presentation&lt;/h5&gt;
+&lt;figure&gt;
+        &lt;img src=&#34;images/oidh-photo2.png#center&#34; alt=&#34;&#34; style=&#34;floatright&#34; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;em&gt;Kata Containers Project Overview&lt;/em&gt;: Dr Nanos began by providing an overview of
+the Kata Containers project, an open-source initiative that integrates
+lightweight virtual machines (VMs) to enhance the security and isolation of
+containerized applications. He explained how Kata Containers combine the speed
+and flexibility of containers with the robust security features of VMs, making
+them an ideal solution for modern cloud-native applications.&lt;/p&gt;
+&lt;figure&gt;
+        &lt;img src=&#34;images/oidh-photo1.jpg#floatleft&#34; alt=&#34;&#34; style=&#34;floatleft;&#34; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;em&gt;Go and Rust Runtimes&lt;/em&gt;: A significant portion of the presentation was dedicated
+to the dual support for Go and Rust runtimes within Kata Containers. Dr Nanos
+detailed the journey from the initial Go runtime to the introduction of the
+Rust runtime, emphasizing the performance and safety benefits of Rust. He
+discussed the efforts to achieve feature parity between the two runtimes,
+enabling users to choose the runtime that best suits their needs without
+sacrificing functionality or performance.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Sandboxing Serverless Workloads&lt;/em&gt;: Dr Nanos illustrated how Kata Containers are
+being used to &lt;a href=&#34;https://dl.acm.org/doi/10.1145/3642977.3652096&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sandbox serverless
+workloads&lt;/a&gt;, a growing trend in
+cloud computing.  He explained that by using Kata Containers, the team can
+provide strong isolation for serverless functions, ensuring that workloads are
+securely sandboxed and isolated from one another. This approach not only
+enhances security but also improves the reliability and stability of serverless
+environments.&lt;/p&gt;
+&lt;figure&gt;
+        &lt;img src=&#34;images/vaccel-logo_draft.svg#floatright&#34; alt=&#34;&#34; style=&#34;floatleft;&#34; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;em&gt;vAccel Integration&lt;/em&gt;: One of the standout points of the talk was the
+integration of &lt;a href=&#34;https://docs.vaccel.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vAccel&lt;/a&gt; with Kata Containers. Dr Nanos
+explained how vAccel allows the exposure of hardware acceleration
+functionalities to sandboxed containers, significantly boosting the performance
+of compute-intensive tasks.  This integration enables developers to take full
+advantage of hardware acceleration within a secure and isolated environment,
+paving the way for more efficient and powerful applications.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Looking Ahead&lt;/em&gt;: Dr Nanos concluded his presentation with a look ahead to the
+future of Kata Containers, including the anticipated release of &lt;a href=&#34;https://github.com/orgs/kata-containers/projects/43&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kata
+Containers 4.0&lt;/a&gt;. He
+highlighted ongoing efforts to further unify the Go and Rust runtimes and to
+expand the project’s capabilities to meet the evolving needs of the
+cloud-native ecosystem.&lt;/p&gt;
+&lt;p&gt;The presentation at OpenInfra days Hungary underscored the Kata Containers
+project&amp;rsquo;s commitment to innovation and security in containerized environments.
+With its robust feature set and continued development, Kata Containers is
+poised to play a crucial role in the future of cloud-native infrastructure.&lt;/p&gt;
+&lt;p&gt;For more information about the Kata Containers project, visit
+&lt;a href=&#34;https://katacontainers.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;katacontainers.io&lt;/a&gt;. All demos presented are available online at
+&lt;a href=&#34;https://github.com/nubificus/openinfradayshu-demos&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Many thanks to the &lt;a href=&#34;https://openinfra.dev/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenInfra Foundation&lt;/a&gt; for hosting Dr Nanos, as well as to
+&lt;a href=&#34;https://desire6g.eu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DESIRE6G&lt;/a&gt; and &lt;a href=&#34;https://mlsysops.eu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MLSysOps&lt;/a&gt; for
+supporting the development of most of the work presented.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>vAccel v0.6 is out!</title>
+      <link>/post/2024-06-30-vaccel-v06-is-out/</link>
+      <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>/post/2024-06-30-vaccel-v06-is-out/</guid>
+      <description>&lt;figure&gt;
+        &lt;img src=&#34;images/vaccel-logo_draft.svg#floatright&#34; alt=&#34;&#34; style=&#34;floatleft;&#34; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;Nubificus LTD proudly presents the latest release of the vAccel framework.
+&lt;a href=&#34;https://github.com/cloudkernels/vaccelrt/releases/tag/v0.6.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vAccel v0.6.0&lt;/a&gt;
+is available, as well as a &lt;a href=&#34;https://github.com/cloudkernels/vaccelrt/releases/tag/v0.6.1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hot fix
+followup&lt;/a&gt; for
+&lt;code&gt;x86_64&lt;/code&gt;, &lt;code&gt;aarch64&lt;/code&gt;, and &lt;code&gt;armv7l&lt;/code&gt; architectures, with the essential binaries
+for users to get started.&lt;/p&gt;
+&lt;figure&gt;
+        &lt;img src=&#34;images/pytorch-logo.png#floatright&#34; alt=&#34;&#34; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;A major addition to our previous release is Torch support. Users are now able
+to run inference on Torch models seamlessly, on local and remote targets
+(CPU/GPU etc.). A short &lt;a href=&#34;https://youtu.be/6VMguN9fuHA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;screen cast&lt;/a&gt; is available
+to check torch with vAccel in action!&lt;/p&gt;
+&lt;p&gt;vAccel v0.6 includes updated &lt;a href=&#34;https://github.com/cloudkernels/vaccelrt/blob/main/docs/vaccel_args.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;helper
+functions&lt;/a&gt;
+for easier argument definition (&lt;code&gt;exec&lt;/code&gt;), as well as enhanced CI and
+&lt;a href=&#34;https://blog.cloudkernels.net/posts/testing_post/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;testing&lt;/a&gt; support.&lt;/p&gt;
+&lt;figure&gt;
+        &lt;img src=&#34;images/golang-logo.png#floatleft&#34; height=&#34;50px&#34; alt=&#34;&#34; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;A fun addition was native &lt;a href=&#34;https://github.com/nubificus/go-vaccel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;Golang&lt;/code&gt; bindings&lt;/a&gt;! Users can now natively interact with
+Go programs and enjoy hardware acceleration from simple web services! &lt;code&gt;Golang&lt;/code&gt;
+bindings helped a lot with our Knative integration!&lt;/p&gt;
+&lt;p&gt;vAccel v0.6 offers updated API remoting functionality over generic sockets,
+supporting &lt;code&gt;AF_VSOCK&lt;/code&gt; and &lt;code&gt;AF_INET&lt;/code&gt;, enabling local and remote
+execution over the network. &lt;code&gt;AF_VSOCK&lt;/code&gt; support is also updated with a streaming
+optimization, to reduce the amount of memory allocated by the gRPC transport
+layer.&lt;/p&gt;
+&lt;p&gt;This iteration&amp;rsquo;s update also contains important bug fixes and performance
+optimizations. For the list of changes, see the
+&lt;a href=&#34;https://github.com/cloudkernels/vaccelrt/releases/tag/v0.6.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RELEASE&lt;/a&gt; notes.&lt;/p&gt;
+&lt;p&gt;The individual components are packaged as binary artifacts or &lt;code&gt;deb&lt;/code&gt; packages
+for users to install them directly. For a list of the binary components please
+visit vAccel&amp;rsquo;s &lt;a href=&#34;https://docs.vaccel.org/binaries#binaries&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation page&lt;/a&gt;.
+The core vAccel library is open-source, available on
+&lt;a href=&#34;https://github.com/cloudkernels/vaccelrt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The roadmap for v0.7 contains enhanced Torch support, &lt;code&gt;OpenCV&lt;/code&gt;-native bindings, a
+&lt;code&gt;C++&lt;/code&gt;-based transport layer, the move to the &lt;code&gt;meson&lt;/code&gt; build system, and more!&lt;/p&gt;
+&lt;h4 id=&#34;vaccel&#34;&gt;vAccel&lt;/h4&gt;
+&lt;p&gt;vAccel enables workloads to enjoy hardware acceleration while running on
+environments that do not have direct (physical) access to acceleration devices.
+With a slim design and precise abstractions, &lt;a href=&#34;https://vaccel.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vAccel&lt;/a&gt;
+semantically exposes hardware acceleration features to users with little to no
+knowledge of software acceleration framework internals.&lt;/p&gt;
+&lt;figure&gt;
+        &lt;img src=&#34;images/kata-logo.png#floatleft&#34; alt=&#34;&#34; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;vAccel integrates with container runtimes such as
+&lt;a href=&#34;https://katacontainers.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;kata-containers&lt;/a&gt;. v0.6 brings updated support for
+kata-containers v3.X, both for the Go and rust runtimes, so deploying an
+application that requires hardware acceleration in a sandboxed container in
+&lt;a href=&#34;https://kubernetes.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;k8s&lt;/a&gt; is now possible without complicated hardware
+setups!&lt;/p&gt;
+&lt;p&gt;Serverless computing workflows are now able to enjoy compute-offload mechanisms
+to provide AI/ML services as functions, triggered thousands or millions of
+times by events, on-demand, auto-scaling to multiple physical and virtual
+nodes, without the need to directly attach a hardware device to the instance.
+This functionality is enabled through vAccel&amp;rsquo;s virtualization backends,
+enabling the execution of hardware-accelerated functions on Virtual Machines.
+Support for numerous hypervisors is available, including &lt;a href=&#34;https://firecracker-microvm.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AWS
+Firecracker&lt;/a&gt;,
+&lt;a href=&#34;https://github.com/qemu/qemu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QEMU/KVM&lt;/a&gt;, &lt;a href=&#34;https://www.cloudhypervisor.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cloud
+Hypervisor&lt;/a&gt;, and Dragonball, the stock
+hypervisor of kata-containers! See the &lt;a href=&#34;https://docs.vaccel.org/vm-example&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;relevant
+documentation&lt;/a&gt; on how to run an example on
+a VM.&lt;/p&gt;
+&lt;p&gt;End-users can get a sneak peek at what vAccel has to offer on the project&amp;rsquo;s
+&lt;a href=&#34;https://vaccel.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;website&lt;/a&gt;, on
+&lt;a href=&#34;https://github.com/cloudkernels/vaccelrt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt;, or by browsing through the available
+&lt;a href=&#34;https://docs.vaccel.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt;. To get started, follow the
+&lt;a href=&#34;https://docs.vaccel.org/quickstart&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quick start guide&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>KubeCon &#43; CloudNativeCon Europe 2024: Unikernels in K8s - Performance and Isolation for Serverless Computing with Knative</title>
+      <link>/event/kubeconeu2024/</link>
+      <pubDate>Fri, 22 Mar 2024 13:00:00 +0000</pubDate>
+      <guid>/event/kubeconeu2024/</guid>
+      <description>&lt;h2 id=&#34;code--resources&#34;&gt;Code &amp;amp; Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/urunc-dev/urunc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;urunc - Container Runtime Repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FOSDEM 2024</title>
+      <link>/post/2024-02-07-fosdem-2024/</link>
+      <pubDate>Wed, 07 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>/post/2024-02-07-fosdem-2024/</guid>
+      <description>&lt;figure&gt;
+        &lt;img src=&#34;images/FOSDEM_venue.jpg#floatright&#34; height=&#34;230px&#34; alt=&#34;&#34; style=&#34;border-radius: 10px&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&#34;https://fosdem.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FOSDEM 2024&lt;/a&gt; was a blast! Our team was there presenting
+our work around unikernels, and their interaction with the cloud-native world.&lt;/p&gt;
+&lt;p&gt;The first presentation took place in the Containers devroom, where we described
+the challenges of securing containers within VM or microVM sandboxes and the
+complexities of resource optimization on physical nodes. We presented &lt;code&gt;urunc&lt;/code&gt;, a
+CRI-compatible container runtime spawning unikernels packaged in OCI images.
+The talk highlighted &lt;code&gt;urunc&lt;/code&gt;&amp;rsquo;s internals, covering hypervisor support, network
+and storage handling, and integration with high-level orchestration frameworks
+like Kubernetes, while also addressing network setup implications when
+combining unikernels and generic containers in a k8s context.&lt;/p&gt;
+&lt;p&gt;In the Microkernel devroom, we continued our exploration of unikernels
+with a focus on modularity. The team presented &lt;code&gt;bunny&lt;/code&gt;, a novel build system
+aimed at simplifying the Unikernel building process. &lt;code&gt;bunny&lt;/code&gt; adopts a layered
+approach, making use of the modular aspect of Unikernels. Each component
+represents a distinct layer, eliminating the need for users to manually build
+dependencies. This approach allows for the creation of minimal and specialized
+Unikernel images tailored for individual applications.&lt;/p&gt;
+&lt;p&gt;These presentations highlight our commitment to simplify and optimize
+application delivery in diverse, heterogeneous infrastructure, providing
+valuable insights into security and system optimization in the evolving
+landscape of container technology.&lt;/p&gt;
+&lt;p&gt;Find below the slides and video recordings of the presentations, along with links to the devrooms full schedule.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A Modular Approach to Effortless and Dependency-Aware Unikernel Building, Microkernel and Component-based OS devroom &lt;a href=&#34;https://fosdem.org/2024/schedule/event/fosdem-2024-3456-a-modular-approach-to-effortless-and-dependency-aware-unikernel-building/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;session&lt;/a&gt; &lt;a href=&#34;https://fosdem.org/2024/events/attachments/fosdem-2024-3456-a-modular-approach-to-effortless-and-dependency-aware-unikernel-building/slides/22316/FOSDEM24-bunny_v1_Y1twYme.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;slides&lt;/a&gt; &lt;a href=&#34;https://live.fosdem.org/watch/ud2208&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt; &lt;a href=&#34;https://fosdem.org/2024/schedule/track/microkernel/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;devroom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;From Containers to Unikernels: Navigating Integration Challenges in Cloud-Native Environments, Containers devroom &lt;a href=&#34;https://fosdem.org/2024/schedule/event/fosdem-2024-3402-from-containers-to-unikernels-navigating-integration-challenges-in-cloud-native-environments/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;session&lt;/a&gt; &lt;a href=&#34;https://fosdem.org/2024/events/attachments/fosdem-2024-3402-from-containers-to-unikernels-navigating-integration-challenges-in-cloud-native-environments/slides/22484/FOSDEM24-urunc_8aePu2M.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;slides&lt;/a&gt; &lt;a href=&#34;https://live.fosdem.org/watch/ub2252a&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt; &lt;a href=&#34;https://fosdem.org/2024/schedule/track/containers/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;devroom&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;FOSDEM&lt;/strong&gt;&lt;/p&gt;
+&lt;figure&gt;
+        &lt;img src=&#34;images/FOSDEM_logo.svg.png#floatleft&#34; alt=&#34;&#34; style=&#34;border-radius: 10px&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;FOSDEM stands for &amp;ldquo;Free and Open Source Software Developers&amp;rsquo; European Meeting.&amp;rdquo;
+It is one of the largest gatherings of open-source developers and enthusiasts
+in the world. FOSDEM is an annual event that takes place in ULB Solbosch
+Campus, Brussels, Belgium, typically in late January or early February.&lt;/p&gt;
+&lt;p&gt;The conference provides a platform for developers, contributors, and users of
+free and open-source software to come together, share knowledge, collaborate on
+projects, and discuss the latest developments in the open-source community.
+FOSDEM is known for its diverse range of talks, developer rooms, and stands,
+covering a wide array of topics related to open-source software, including
+programming languages, operating systems, security, networking, and more.&lt;/p&gt;
+&lt;p&gt;FOSDEM is a free event, organized by volunteers, and it attracts participants
+from around the globe. The conference aims to foster collaboration and promote
+the principles of free and open-source software within the technology
+community.&lt;/p&gt;
+&lt;p&gt;Although statistics are not out yet, this year, getting into the talks was
+harder than ever. Rooms were filling up even 30&amp;rsquo; before the scheduled talks. As
+an indication, almost 855 events are recorded and are being transcoded to be
+available for online viewing. Our estimation is that there were almost 10000
+people in ULB.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FOSDEM 2024 - From Containers to Unikernels: Navigating Integration Challenges in Cloud-Native Environments</title>
+      <link>/event/fosdem2024/</link>
+      <pubDate>Sat, 03 Feb 2024 09:00:00 +0000</pubDate>
+      <guid>/event/fosdem2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EMPYREAN: Trustworthy, Cognitive and AI-driven Collaborative Associations of IoT Devices and Edge Resources for Data Processing</title>
+      <link>/publication/kretsis-2024-empyrean/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/kretsis-2024-empyrean/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enabling Cloud-native IoT Device Management</title>
+      <link>/publication/nanos-2024-enabling/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/nanos-2024-enabling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lightweight Sandboxing for Cloud-native 6G Services and Applications</title>
+      <link>/publication/nanos-2024-lightweight/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/nanos-2024-lightweight/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sandboxing functions for efficient and secure multi-tenant serverless deployments</title>
+      <link>/publication/mainas-2024-sandboxing/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/mainas-2024-sandboxing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SERRANO Project Concludes with Nubificus LTD laying the ground for Interoperable Hardware Acceleration and Secure Application Deployment</title>
+      <link>/post/2023-12-29-serrano-project-concludes-with-nubificus-ltd-laying-the-ground-for-interoperable-hardware-acceleration-and-secure-application-deployment/</link>
+      <pubDate>Fri, 29 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>/post/2023-12-29-serrano-project-concludes-with-nubificus-ltd-laying-the-ground-for-interoperable-hardware-acceleration-and-secure-application-deployment/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://ict-serrano.eu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SERRANO&lt;/a&gt; H2020 research project,
+a collaborative effort led by &lt;a href=&#34;https://www.iccs.gr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;ICCS&lt;/code&gt;&amp;rsquo;&lt;/a&gt; &lt;a href=&#34;http://hscnl.ece.ntua.gr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;High Speed
+Communication Networks Lab&lt;/a&gt;, successfully concludes,
+marking a significant breakthrough in various aspects of cloud- and edge-based
+computing technologies. The project aimed to introduce a novel ecosystem
+spanning application deployment software components, to systems software
+enabling the use of specialized hardware resources.&lt;/p&gt;
+&lt;p&gt;One of the key achievements of the SERRANO project is the work carried out by
+Nubificus LTD in enabling interoperable hardware acceleration using
+&lt;a href=&#34;https://vaccel.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vAccel&lt;/a&gt;. Nubificus LTD played a pivotal role in developing
+and implementing solutions that allow seamless interoperability among diverse
+hardware resources, contributing to enhanced performance and efficiency in
+Cloud and Edge computing.&lt;/p&gt;
+&lt;p&gt;Furthermore, Nubificus LTD has been instrumental in facilitating the deployment
+of applications in Cloud and Edge environments through the integration of
+secure and efficient container runtimes. Through the development of
+&lt;a href=&#34;https://github.com/nubificus/urunc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;urunc&lt;/a&gt;, an open-source, lightweight
+container runtime that spawns unikernels as generic containers Nubificus LTD
+paved the path for seamless applications deployment at the Edge, maintaining
+security standards and efficiency across various computing environments.&lt;/p&gt;
+&lt;p&gt;SERRANO&amp;rsquo;s ambitious goal of transforming distributed edge, cloud, and HPC
+resources into a single borderless infrastructure has been realized through the
+efforts of all partners. The project has not only closed existing technology
+gaps but has also set the stage for advanced infrastructures capable of meeting
+the stringent requirements of future applications and services.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SERRANO&lt;/strong&gt;&lt;/p&gt;
+&lt;figure&gt;
+        &lt;img src=&#34;images/serrano-architecture.png#floatright&#34; alt=&#34;&#34; style=&#34;border-radius: 10px&#34;/&gt;
+&lt;/figure&gt;
+ICT-40-2020 SERRANO Project (H2020 GA No 101017168): Transparent Application Deployment in a Secure, Accelerated and
+and Cognitive Cloud Continuum.
+SERRANO investigates the transparent deployment of applications in a
+secure and accelerated infrastructure of edge, cloud and HPC resources,
+based on FPGAs, GPUs, Virtual Platforms and Smart NICs, while
+facilitating their automated and cognitive orchestration.
+&lt;ul&gt;
+&lt;li&gt;SERRANO website: &lt;a href=&#34;https://ict-serrano.eu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://ict-serrano.eu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Twitter: &lt;a href=&#34;https://twitter.com/ProjectSerrano&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://twitter.com/ProjectSerrano&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;LinkedIn: &lt;a href=&#34;https://www.linkedin.com/company/serrano-project&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.linkedin.com/company/serrano-project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Researchgate:
+&lt;a href=&#34;https://www.researchgate.net/project/SERRANO-Transparent-Application-Deployment-in-a-Secure-Accelerated-and-Cognitive-Cloud-Continuum&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.researchgate.net/project/SERRANO-Transparent-Application-Deployment-in-a-Secure-Accelerated-and-Cognitive-Cloud-Continuum&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SERRANO</title>
+      <link>/projects/serrano/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>/projects/serrano/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;NUBIS contribution:&lt;/strong&gt; Involved in the systems software development, to enable transparent and interoperable execution of various types of workloads as standalone enclaves (containers, microVMs, VMs and unikernels), as well as in the security hardening of devices and application attestation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>5G-COMPLETE</title>
+      <link>/projects/5g-complete/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/projects/5g-complete/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;NUBIS contribution:&lt;/strong&gt; Involved in the MEC systems software, as well as the application deployment. Introduced Secure boot, application attestation and secure, cloud-native deployments for MEC-related applications.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nubificus LTD at Open Source Summit Europe 2023</title>
+      <link>/post/2023-09-29-nubificus-ltd-at-open-source-summit-europe-2023/</link>
+      <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>/post/2023-09-29-nubificus-ltd-at-open-source-summit-europe-2023/</guid>
+      <description>&lt;figure&gt;
+        &lt;img src=&#34;images/oss2023.png#floatleft&#34; alt=&#34;&#34; style=&#34;border-radius: 10px&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;Sep 18th-21st we were in Bilbao, Spain for the &lt;a href=&#34;https://events.linuxfoundation.org/open-source-summit-europe/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Open Source Summit Europe
+2023&lt;/a&gt;!  We had
+the opportunity to talk about open-source, meet friends, and make new ones!&lt;/p&gt;
+&lt;p&gt;It was a pleasure for us to &lt;a href=&#34;https://osseu2023.sched.com/event/1OGgY&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;present&lt;/a&gt;
+our work on bringing unikernels closer to the cloud-native world!
+&lt;a href=&#34;https://youtu.be/KokcFBRTGlM?t=12525&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Video&lt;/a&gt;
+&lt;a href=&#34;https://static.sched.com/hosted_files/osseu2023/56/OSS2023-NBFC-urunc.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In this session, we went through the options that users have to deploy
+applications in Cloud &amp;amp; Edge environments. We talked about containers,
+sandboxed containers, and unikernels, introduced our own container runtime
+tailored to unikernels, and presented the integration effort we have undertaken
+to allow unikernels to execute in k8s &amp;amp; Serverless Computing frameworks.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/nubificus/urunc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;urunc&lt;/a&gt; is an open-source, lightweight
+container runtime that spawns unikernels as generic containers. To facilitate
+the packaging of unikernels as OCI artifacts, we built
+&lt;a href=&#34;https://github.com/nubificus/bima&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bima&lt;/a&gt;, a tool that automates the process of
+injecting unikernel binaries into container image layers and adds metadata that
+are later used by urunc.&lt;/p&gt;
+&lt;p&gt;This work is supported by EU H2020 research and innovation programmes, under
+Grant Agreements 101017168 (SERRANO) and 871900 (5G-COMPLETE).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OSS 2023: URUNC - A Unikernel Container Runtime</title>
+      <link>/event/oss2023/</link>
+      <pubDate>Wed, 20 Sep 2023 12:40:00 +0000</pubDate>
+      <guid>/event/oss2023/</guid>
+      <description>&lt;h2 id=&#34;code--resources&#34;&gt;Code &amp;amp; Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/urunc-dev/urunc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;urunc - Container Runtime Repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nubificus/bima&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bima - Unikernel Containerization Tool&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Unikraft Hackathon</title>
+      <link>/post/2023-03-20-unikraft-hackathon/</link>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>/post/2023-03-20-unikraft-hackathon/</guid>
+      <description>&lt;figure&gt;
+        &lt;img src=&#34;images/hack-athens23.jpg#floatleft&#34; alt=&#34;&#34; style=&#34;border-radius: 12%&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;We are excited to host a Unikraft Hackathon in Athens, GR!  It is a great
+opportunity for students, professionals and systems software enthousiasts to
+meet, exchange ideas, and code together in this two-day event!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://nubificus.co.uk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nubificus LTD&lt;/a&gt;, along with the &lt;a href=&#34;https://unikraft.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unikraft
+community&lt;/a&gt;, the &lt;a href=&#34;http://hscnl.ece.ntua.gr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;High Speed Communication Networks Lab
+(HSCN)&lt;/a&gt; and the &lt;a href=&#34;http://research.cslab.ece.ntua.gr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Computing Systems Lab
+(CSLab)&lt;/a&gt; of the &lt;a href=&#34;https://ntua.gr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Technical
+University of Athens (ICCS/NTUA)&lt;/a&gt; come together to organize
+the &lt;a href=&#34;https://unikraft.org/community/hackathons/2023-03-athens/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unikraft Athens
+Hackathon&lt;/a&gt; to be
+held on Thursday and Friday, March 30-31, 2023.&lt;/p&gt;
+&lt;p&gt;As part of the Unikraft community &lt;a href=&#34;https://github.com/razvand/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Răzvan
+Deaconescu&lt;/a&gt; and &lt;a href=&#34;https://github.com/StefanJum&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ștefan
+Jumărea&lt;/a&gt; will be present on-site, with other
+community members providing support online, on Discord.&lt;/p&gt;
+&lt;p&gt;At the end of the first day, starting at 16:15, we will host a short session with invited talks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;The Value of Unikernels in the Emerging Disaggregated HPC and AI Clusters&amp;rdquo;,
+&lt;a href=&#34;https://www.linkedin.com/in/dimitris-syrivelis-3208533&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dimitris Syrivelis&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;Unikernels for Serverless&amp;rdquo;, &lt;a href=&#34;https://github.com/ananos&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Anastassios Nanos&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;Running MPI applications on Toro unikernel&amp;rdquo;, &lt;a href=&#34;https://github.com/MatiasVara/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Matias Vara
+Larsen&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The hackathon will take place as an in-person event at the &lt;a href=&#34;https://goo.gl/maps/MPyEqnuUn4HStTdt5&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Multimedia
+Amphitheater&lt;/a&gt; at the Zografou campus of
+NTUA. The full address is: Multimedia Amphitheater, Central Library Building,
+Heroon Polytechniou 9, 15780 Zografou, Greece.&lt;/p&gt;
+&lt;p&gt;Support information and discussions will take place on
+&lt;a href=&#34;http://bit.ly/UnikraftDiscord&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Discord&lt;/a&gt; on the #hack-athens23 channel.&lt;/p&gt;
+&lt;h4 id=&#34;unikraft&#34;&gt;Unikraft&lt;/h4&gt;
+&lt;figure&gt;
+        &lt;img src=&#34;images/unikraft-u.svg#floatleft&#34; alt=&#34;&#34; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;Unikraft is a fast, secure and open-source Unikernel Development Kit,
+optimizing application execution by tailoring the operating system, libraries
+and configuration to the particular needs of the application. It vastly reduces
+virtual machine and container image sizes to a few KBs, provides blazing
+performance, and drastically cuts down the software stack’s attack surface.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FOSDEM 2023: Hardware Acceleration for Unikernels - A Status Update of vAccel</title>
+      <link>/event/fosdem2023/</link>
+      <pubDate>Sun, 05 Feb 2023 14:00:00 +0000</pubDate>
+      <guid>/event/fosdem2023/</guid>
+      <description>&lt;h2 id=&#34;code--resources&#34;&gt;Code &amp;amp; Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.vaccel.org/latest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vAccel Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nubificus/vaccel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vAccel Core Library Source&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cloudkernels/vaccel/releases/tag/v0.5.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vAccel v0.5.0 Release&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>vAccel v0.5.0 is out!</title>
+      <link>/post/2023-01-30-vaccel-v050-is-out/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>/post/2023-01-30-vaccel-v050-is-out/</guid>
+      <description>&lt;figure&gt;
+        &lt;img src=&#34;images/vaccel-logo_draft.svg#floatright&#34; alt=&#34;&#34; style=&#34;floatleft;&#34; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;Nubificus LTD proudly presents the latest release of the vAccel framework.
+vAccel v0.5.0 is available as a &lt;a href=&#34;https://github.com/cloudkernels/vaccel/releases/tag/v0.5.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tar
+bundle&lt;/a&gt; for &lt;code&gt;x86_64&lt;/code&gt;
+and &lt;code&gt;aarch64&lt;/code&gt; architectures, with the essential binaries for users to get started.&lt;/p&gt;
+&lt;p&gt;Additionally, the individual components are packaged as binary artifacts or &lt;code&gt;deb&lt;/code&gt;
+packages for users to install them directly. For a list of the binary
+components please visit vAccel&amp;rsquo;s &lt;a href=&#34;https://docs.vaccel.org/binaries#binaries&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation
+page&lt;/a&gt;. The core vAccel library is
+open-source, available on &lt;a href=&#34;https://github.com/cloudkernels/vaccelrt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;vaccel&#34;&gt;vAccel&lt;/h4&gt;
+&lt;p&gt;vAccel enables workloads to enjoy hardware acceleration while running on
+environments that do not have direct (physical) access to acceleration devices.
+With a slim design and precise abstractions, &lt;a href=&#34;https://vaccel.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vAccel&lt;/a&gt;
+semantically exposes hardware acceleration features to users with little to no
+knoweldge of software acceleration framework internals.&lt;/p&gt;
+&lt;figure&gt;
+        &lt;img src=&#34;images/kata-logo.png#floatleft&#34; alt=&#34;&#34; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;vAccel integrates with container runtimes such as
+&lt;a href=&#34;https://katacontainers.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;kata-containers&lt;/a&gt;. v0.5.0 brings updated support for
+kata-containers v3.0, so deploying an application that requires hardware
+acceleration in a sandboxed container in &lt;a href=&#34;https://kubernetes.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;k8s&lt;/a&gt; is now
+possible without complicated hardware setups!&lt;/p&gt;
+&lt;figure&gt;
+        &lt;img src=&#34;images/unikraft-u.svg#floatright&#34; alt=&#34;&#34; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;A subset of vAccel&amp;rsquo;s API is also integrated with Unikernel frameworks such as
+&lt;a href=&#34;https://unikraft.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unikraft&lt;/a&gt;. See the &lt;a href=&#34;https://docs.vaccel.org/unikernels/unikernels&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;relevant
+documentation&lt;/a&gt; for more information on how
+to get started!&lt;/p&gt;
+&lt;p&gt;Serverless computing workflows are now able to enjoy compute-offload mechanisms
+to provide AI/ML services as functions, triggered thousands or millions of
+times by events, on-demand, auto-scaling to multiple physical and virtual
+nodes, without the need to directly attach a hardware device to the instance.
+This functionality is enabled through vAccel&amp;rsquo;s virtualization backends,
+enabling the execution of hardware-accelerated functions on Virtual Machines.
+Support for numerous hypervisors is available, including &lt;a href=&#34;https://firecracker-microvm.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AWS
+Firecracker&lt;/a&gt;,
+&lt;a href=&#34;https://github.com/qemu/qemu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QEMU/KVM&lt;/a&gt;, &lt;a href=&#34;https://www.cloudhypervisor.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cloud
+Hypervisor&lt;/a&gt;, etc.  See the &lt;a href=&#34;https://docs.vaccel.org/vm-example&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;relevant
+documentation&lt;/a&gt; on how to run an example on
+a VM.&lt;/p&gt;
+&lt;p&gt;vAccel v0.5.0 offers enhanced API remoting functionality over generic sockets,
+supporting &lt;code&gt;AF_VSOCK&lt;/code&gt; and &lt;code&gt;AF_INET&lt;/code&gt;, enabling local (intra-node) and remote
+execution over the network. Optimized &lt;code&gt;AF_VSOCK&lt;/code&gt; support is also offered using
+the &lt;code&gt;virtio-vsock&lt;/code&gt; backend on QEMU/KVM, AWS Firecracker, Cloud hypervisor,
+Dragonball and any other hypervisor that supports &lt;code&gt;virtio-vsock&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;This iteration&amp;rsquo;s update also contains important bug fixes and performance
+optimizations.&lt;/p&gt;
+&lt;p&gt;The roadmap for v0.6.0 contains PyTorch support (currently under development).&lt;/p&gt;
+&lt;p&gt;End-users can get a sneak peek at what vAccel has to offer on the project&amp;rsquo;s
+&lt;a href=&#34;https://vaccel.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;website&lt;/a&gt;, on
+&lt;a href=&#34;https://github.com/cloudkernels/vaccelrt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt;, or by browsing through the available
+&lt;a href=&#34;https://docs.vaccel.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt;. To get started, follow the
+&lt;a href=&#34;https://docs.vaccel.org/quickstart&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Quickstart guide&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Minimal Testbed for Experimenting with Flexible Resource and Application Management in Heterogeneous Edge-Cloud Systems.</title>
+      <link>/publication/patras-2023-minimal/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/patras-2023-minimal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intent-Based AI-Enhanced Service Orchestration for Application Deployment and Execution in the Cloud Continuum</title>
+      <link>/publication/chondrogiannis-2023-intent/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/chondrogiannis-2023-intent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Orchestration for Application Deployment</title>
+      <link>/publication/spuataru-2023-orchestration/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/spuataru-2023-orchestration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security-Aware Resource Allocation in the Edge-Cloud Continuum</title>
+      <link>/publication/soumplis-2023-security/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/soumplis-2023-security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tour</title>
+      <link>/tour/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/tour/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DUAC 2022: vAccel - Interoperable Application Hardware Acceleration</title>
+      <link>/event/duac2022/</link>
+      <pubDate>Thu, 01 Sep 2022 09:00:00 +0000</pubDate>
+      <guid>/event/duac2022/</guid>
+      <description>&lt;h2 id=&#34;code--resources&#34;&gt;Code &amp;amp; Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.vaccel.org/latest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vAccel Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nubificus/vaccel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vAccel Core Library Source&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=-_mgEVP4Dnc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vAccel Demo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The 2022 Innovation Radar praises Nubificus&#39; work on Serverless Computing</title>
+      <link>/post/2022-08-22-the-2022-innovation-radar-praises-nubificus-work-on-serverless-computing/</link>
+      <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>/post/2022-08-22-the-2022-innovation-radar-praises-nubificus-work-on-serverless-computing/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;images/ir-logo.png#floatright&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Nubificus LTD has been identified by the European Commission&amp;rsquo;s &lt;a href=&#34;https://www.innoradar.eu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Innovation
+Radar&lt;/a&gt; as a high potential innovator for their work
+on Serverless computing. Specifically, EC&amp;rsquo;s &lt;a href=&#34;https://www.innoradar.eu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IR&lt;/a&gt;
+identified the Serverless Framework that Nubificus LTD develops as having a
+high potential for innovation. The lightweight serverless framework for the
+Edge is being developed as part of the 5G-COMPLETE Horizon 2020-funded project.&lt;/p&gt;
+&lt;p&gt;The framework to provide &lt;a href=&#34;https://www.innoradar.eu/innovation/43607&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fast, Secure &amp;amp; Efficient Serverless for the
+Edge&lt;/a&gt; was assessed by the IR
+(&lt;a href=&#34;https://www.innoradar.eu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.innoradar.eu&lt;/a&gt;) as technology that addresses the needs of existing
+markets and falls under IR&amp;rsquo;s
+&lt;em&gt;&lt;a href=&#34;https://www.innoradar.eu/methodology/#maturity-info&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;exploring&lt;/a&gt;&lt;/em&gt; category.
+This category prizes organizations&amp;rsquo; initiative to take steps to actively
+explore value creation opportunities, commercialization and the pursuit of
+concrete market-oriented ideas that advance technology development processes.&lt;/p&gt;
+&lt;h4 id=&#34;5g-complete&#34;&gt;5G-COMPLETE&lt;/h4&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;images/cropped-5g-complete-logo-horizontal.png#floatleft&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+The 5G-COMPLETE project aims to revolutionize the 5G architecture, by
+efficiently combining compute and storage resource functionality over a unified
+ultra-high capacity converged digital/analog Fiber-Wireless (FiWi) Radio Access
+Network (RAN). By employing the recent advances in Ethernet fronthauling
+introduced by the eCPRI standard as a launching point, 5G-COMPLETE introduces
+and combines a series of key technologies under a unique architectural
+proposition. Nubificus particular focus is on the rapid and cost-efficient
+service deployment through lightweight virtualization mechanisms and unikernel
+technology.&lt;/p&gt;
+&lt;p&gt;The unique systems software components stemmed from the project are leveraged
+to explore disruptive technologies for Serverless computing and extracted the
+essential features to allow workloads to be deployed and executed securely, at
+the Edge, supporting hardware acceleration functionality.&lt;/p&gt;
+&lt;h4 id=&#34;innovation-radar&#34;&gt;Innovation Radar&lt;/h4&gt;
+&lt;p&gt;The Innovation Radar is a European Commission initiative that identifies high
+potential innovations and innovators in EU-funded research and innovation
+projects. It bases its selection on information and data gathered by
+independent experts who review research and innovation projects funded by the
+European Commission.&lt;/p&gt;
+&lt;p&gt;The goal of the Innovation Radar platform is to show citizens the scientific
+and technological advances that take place thanks to the Commission&amp;rsquo;s funding.
+By providing greater access to such information, the platform hopes to
+encourage the development of a dynamic ecosystem of incubators, entrepreneurs,
+funding agencies and investors that can help get EU-funded innovations to the
+market faster.&lt;/p&gt;
+&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Innovation Radar: &lt;a href=&#34;https://www.innoradar.eu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.innoradar.eu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;5G-COMPLETE website: &lt;a href=&#34;https://5gcomplete.eu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://5gcomplete.eu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Twitter: &lt;a href=&#34;https://twitter.com/5gcomplete&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://twitter.com/5gcomplete&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;LinkedIn: &lt;a href=&#34;https://www.linkedin.com/company/5g-complete&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.linkedin.com/company/5gcomplete&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OpenInfra Summit 2022: Interoperable Hardware Acceleration for Serverless</title>
+      <link>/event/openinfra2022/</link>
+      <pubDate>Wed, 08 Jun 2022 09:00:00 +0000</pubDate>
+      <guid>/event/openinfra2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nubificus LTD enables efficient &amp; secure execution at the edge</title>
+      <link>/post/2021-05-11-nubificus-ltd-enables-efficient-secure-execution-at-the-edge/</link>
+      <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+      <guid>/post/2021-05-11-nubificus-ltd-enables-efficient-secure-execution-at-the-edge/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;images/serrano-logo.png#floatright&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+Nubificus LTD participates in the ICT-40-2020 SERRANO Project (H2020 GA No
+101017168): Transparent Application Deployment in a Secure, Accelerated and
+Cognitive Cloud Continuum, which kicked off in January 2021 and will last three
+years. SERRANO consortium consists of 11 partners from industry and academia.
+SERRANO investigates the transparent deployment of applications in a secure and
+accelerated infrastructure of edge, cloud and HPC resources, based on FPGAs,
+GPUs, Virtual Platforms and Smart NICs, while facilitating their automated and
+cognitive orchestration.&lt;/p&gt;
+&lt;p&gt;SERRANO investigates the transparent deployment of applications in a
+secure and accelerated infrastructure of edge, cloud and HPC resources,
+based on FPGAs, GPUs, Virtual Platforms and Smart NICs, while
+facilitating their automated and cognitive orchestration.&lt;/p&gt;
+&lt;p&gt;Nubificus LTD will lead the development of lightweight mechanisms to enable
+workload isolation and trusted execution in multi-tenancy nodes, hardware
+acceleration abstractions for serverless workloads and the development of
+resource orchestration and lightweight virtualization mechanisms.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SERRANO website: &lt;a href=&#34;https://ict-serrano.eu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://ict-serrano.eu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Twitter: &lt;a href=&#34;https://twitter.com/ProjectSerrano&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://twitter.com/ProjectSerrano&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;LinkedIn: &lt;a href=&#34;https://www.linkedin.com/company/serrano-project&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.linkedin.com/company/serrano-project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Researchgate:
+&lt;a href=&#34;https://www.researchgate.net/project/SERRANO-Transparent-Application-Deployment-in-a-Secure-Accelerated-and-Cognitive-Cloud-Continuum&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.researchgate.net/project/SERRANO-Transparent-Application-Deployment-in-a-Secure-Accelerated-and-Cognitive-Cloud-Continuum&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SERRANO: transparent application deployment in a secure, accelerated and cognitive cloud continuum</title>
+      <link>/publication/kretsis-2021-serrano/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/kretsis-2021-serrano/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vAccel now available on Firecracker</title>
+      <link>/post/2020-12-04-110000&#43;0000-vaccel-now-available-on-firecracker/</link>
+      <pubDate>Fri, 04 Dec 2020 11:00:00 +0000</pubDate>
+      <guid>/post/2020-12-04-110000&#43;0000-vaccel-now-available-on-firecracker/</guid>
+      <description>&lt;p&gt;Today, Nubificus LTD introduced &lt;a href=&#34;https://blog.cloudkernels.net/posts/vaccel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vAccel&lt;/a&gt; support on &lt;a href=&#34;https://firecracker-microvm.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AWS Firecracker&lt;/a&gt;,
+opening the door for enabling hardware acceleration for serverless computing.&lt;/p&gt;
+&lt;p&gt;With a slim design and precise abstractions, &lt;a href=&#34;https://blog.cloudkernels.net/posts/vaccel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vAccel&lt;/a&gt; semantically exposes
+hardware acceleration features to users with little to no knoweldge of software
+acceleration framework internals.&lt;/p&gt;
+&lt;p&gt;Serverless computing workflows are now able to enjoy compute-offload mechanisms
+to provide AI/ML services as functions, triggered thousands or millions of
+times by events, on-demand, auto-scaling to multiple physical and virtual
+nodes.&lt;/p&gt;
+&lt;p&gt;The core of vAccel is the runtime system, essentially a library, that
+translates complicated compute frameworks to meaningful functions that users
+can directly call. These frameworks, commonly used on hardware accelerators,
+such as TensorRT, Tensorflow, Jetson-inference, or even lower-level
+abstractions such as CUDA, OpenCL, OpenACC, are now easily usable by the
+end-user via vAccel. Moreover, vAccel offers a virtualization backend,
+facilitating the execution of functions on Virtual Machines. Apart from support
+for AWS Firecracker, &lt;a href=&#34;https://blog.cloudkernels.net/posts/vaccel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QEMU/KVM support&lt;/a&gt; is also availabe.&lt;/p&gt;
+&lt;p&gt;End-users can get a sneak peek at what vAccel on AWS Firecracker has to offer
+on the project&amp;rsquo;s &lt;a href=&#34;https://vaccel.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;website&lt;/a&gt;, on &lt;a href=&#34;https://github.com/cloudkernels/vaccelrt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt;, or on-prem, by using the
+distributed binaries, or just a container image. To get started, follow one of
+the tutorials currently available at &lt;a href=&#34;https://blog.cloudkernels.net&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.cloudkernels.net&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Extending storage support for unikernel containers</title>
+      <link>/publication/nikolos-2019-extending/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/nikolos-2019-extending/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DPDNS Introduction and Committees</title>
+      <link>/publication/avresky-2015-dpdns/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/avresky-2015-dpdns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>I/O performance modeling for big data applications over cloud infrastructures</title>
+      <link>/publication/mytilinis-2015-performance/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/mytilinis-2015-performance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>V4vsockets: Low-overhead intra-node communication in xen</title>
+      <link>/publication/nanos-2015-v-4-vsockets/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/nanos-2015-v-4-vsockets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xen2MX: High-performance communication in virtualized environments</title>
+      <link>/publication/nanos-2014-xen-2-mx/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/nanos-2014-xen-2-mx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>7th Workshop on Virtualization in High-Performance Cloud Computing--VHPC2012</title>
+      <link>/publication/alexander-20127-th/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/alexander-20127-th/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xen2MX: towards high-performance communication in the cloud</title>
+      <link>/publication/nanos-2012-xen-2-mx/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/nanos-2012-xen-2-mx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Smart HPC interconnect for clusters of Virtual Machines</title>
+      <link>/publication/nanos-2011-smart/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/nanos-2011-smart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coexisting scheduling policies boosting I/O virtual machines</title>
+      <link>/publication/aragiorgis-2011-coexisting/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/aragiorgis-2011-coexisting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring I/O virtualization data paths for MPI applications in a cluster of VMs: a networking perspective</title>
+      <link>/publication/nanos-2010-exploring/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/nanos-2010-exploring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GMBlock: Optimizing data movement in a block-level storage sharing system over myrinet</title>
+      <link>/publication/koukis-2010-gmblock/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/koukis-2010-gmblock/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MyriXen: message passing in Xen virtual machines over Myrinet and Ethernet</title>
+      <link>/publication/nanos-2009-myrixen/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/nanos-2009-myrixen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synchronized send operations for efficient streaming block I/O over Myrinet</title>
+      <link>/publication/koukis-2008-synchronized/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/koukis-2008-synchronized/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/admin/config.yml</guid>
+      <description></description>
     </item>
     
   </channel>

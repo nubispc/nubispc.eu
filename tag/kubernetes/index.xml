@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kubernetes | Nubificus</title>
+    <link>/tag/kubernetes/</link>
+      <atom:link href="/tag/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kubernetes</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 03 Sep 2025 17:30:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu_f553cb9eef83bc41.png</url>
+      <title>Kubernetes</title>
+      <link>/tag/kubernetes/</link>
+    </image>
+    
+    <item>
+      <title>ContainerDays Hamburg 2025: Unikernel Deployment Made Easy: A CRI-Compatible Runtime for Secure Cloud Deployments</title>
+      <link>/event/containerdays2025/</link>
+      <pubDate>Wed, 03 Sep 2025 17:30:00 +0000</pubDate>
+      <guid>/event/containerdays2025/</guid>
+      <description>&lt;h2 id=&#34;further-reading&#34;&gt;Further Reading&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.cloudkernels.net/posts/urunc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;urunc - A Container Runtime for Unikernels&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.cloudkernels.net/posts/wasm-urunc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WebAssembly and urunc Integration&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Container Plumbing Days - urunc: A Container runtime for unikernels and single application kernels</title>
+      <link>/event/containerplumbing2025/</link>
+      <pubDate>Thu, 28 Aug 2025 13:50:00 +0000</pubDate>
+      <guid>/event/containerplumbing2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OSS 2025 - Cloud Native IoT: OTA Updates and Device Repurposing</title>
+      <link>/event/oss2025/</link>
+      <pubDate>Tue, 26 Aug 2025 11:55:00 +0000</pubDate>
+      <guid>/event/oss2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud-native Summit Munich 2025: Isolating Workloads in Multi-Tenant Kubernetes Clusters</title>
+      <link>/event/cloudnativesummit2025/</link>
+      <pubDate>Tue, 04 Feb 2025 16:00:00 +0000</pubDate>
+      <guid>/event/cloudnativesummit2025/</guid>
+      <description>&lt;h2 id=&#34;further-reading&#34;&gt;Further Reading&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.cloudkernels.net/posts/urunc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;urunc - A Container Runtime for Unikernels&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.cloudkernels.net/posts/wasm-urunc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WebAssembly and urunc Integration&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>KubeCon &#43; CloudNativeCon Europe 2024: Unikernels in K8s - Performance and Isolation for Serverless Computing with Knative</title>
+      <link>/event/kubeconeu2024/</link>
+      <pubDate>Fri, 22 Mar 2024 13:00:00 +0000</pubDate>
+      <guid>/event/kubeconeu2024/</guid>
+      <description>&lt;h2 id=&#34;code--resources&#34;&gt;Code &amp;amp; Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/urunc-dev/urunc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;urunc - Container Runtime Repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OpenInfra Summit 2022: Interoperable Hardware Acceleration for Serverless</title>
+      <link>/event/openinfra2022/</link>
+      <pubDate>Wed, 08 Jun 2022 09:00:00 +0000</pubDate>
+      <guid>/event/openinfra2022/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
