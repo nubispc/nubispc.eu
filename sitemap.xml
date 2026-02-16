@@ -42,6 +42,38 @@
     <lastmod>2026-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>/blog/urunc_agent/</loc>
+    <lastmod>2026-02-11T00:22:12+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/container-runtimes/</loc>
+    <lastmod>2026-02-11T00:22:12+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/containers/</loc>
+    <lastmod>2026-02-11T00:22:12+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/k8s/</loc>
+    <lastmod>2026-02-11T00:22:12+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/kubernetes/</loc>
+    <lastmod>2026-02-11T00:22:12+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/</loc>
+    <lastmod>2026-02-11T00:22:12+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/unikernels/</loc>
+    <lastmod>2026-02-11T00:22:12+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/urunc/</loc>
+    <lastmod>2026-02-11T00:22:12+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/tag/completed/</loc>
     <lastmod>2026-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -56,6 +88,70 @@
   </url><url>
     <loc>/projects/desire6g/</loc>
     <lastmod>2025-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/fetch_models_in_c/</loc>
+    <lastmod>2025-10-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/ai/</loc>
+    <lastmod>2025-10-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/c/</loc>
+    <lastmod>2025-10-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/inference/</loc>
+    <lastmod>2025-10-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/kserve/</loc>
+    <lastmod>2025-10-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/models/</loc>
+    <lastmod>2025-10-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/oci/</loc>
+    <lastmod>2025-10-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/vaccel/</loc>
+    <lastmod>2025-10-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/automation/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/ci/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/ci/cd/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/cosign/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/dependabot/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/github-actions/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/harbor/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/gh_runner_updates/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/people/</loc>
@@ -78,10 +174,6 @@
     <lastmod>2025-09-03T17:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/tag/kubernetes/</loc>
-    <lastmod>2025-09-03T17:30:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>/event/</loc>
     <lastmod>2025-09-03T17:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -90,19 +182,7 @@
     <lastmod>2025-09-03T17:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/tag/unikernels/</loc>
-    <lastmod>2025-09-03T17:30:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tag/urunc/</loc>
-    <lastmod>2025-09-03T17:30:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>/event/containerplumbing2025/</loc>
-    <lastmod>2025-08-28T13:50:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tag/containers/</loc>
     <lastmod>2025-08-28T13:50:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -134,6 +214,22 @@
     <lastmod>2025-08-26T11:55:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>/tag/multi-cores/</loc>
+    <lastmod>2025-07-11T08:02:51+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/slowdown/</loc>
+    <lastmod>2025-07-11T08:02:51+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/torch/</loc>
+    <lastmod>2025-07-11T08:02:51+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/torch-arm-debug/</loc>
+    <lastmod>2025-07-11T08:02:51+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/post/</loc>
     <lastmod>2025-07-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -148,6 +244,26 @@
   </url><url>
     <loc>/post/2025-06-25-vaccel-v07-released/</loc>
     <lastmod>2025-06-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/ttrpc-tcp/</loc>
+    <lastmod>2025-06-22T08:02:51+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/nagle/</loc>
+    <lastmod>2025-06-22T08:02:51+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/rust/</loc>
+    <lastmod>2025-06-22T08:02:51+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/tcp/</loc>
+    <lastmod>2025-06-22T08:02:51+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/ttrpc/</loc>
+    <lastmod>2025-06-22T08:02:51+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/post/2025-04-10-urunc-v050-released-more-unikernel-power-now-k8s-native/</loc>
@@ -298,12 +414,96 @@
     <lastmod>2024-12-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>/tag/actions/</loc>
+    <lastmod>2024-12-03T14:28:46+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/armv7l/</loc>
+    <lastmod>2024-12-03T14:28:46+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/github/</loc>
+    <lastmod>2024-12-03T14:28:46+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/github-runner-armv7l/</loc>
+    <lastmod>2024-12-03T14:28:46+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/akri/</loc>
+    <lastmod>2024-11-23T09:28:46+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/cloud-native-iot_v2/</loc>
+    <lastmod>2024-11-23T09:28:46+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/mewz/</loc>
+    <lastmod>2024-11-21T15:22:12+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/wasm-urunc/</loc>
+    <lastmod>2024-11-21T15:22:12+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/crd/</loc>
+    <lastmod>2024-11-11T08:10:38+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/developers/</loc>
+    <lastmod>2024-11-11T08:10:38+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/event/</loc>
+    <lastmod>2024-11-11T08:10:38+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/fosscomm/</loc>
+    <lastmod>2024-11-11T08:10:38+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/fosscomm-2024/</loc>
+    <lastmod>2024-11-11T08:10:38+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/kata-containers/</loc>
+    <lastmod>2024-11-11T08:10:38+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/virtualization/</loc>
+    <lastmod>2024-11-11T08:10:38+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/crd/</loc>
+    <lastmod>2024-11-07T08:02:51+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/cloud-native-iot/</loc>
+    <lastmod>2024-08-08T14:28:46+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/post/2024-07-10-kata-containers-sandboxing-container-workloads-for-security-and-efficiency/</loc>
     <lastmod>2024-07-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/post/2024-06-30-vaccel-v06-is-out/</loc>
     <lastmod>2024-06-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/wpa/</loc>
+    <lastmod>2024-05-08T09:31:04+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/esp32/</loc>
+    <lastmod>2024-05-08T09:31:04+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/esp32_wifi/</loc>
+    <lastmod>2024-05-08T09:31:04+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/wifi/</loc>
+    <lastmod>2024-05-08T09:31:04+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/tag/knative/</loc>
@@ -326,8 +526,28 @@
     <lastmod>2024-02-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>/blog/gar_k8s/</loc>
+    <lastmod>2024-02-05T09:31:04+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/event/fosdem2024/</loc>
     <lastmod>2024-02-03T09:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/testing/</loc>
+    <lastmod>2024-01-10T14:41:40+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/testing_post/</loc>
+    <lastmod>2024-01-10T14:41:40+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/go/</loc>
+    <lastmod>2024-01-02T14:28:46+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/vaccel_go/</loc>
+    <lastmod>2024-01-02T14:28:46+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/author/antonio-skarmeta/</loc>
@@ -394,12 +614,52 @@
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>/tag/container/</loc>
+    <lastmod>2023-11-24T11:28:46+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/knative-runtime-eval/</loc>
+    <lastmod>2023-11-24T11:28:46+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/runtimes/</loc>
+    <lastmod>2023-11-24T11:28:46+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/urunc/</loc>
+    <lastmod>2023-11-14T15:22:12+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/knative-diverse-deployments/</loc>
+    <lastmod>2023-10-09T14:28:46+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/projects/5g-complete/</loc>
     <lastmod>2023-10-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/post/2023-09-29-nubificus-ltd-at-open-source-summit-europe-2023/</loc>
     <lastmod>2023-09-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/cluster/</loc>
+    <lastmod>2023-09-27T08:42:06+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/knative-installation/</loc>
+    <lastmod>2023-09-27T08:42:06+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/orin-vm-vaccel/</loc>
+    <lastmod>2023-09-24T16:31:04+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/jetson-agx-orin/</loc>
+    <lastmod>2023-09-24T16:31:04+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/nvidia/</loc>
+    <lastmod>2023-09-24T16:31:04+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/event/oss2023/</loc>
@@ -410,6 +670,14 @@
     <lastmod>2023-03-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>/blog/orin-vm/</loc>
+    <lastmod>2023-02-13T10:14:04+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/gicv3/</loc>
+    <lastmod>2023-02-13T10:14:04+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/event/fosdem2023/</loc>
     <lastmod>2023-02-05T14:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -418,12 +686,32 @@
     <lastmod>2023-02-05T14:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/tag/vaccel/</loc>
-    <lastmod>2023-02-05T14:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>/post/2023-01-30-vaccel-v050-is-out/</loc>
     <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/fpga/</loc>
+    <lastmod>2023-01-20T10:14:04+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/pynq-z1/</loc>
+    <lastmod>2023-01-20T10:14:04+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/pynq-z1-vaccel/</loc>
+    <lastmod>2023-01-20T10:14:04+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/zynq-7000/</loc>
+    <lastmod>2023-01-20T10:14:04+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/linux/</loc>
+    <lastmod>2023-01-05T14:14:04+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/pynq-z1/</loc>
+    <lastmod>2023-01-05T14:14:04+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/publication/patras-2023-minimal/</loc>
@@ -502,16 +790,8 @@
     <lastmod>2022-09-01T09:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/tag/virtualization/</loc>
-    <lastmod>2022-09-01T09:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>/post/2022-08-22-the-2022-innovation-radar-praises-nubificus-work-on-serverless-computing/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tag/kata-containers/</loc>
-    <lastmod>2022-06-08T09:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/tag/kvm/</loc>
@@ -524,6 +804,54 @@
   </url><url>
     <loc>/tag/tensorflow/</loc>
     <lastmod>2022-06-08T09:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/aws-firecracker/</loc>
+    <lastmod>2022-03-28T19:33:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/firecracker/</loc>
+    <lastmod>2022-03-28T19:33:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/hypervisor/</loc>
+    <lastmod>2022-03-28T19:33:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/kata-build-configure-fc/</loc>
+    <lastmod>2022-03-28T19:33:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/aarch64/</loc>
+    <lastmod>2022-03-28T10:18:06+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/kata-build-configure-qemu/</loc>
+    <lastmod>2022-03-28T10:18:06+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/qemu/</loc>
+    <lastmod>2022-03-28T10:18:06+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/arm64/</loc>
+    <lastmod>2022-03-24T10:18:06+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/kata-build-source/</loc>
+    <lastmod>2022-03-24T10:18:06+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/docker/</loc>
+    <lastmod>2022-03-24T10:18:06+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/k3s/</loc>
+    <lastmod>2021-07-09T10:14:04+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/kata-fc-k3s-k8s/</loc>
+    <lastmod>2021-07-09T10:14:04+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/post/2021-05-11-nubificus-ltd-enables-efficient-secure-execution-at-the-edge/</loc>
@@ -550,8 +878,120 @@
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>/blog/vaccel_v2/</loc>
+    <lastmod>2020-12-04T14:14:04+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/virtio/</loc>
+    <lastmod>2020-12-04T14:14:04+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/post/2020-12-04-110000&#43;0000-vaccel-now-available-on-firecracker/</loc>
     <lastmod>2020-12-04T11:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/vaccel/</loc>
+    <lastmod>2020-06-01T20:29:17+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/fosdem/</loc>
+    <lastmod>2020-02-26T20:10:38+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/fosdem-2020/</loc>
+    <lastmod>2020-02-26T20:10:38+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/microkernels/</loc>
+    <lastmod>2020-02-26T20:10:38+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/raspberry-pi/</loc>
+    <lastmod>2020-02-26T20:10:38+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/fc-rootfs/</loc>
+    <lastmod>2019-10-21T10:02:51+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/nginx/</loc>
+    <lastmod>2019-10-21T10:02:51+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/rootfs/</loc>
+    <lastmod>2019-10-21T10:02:51+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/gic/</loc>
+    <lastmod>2019-10-21T09:58:31+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/firecracker-rpi4/</loc>
+    <lastmod>2019-10-21T09:58:31+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/64-bit/</loc>
+    <lastmod>2019-07-14T00:09:27+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/rpi4-64bit-image/</loc>
+    <lastmod>2019-07-14T00:09:27+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/kernel/</loc>
+    <lastmod>2019-07-14T00:09:27+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/nabla/</loc>
+    <lastmod>2019-07-10T14:41:44+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/rpi4-64bit-virt/</loc>
+    <lastmod>2019-07-10T14:41:44+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/solo5/</loc>
+    <lastmod>2019-07-10T14:41:44+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/unikernel/</loc>
+    <lastmod>2019-07-10T14:41:44+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/building-python-snippets-for-nabla/</loc>
+    <lastmod>2019-02-23T18:17:51+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/python/</loc>
+    <lastmod>2019-02-23T18:17:51+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/rumprun/</loc>
+    <lastmod>2019-02-23T18:17:51+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/build-a-nabla-docker-image/</loc>
+    <lastmod>2019-02-23T14:41:40+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/aarch64/</loc>
+    <lastmod>2019-01-24T16:17:51+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/building-nabla-aarch64/</loc>
+    <lastmod>2019-01-24T16:17:51+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/example-rumprun-solo5-on-aarch64/</loc>
+    <lastmod>2019-01-24T00:09:27+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/armv8/</loc>
+    <lastmod>2019-01-23T14:41:44+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/blog/nabla-containers-aarch64/</loc>
+    <lastmod>2019-01-23T14:41:44+02:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/publication/nikolos-2019-extending/</loc>
