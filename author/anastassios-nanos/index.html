@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: February 16, 2026 --><html lang="en-us" >
+<!-- Last Published: February 17, 2026 --><html lang="en-us" >
 
 
 <head>
@@ -214,7 +214,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.b2143a565ef733cce408eccf45aa36ba.css" />
+  <link rel="stylesheet" href="/css/wowchemy.d4f5bfbf6342fcc4a6bb8d18586cb58a.css" />
 
   
   
@@ -615,11 +615,37 @@ document.addEventListener('DOMContentLoaded', function() {
               
                 <a class="dropdown-item" href="/post"><span>News</span></a>
               
-                <a class="dropdown-item" href="/blog"><span>Blog</span></a>
-              
                 <a class="dropdown-item" href="/event"><span>Events</span></a>
               
             </div>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/blog"><span>Blog</span></a>
           </li>
 
           
@@ -699,6 +725,33 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
   </nav>
 </header>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  
+  var dropdowns = document.querySelectorAll('.navbar-nav .nav-item.dropdown');
+  dropdowns.forEach(function (dd) {
+    dd.addEventListener('mouseenter', function () {
+      
+      dropdowns.forEach(function (other) {
+        if (other !== dd) {
+          other.classList.remove('show');
+          var m = other.querySelector('.dropdown-menu');
+          if (m) m.classList.remove('show');
+        }
+      });
+      
+      dd.classList.add('show');
+      var menu = dd.querySelector('.dropdown-menu');
+      if (menu) menu.classList.add('show');
+    });
+    dd.addEventListener('mouseleave', function () {
+      dd.classList.remove('show');
+      var menu = dd.querySelector('.dropdown-menu');
+      if (menu) menu.classList.remove('show');
+    });
+  });
+});
+</script>
 
 
   </div>
@@ -984,206 +1037,6 @@ where I got my Dipl. Eng. (2006) and my PhD (2013).</p>
   
   
   
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-
-  
-  
-    
-  
-  
-    
-  
-
-  
-
-  
-  <p class="powered-by copyright-license-text">
-    © 2026 Nubificus LTD. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
-  </p>
-  
-
-  <p class="powered-by footer-license-icons">
-    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
-      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
-      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
-      
-        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
-      
-      
-        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
-      
-    </a>
-  </p>
-
-
-
-
-
-  <p class="powered-by">
-    
-    
-    
-      
-      
-      
-      
-      
-      
-      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
-    
-  </p>
-</footer>
-
-    </div>
-    
-  </div>
-
-  
-
-
-<script src="/js/vendor-bundle.min.5faf09821dbe513ca103e87bafd52766.js"></script>
-
-
-
-
-  
-
-  
-  
-
-  
-
-
-
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script id="page-data" type="application/json">{"use_headroom":true}</script>
-
-
-  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
-
-
-
-
-
-
-
-
-
-
-<script src="/en/js/wowchemy.min.e166a4f802c5f09237cc72919197d83b.js"></script>
-
-
-
-  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
-
-
-
-
-  
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        
-        <pre><code></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-  <script src="/js/wowchemy-publication.9c0e895144aef5a693008b5c5d450147.js" type="module"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-</html>
-
   
   
 

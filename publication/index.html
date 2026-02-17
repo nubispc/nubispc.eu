@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: February 16, 2026 --><html lang="en-us" >
+<!-- Last Published: February 17, 2026 --><html lang="en-us" >
 
 
 <head>
@@ -214,7 +214,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.b2143a565ef733cce408eccf45aa36ba.css" />
+  <link rel="stylesheet" href="/css/wowchemy.d4f5bfbf6342fcc4a6bb8d18586cb58a.css" />
 
   
   
@@ -614,11 +614,37 @@ document.addEventListener('DOMContentLoaded', function() {
               
                 <a class="dropdown-item" href="/post"><span>News</span></a>
               
-                <a class="dropdown-item" href="/blog"><span>Blog</span></a>
-              
                 <a class="dropdown-item" href="/event"><span>Events</span></a>
               
             </div>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/blog"><span>Blog</span></a>
           </li>
 
           
@@ -698,6 +724,33 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
   </nav>
 </header>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  
+  var dropdowns = document.querySelectorAll('.navbar-nav .nav-item.dropdown');
+  dropdowns.forEach(function (dd) {
+    dd.addEventListener('mouseenter', function () {
+      
+      dropdowns.forEach(function (other) {
+        if (other !== dd) {
+          other.classList.remove('show');
+          var m = other.querySelector('.dropdown-menu');
+          if (m) m.classList.remove('show');
+        }
+      });
+      
+      dd.classList.add('show');
+      var menu = dd.querySelector('.dropdown-menu');
+      if (menu) menu.classList.add('show');
+    });
+    dd.addEventListener('mouseleave', function () {
+      dd.classList.remove('show');
+      var menu = dd.querySelector('.dropdown-menu');
+      if (menu) menu.classList.remove('show');
+    });
+  });
+});
+</script>
 
 
   </div>
@@ -908,6 +961,9 @@ document.addEventListener('DOMContentLoaded', function() {
             
           </select>
         </div>
+        <button class="btn-clear-filters btn-clear-pubs" title="Clear all filters">
+          <i class="fas fa-times"></i> Clear
+        </button>
         <div class="pub-count">
           <span class="pub-count-number">25</span> publications
         </div>
@@ -920,7 +976,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-paper-conference year-2025">
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card pubtype-paper-conference year-2025">
           
 
 
@@ -1019,7 +1075,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-article-journal year-2025">
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card pubtype-article-journal year-2025">
           
 
 
@@ -1118,7 +1174,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-chapter year-2025">
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card pubtype-chapter year-2025">
           
 
 
@@ -1239,7 +1295,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-paper-conference year-2024">
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card pubtype-paper-conference year-2024">
           
 
 
@@ -1338,7 +1394,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-article-journal year-2024">
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card pubtype-article-journal year-2024">
           
 
 
@@ -1437,7 +1493,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-paper-conference year-2024">
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card pubtype-paper-conference year-2024">
           
 
 
@@ -1536,7 +1592,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-paper-conference year-2024">
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card pubtype-paper-conference year-2024">
           
 
 
@@ -1635,7 +1691,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-paper-conference year-2023">
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card pubtype-paper-conference year-2023">
           
 
 
@@ -1734,7 +1790,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-paper-conference year-2023">
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card pubtype-paper-conference year-2023">
           
 
 
@@ -1833,7 +1889,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-paper-conference year-2023">
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card pubtype-paper-conference year-2023">
           
 
 
@@ -1932,7 +1988,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-paper-conference year-2023">
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card pubtype-paper-conference year-2023">
           
 
 
@@ -2031,7 +2087,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-paper-conference year-2021">
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card pubtype-paper-conference year-2021">
           
 
 
@@ -2130,7 +2186,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-paper-conference year-2019">
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card pubtype-paper-conference year-2019">
           
 
 
@@ -2229,7 +2285,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-paper-conference year-2015">
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card pubtype-paper-conference year-2015">
           
 
 
@@ -2328,7 +2384,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-paper-conference year-2015">
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card pubtype-paper-conference year-2015">
           
 
 
@@ -2427,7 +2483,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-paper-conference year-2015">
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card pubtype-paper-conference year-2015">
           
 
 
@@ -2526,7 +2582,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-article-journal year-2014">
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card pubtype-article-journal year-2014">
           
 
 
@@ -2625,7 +2681,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-paper-conference year-2012">
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card pubtype-paper-conference year-2012">
           
 
 
@@ -2724,7 +2780,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-paper-conference year-2012">
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card pubtype-paper-conference year-2012">
           
 
 
@@ -2823,7 +2879,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-paper-conference year-2011">
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card pubtype-paper-conference year-2011">
           
 
 
@@ -2922,7 +2978,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-paper-conference year-2011">
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card pubtype-paper-conference year-2011">
           
 
 
@@ -3021,7 +3077,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-article-journal year-2010">
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card pubtype-article-journal year-2010">
           
 
 
@@ -3120,7 +3176,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-paper-conference year-2010">
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card pubtype-paper-conference year-2010">
           
 
 
@@ -3219,7 +3275,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-paper-conference year-2009">
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card pubtype-paper-conference year-2009">
           
 
 
@@ -3318,7 +3374,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-paper-conference year-2008">
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card pubtype-paper-conference year-2008">
           
 
 
@@ -3417,6 +3473,85 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
   </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var $search = $('.filter-search');
+  var $grid = $('#container-publications');
+  if (!$grid.length) return;
+
+  function pushStateToUrl() {
+    var params = new URLSearchParams();
+    $('.pub-filters').each(function () {
+      var group = this.getAttribute('data-filter-group');
+      if (this.value && this.value !== '*') {
+        params.set(group, this.value);
+      }
+    });
+    var q = $search.val();
+    if (q) params.set('q', q);
+    var qs = params.toString();
+    var newUrl = window.location.pathname + (qs ? '?' + qs : '');
+    history.replaceState(null, '', newUrl);
+  }
+
+  
+  $('.pub-filters').on('change', pushStateToUrl);
+  $search.on('keyup', function () {
+    setTimeout(pushStateToUrl, 150);
+  });
+
+  
+  $('.btn-clear-pubs').on('click', function () {
+    $search.val('').trigger('keyup');
+    $('.pub-filters').each(function () {
+      this.selectedIndex = 0;
+      $(this).trigger('change');
+    });
+    pushStateToUrl();
+  });
+
+  
+  var params = new URLSearchParams(window.location.search);
+  var restored = false;
+
+  $('.pub-filters').each(function () {
+    var group = this.getAttribute('data-filter-group');
+    var val = params.get(group);
+    if (val) {
+      this.value = val;
+      $(this).trigger('change');
+      restored = true;
+    }
+  });
+
+  var q = params.get('q');
+  if (q) {
+    $search.val(q).trigger('keyup');
+    restored = true;
+  }
+
+  
+  var observer = new IntersectionObserver(function (entries) {
+    var visible = [];
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        visible.push(entry.target);
+        observer.unobserve(entry.target);
+      }
+    });
+    visible.forEach(function (el, i) {
+      setTimeout(function () {
+        el.classList.add('is-visible');
+      }, i * 30);
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('#container-publications .lazy-card').forEach(function (card) {
+    observer.observe(card);
+  });
+});
+</script>
   </div>
 
   <div class="page-footer">

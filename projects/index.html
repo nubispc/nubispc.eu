@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: February 16, 2026 --><html lang="en-us" >
+<!-- Last Published: February 17, 2026 --><html lang="en-us" >
 
 
 <head>
@@ -214,7 +214,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.b2143a565ef733cce408eccf45aa36ba.css" />
+  <link rel="stylesheet" href="/css/wowchemy.d4f5bfbf6342fcc4a6bb8d18586cb58a.css" />
 
   
   
@@ -614,11 +614,37 @@ document.addEventListener('DOMContentLoaded', function() {
               
                 <a class="dropdown-item" href="/post"><span>News</span></a>
               
-                <a class="dropdown-item" href="/blog"><span>Blog</span></a>
-              
                 <a class="dropdown-item" href="/event"><span>Events</span></a>
               
             </div>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/blog"><span>Blog</span></a>
           </li>
 
           
@@ -698,6 +724,33 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
   </nav>
 </header>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  
+  var dropdowns = document.querySelectorAll('.navbar-nav .nav-item.dropdown');
+  dropdowns.forEach(function (dd) {
+    dd.addEventListener('mouseenter', function () {
+      
+      dropdowns.forEach(function (other) {
+        if (other !== dd) {
+          other.classList.remove('show');
+          var m = other.querySelector('.dropdown-menu');
+          if (m) m.classList.remove('show');
+        }
+      });
+      
+      dd.classList.add('show');
+      var menu = dd.querySelector('.dropdown-menu');
+      if (menu) menu.classList.add('show');
+    });
+    dd.addEventListener('mouseleave', function () {
+      dd.classList.remove('show');
+      var menu = dd.querySelector('.dropdown-menu');
+      if (menu) menu.classList.remove('show');
+    });
+  });
+});
+</script>
 
 
   </div>
@@ -708,6 +761,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
 
     <div id="TableOfContents"></div>
+
+
+
 
 
 
@@ -743,19 +799,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 <div class="universal-wrapper">
-  
-    <div class="article-style"><div class="projects-intro">
+  <div class="row">
+    <div class="col-lg-12">
+
+      
+      <div class="article-style"><div class="projects-intro">
 <img src="../media/6g-ia-logo.png" alt="6G-IA" class="projects-intro-logo" />
 <p>NUBIS actively participates in EU-funded research and innovation projects, contributing expertise in cloud-native computing, secure IoT frameworks, and high-performance edge-cloud orchestration. As an active member of the <strong>6G-IA</strong>, NUBIS supports the development of next-generation networking and computing technologies.</p>
 </div>
 </div>
-  
+      
 
-  
-
-  
-  
-    
+      <div id="container-projects">
+        
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card">
+          
 
 
 
@@ -832,8 +890,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 </div>
 
-  
-    
+        </div>
+        
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card">
+          
 
 
 
@@ -908,8 +968,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 </div>
 
-  
-    
+        </div>
+        
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card">
+          
 
 
 
@@ -986,8 +1048,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 </div>
 
-  
-    
+        </div>
+        
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card">
+          
 
 
 
@@ -1062,8 +1126,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 </div>
 
-  
-    
+        </div>
+        
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card">
+          
 
 
 
@@ -1140,8 +1206,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 </div>
 
-  
-    
+        </div>
+        
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card">
+          
 
 
 
@@ -1216,8 +1284,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 </div>
 
-  
-    
+        </div>
+        
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card">
+          
 
 
 
@@ -1294,8 +1364,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 </div>
 
-  
-    
+        </div>
+        
+        <div class="grid-sizer col-lg-12 isotope-item lazy-card">
+          
 
 
 
@@ -1370,13 +1442,48 @@ document.addEventListener('DOMContentLoaded', function() {
 
 </div>
 
-  
+        </div>
+        
+      </div>
 
-  
-
-  
-
+    </div>
+  </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var $grid = $('#container-projects');
+  if (!$grid.length) return;
+
+  $grid.isotope({
+    itemSelector: '.isotope-item',
+    percentPosition: true,
+    masonry: {
+      columnWidth: '.grid-sizer',
+    },
+  });
+
+  
+  var observer = new IntersectionObserver(function (entries) {
+    var visible = [];
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        visible.push(entry.target);
+        observer.unobserve(entry.target);
+      }
+    });
+    visible.forEach(function (el, i) {
+      setTimeout(function () {
+        el.classList.add('is-visible');
+      }, i * 30);
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('#container-projects .lazy-card').forEach(function (card) {
+    observer.observe(card);
+  });
+});
+</script>
   </div>
 
   <div class="page-footer">
@@ -1480,6 +1587,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+  
+    <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
   
 
   
