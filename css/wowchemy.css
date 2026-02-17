@@ -9951,6 +9951,12 @@ body.dark .latest-activity-title:hover {
   font-weight: 500;
   transition: color 0.3s ease; }
 
+/* Instant dropdown open/close — no overlap */
+.navbar-nav .dropdown-menu {
+  transition: none;
+  animation: none;
+  margin-top: 0; }
+
 /* Theme-aware logo styling */
 .theme-logo {
   position: relative;
@@ -10352,15 +10358,45 @@ body.dark .pub-filters-bar {
   font-size: 0.8rem;
   pointer-events: none; }
 
-.pub-filter-search .filter-search {
+.pub-filter-search .filter-search,
+.pub-filter-search .blog-filter-search {
   padding-left: 2rem;
   border-radius: 6px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   font-size: 0.85rem; }
 
-body.dark .pub-filter-search .filter-search {
+body.dark .pub-filter-search .filter-search,
+body.dark .pub-filter-search .blog-filter-search {
   background: rgba(255, 255, 255, 0.06);
   border-color: rgba(255, 255, 255, 0.1);
+  color: #ddd; }
+
+.btn-clear-filters {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  background: transparent;
+  color: #666;
+  font-size: 0.8rem;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s ease; }
+
+.btn-clear-filters:hover {
+  background: rgba(0, 0, 0, 0.05);
+  border-color: rgba(0, 0, 0, 0.2);
+  color: #333; }
+
+body.dark .btn-clear-filters {
+  color: #aaa;
+  border-color: rgba(255, 255, 255, 0.1); }
+
+body.dark .btn-clear-filters:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.25);
   color: #ddd; }
 
 .pub-filter-selects {
@@ -10555,6 +10591,53 @@ body.dark .pub-entry-venue {
   .pub-entry-header {
     flex-wrap: wrap;
     gap: 0.4rem; } }
+
+/* Isotope containers */
+#container-projects,
+#container-events,
+#container-news {
+  margin-left: -15px;
+  margin-right: -15px; }
+
+/* Lazy card reveal animation */
+.lazy-card {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.2s ease, transform 0.2s ease; }
+
+.lazy-card.is-visible {
+  opacity: 1;
+  transform: none;
+  transition: none; }
+
+/* =============================================
+   Blog page
+   ============================================= */
+/* Back to blog link */
+.blog-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  color: #666;
+  text-decoration: none;
+  transition: color 0.2s ease; }
+
+.blog-back-link:hover {
+  color: var(--primary, #1565c0);
+  text-decoration: none; }
+
+body.dark .blog-back-link {
+  color: #aaa; }
+
+body.dark .blog-back-link:hover {
+  color: var(--primary, #1565c0); }
+
+/* Pull container flush like publications */
+#container-blog {
+  margin-left: -15px;
+  margin-right: -15px; }
 
 /* =============================================
    Contact page

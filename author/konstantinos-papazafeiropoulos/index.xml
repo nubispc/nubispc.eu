@@ -14,23 +14,3 @@
     
   </channel>
 </rss>
-e>
-    
-    <item>
-      <title>MLIoT: Transparent and Secure ML Offloading in the Cloud-Edge-IoT Continuum</title>
-      <link>/publication/nanos-2025-mliot/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>/publication/nanos-2025-mliot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Extending storage support for unikernel containers</title>
-      <link>/publication/nikolos-2019-extending/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/nikolos-2019-extending/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
-</rss>

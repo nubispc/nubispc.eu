@@ -1,30 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Márton Sipos | Nubificus</title>
+    <title>Marton Sipos | Nubificus</title>
     <link>/author/marton-sipos/</link>
       <atom:link href="/author/marton-sipos/index.xml" rel="self" type="application/rss+xml" />
-    <description>Márton Sipos</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <description>Marton Sipos</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu_f553cb9eef83bc41.png</url>
-      <title>Márton Sipos</title>
+      <title>Marton Sipos</title>
       <link>/author/marton-sipos/</link>
     </image>
     
     <item>
-      <title>Integrating Heterogeneous Hardware and Software Platforms towards the Edge-Cloud-HPC Continuum</title>
-      <link>/publication/kretsis-2025-integrating/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>/publication/kretsis-2025-integrating/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SERRANO: transparent application deployment in a secure, accelerated and cognitive cloud continuum</title>
-      <link>/publication/kretsis-2021-serrano/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/kretsis-2021-serrano/</guid>
+      <title>EMPYREAN: Trustworthy, Cognitive and AI-driven Collaborative Associations of IoT Devices and Edge Resources for Data Processing</title>
+      <link>/publication/kretsis-2024-empyrean/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/kretsis-2024-empyrean/</guid>
       <description></description>
     </item>
     
