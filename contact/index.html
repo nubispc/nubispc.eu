@@ -898,39 +898,451 @@ document.addEventListener('DOMContentLoaded', function () {
 
     
     
-    <div class="contact-col">
-      <h3><i class="fas fa-paper-plane"></i> Send a Message</h3>
+	
 
-      
-      
-        
-      
+<div class="contact-col">
+  <h3><i class="fas fa-paper-plane"></i> Send a Message</h3>
 
-      <form name="contact" method="POST" netlify netlify-honeypot="_gotcha"   class="contact-form">
-        <div class="contact-form-row">
-          <div class="contact-form-field">
-            <label for="inputName">Name</label>
-            <input type="text" name="name" class="form-control" id="inputName" placeholder="Your name" required>
-          </div>
-          <div class="contact-form-field">
-            <label for="inputEmail">Email</label>
-            <input type="email" name="email" class="form-control" id="inputEmail" placeholder="your@email.com" required>
-          </div>
-        </div>
-        <div class="contact-form-field">
-          <label for="inputMessage">Message</label>
-          <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="How can we help?" required></textarea>
-        </div>
-        
-        <div class="d-none">
-          <label>Do not fill this field unless you are a bot: <input name="_gotcha"></label>
-        </div>
-        
-        <button type="submit" class="btn btn-primary contact-submit">
-          <i class="fas fa-paper-plane"></i> Send
-        </button>
-      </form>
+<div class="contact-form">
+  <form
+    id="contact-form"
+    novalidate
+    aria-label="Contact form"
+    class="contact-form"
+    >
+    
+    <div class="contact-form__honeypot" aria-hidden="true">
+      <label for="cf-website">Website</label>
+      <input
+        type="text"
+        id="cf-website"
+        name="website"
+        tabindex="-1"
+        autocomplete="off"
+      >
     </div>
+
+       <div class="contact-form-row">
+         <div class="contact-form-field">
+           <label for="inputName">Name</label>
+           <input type="text" name="name" class="form-control" id="cf-name" placeholder="Your name" required>
+     	   <span class="contact-form__error" id="cf-name-error" role="alert"></span>
+         </div>
+         <div class="contact-form-field">
+           <label for="inputEmail">Email</label>
+           <input type="email" name="email" class="form-control" id="cf-email" placeholder="your@email.com" required>
+     	   <span class="contact-form__error" id="cf-email-error" role="alert"></span>
+         </div>
+       </div>
+       <div class="contact-form-field">
+         <label for="inputMessage">Message</label>
+         <textarea name="message" class="form-control" id="cf-message" rows="5" placeholder="How can we help?" required></textarea>
+     	   <span class="contact-form__error" id="cf-message-error" role="alert"></span>
+       </div>
+
+    
+    <div class="contact-form__actions">
+      <button
+        type="submit"
+        id="cf-submit"
+        class="contact-form__btn"
+      >
+        <span class="contact-form__btn-text">Send Message</span>
+        <span class="contact-form__btn-spinner" aria-hidden="true"></span>
+      </button>
+    </div>
+
+    
+    <div
+      id="cf-status"
+      class="contact-form__status"
+      role="status"
+      aria-live="polite"
+      aria-atomic="true"
+      hidden
+    ></div>
+  </form>
+</div>
+
+</div>
+
+<style>
+ 
+:root,
+[data-theme="light"] {
+  --cf-bg:            #ffffff;
+  --cf-border:        #d1d5db;
+  --cf-border-focus:  #2563eb;
+  --cf-label:         #374151;
+  --cf-placeholder:   #9ca3af;
+  --cf-text:          #111827;
+  --cf-error:         #dc2626;
+  --cf-success-bg:    #f0fdf4;
+  --cf-success-border:#16a34a;
+  --cf-success-text:  #15803d;
+  --cf-fail-bg:       #fef2f2;
+  --cf-fail-border:   #dc2626;
+  --cf-fail-text:     #b91c1c;
+  --cf-btn-bg:        #2563eb;
+  --cf-btn-hover:     #1d4ed8;
+  --cf-btn-text:      #ffffff;
+  --cf-required:      #dc2626;
+  --cf-input-bg:      #ffffff;
+  --cf-radius:        6px;
+}
+
+[data-theme="dark"],
+.dark {
+  --cf-bg:            transparent;
+  --cf-border:        #374151;
+  --cf-border-focus:  #60a5fa;
+  --cf-label:         #d1d5db;
+  --cf-placeholder:   #6b7280;
+  --cf-text:          #f9fafb;
+  --cf-error:         #f87171;
+  --cf-success-bg:    #052e16;
+  --cf-success-border:#16a34a;
+  --cf-success-text:  #4ade80;
+  --cf-fail-bg:       #2d0a0a;
+  --cf-fail-border:   #f87171;
+  --cf-fail-text:     #fca5a5;
+  --cf-btn-bg:        #3b82f6;
+  --cf-btn-hover:     #2563eb;
+  --cf-btn-text:      #ffffff;
+  --cf-required:      #f87171;
+  --cf-input-bg:      #1f2937;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --cf-bg:            transparent;
+    --cf-border:        #374151;
+    --cf-border-focus:  #60a5fa;
+    --cf-label:         #d1d5db;
+    --cf-placeholder:   #6b7280;
+    --cf-text:          #f9fafb;
+    --cf-error:         #f87171;
+    --cf-success-bg:    #052e16;
+    --cf-success-border:#16a34a;
+    --cf-success-text:  #4ade80;
+    --cf-fail-bg:       #2d0a0a;
+    --cf-fail-border:   #f87171;
+    --cf-fail-text:     #fca5a5;
+    --cf-btn-bg:        #3b82f6;
+    --cf-btn-hover:     #2563eb;
+    --cf-btn-text:      #ffffff;
+    --cf-required:      #f87171;
+    --cf-input-bg:      #1f2937;
+  }
+}
+
+ 
+.contact-form-wrapper {
+  max-width: 100%;
+}
+
+ 
+.contact-form__honeypot {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  tab-index: -1;
+}
+
+.contact-form__field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.contact-form__label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--cf-label);
+  letter-spacing: 0.01em;
+}
+
+.contact-form__required {
+  color: var(--cf-required);
+  margin-left: 2px;
+}
+
+.contact-form__input {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 0.9375rem;
+  font-family: inherit;
+  color: var(--cf-text);
+  background: var(--cf-input-bg);
+  border: 1.5px solid var(--cf-border);
+  border-radius: var(--cf-radius);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.contact-form__input::placeholder {
+  color: var(--cf-placeholder);
+}
+
+.contact-form__input:focus {
+  border-color: var(--cf-border-focus);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--cf-border-focus) 20%, transparent);
+}
+
+.contact-form__input[aria-invalid="true"] {
+  border-color: var(--cf-error);
+}
+
+.contact-form__textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+.contact-form__error {
+  font-size: 0.8125rem;
+  color: var(--cf-error);
+  min-height: 1.1em;
+}
+
+ 
+.contact-form__actions {
+  margin-top: 8px;
+}
+
+.contact-form__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 28px;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--cf-btn-text);
+  background: var(--cf-btn-bg);
+  border: none;
+  border-radius: var(--cf-radius);
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.1s ease, opacity 0.15s ease;
+  letter-spacing: 0.02em;
+}
+
+.contact-form__btn:hover:not(:disabled) {
+  background: var(--cf-btn-hover);
+}
+
+.contact-form__btn:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.contact-form__btn:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+ 
+.contact-form__btn-spinner {
+  display: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255,255,255,0.4);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: cf-spin 0.6s linear infinite;
+}
+
+.contact-form__btn--loading .contact-form__btn-spinner {
+  display: block;
+}
+
+@keyframes cf-spin {
+  to { transform: rotate(360deg); }
+}
+
+ 
+.contact-form__status {
+  margin-top: 18px;
+  padding: 12px 16px;
+  border-radius: var(--cf-radius);
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-left: 4px solid;
+  animation: cf-fadein 0.25s ease;
+}
+
+.contact-form__status--success {
+  background: var(--cf-success-bg);
+  border-color: var(--cf-success-border);
+  color: var(--cf-success-text);
+}
+
+.contact-form__status--error {
+  background: var(--cf-fail-bg);
+  border-color: var(--cf-fail-border);
+  color: var(--cf-fail-text);
+}
+
+@keyframes cf-fadein {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+</style>
+
+
+<script>
+(function () {
+  
+  
+  const ENDPOINT = "https://script.google.com/macros/s/AKfycbzpYEX5WDEfTKUwTul5oXI8bNMt5Qr_qDAMCqeHnhNRZDahVz4aU9oLxvPoVXA7XPvA4A/exec";
+  const TOKEN    = "b92c14f866e8520b8cb792a911ed37c5f543b4d2df0229e90c1ed35b2d28cef5";
+  
+
+  const form     = document.getElementById("contact-form");
+  const submitBtn = document.getElementById("cf-submit");
+  const statusEl  = document.getElementById("cf-status");
+
+  if (!form) return;
+
+  
+  function getField(id) {
+    return document.getElementById(id);
+  }
+
+  function showError(inputId, errorId, message) {
+    const input = getField(inputId);
+    const error = getField(errorId);
+    input.setAttribute("aria-invalid", "true");
+    input.setAttribute("aria-describedby", errorId);
+    error.textContent = message;
+  }
+
+  function clearError(inputId, errorId) {
+    const input = getField(inputId);
+    const error = getField(errorId);
+    input.removeAttribute("aria-invalid");
+    input.removeAttribute("aria-describedby");
+    error.textContent = "";
+  }
+
+  function validateForm() {
+    let valid = true;
+
+    const name    = getField("cf-name").value.trim();
+    const email   = getField("cf-email").value.trim();
+    const message = getField("cf-message").value.trim();
+
+    
+    if (!name) {
+      showError("cf-name", "cf-name-error", "Please enter your name.");
+      valid = false;
+    } else {
+      clearError("cf-name", "cf-name-error");
+    }
+
+    
+    const emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+    if (!email) {
+      showError("cf-email", "cf-email-error", "Please enter your email address.");
+      valid = false;
+    } else if (!emailRe.test(email)) {
+      showError("cf-email", "cf-email-error", "Please enter a valid email address.");
+      valid = false;
+    } else {
+      clearError("cf-email", "cf-email-error");
+    }
+
+    
+    if (!message) {
+      showError("cf-message", "cf-message-error", "Please enter your message.");
+      valid = false;
+    } else if (message.length < 10) {
+      showError("cf-message", "cf-message-error", "Message is too short.");
+      valid = false;
+    } else {
+      clearError("cf-message", "cf-message-error");
+    }
+
+    return valid;
+  }
+
+  
+  ["cf-name", "cf-email", "cf-message"].forEach(function (id) {
+    getField(id).addEventListener("input", function () {
+      clearError(id, id + "-error");
+    });
+  });
+
+  
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    
+    statusEl.hidden = true;
+    statusEl.className = "contact-form__status";
+
+    if (!validateForm()) return;
+
+    
+    if (!ENDPOINT || ENDPOINT === "null") {
+      showStatus("error", "Form endpoint not configured. Please contact us by email.");
+      return;
+    }
+
+    
+    submitBtn.disabled = true;
+    submitBtn.classList.add("contact-form__btn--loading");
+    submitBtn.querySelector(".contact-form__btn-text").textContent = "Sending…";
+
+    const payload = {
+      token:   TOKEN,
+      name:    getField("cf-name").value.trim(),
+      email:   getField("cf-email").value.trim(),
+      message: getField("cf-message").value.trim(),
+      
+      website: getField("cf-website").value,
+    };
+
+    try {
+      
+      
+      
+      
+      await fetch(ENDPOINT, {
+        method: "POST",
+        mode:   "no-cors",   
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+      
+      showStatus("success", "✓ Message sent! We'll get back to you soon.");
+      form.reset();
+
+    } catch (err) {
+      console.error("Contact form error:", err);
+      showStatus("error", "Could not send message. Please check your connection and try again.");
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.classList.remove("contact-form__btn--loading");
+      submitBtn.querySelector(".contact-form__btn-text").textContent = "Send Message";
+    }
+  });
+
+  function showStatus(type, message) {
+    statusEl.textContent  = message;
+    statusEl.className    = "contact-form__status contact-form__status--" + type;
+    statusEl.hidden       = false;
+    statusEl.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }
+})();
+</script>
+
+
     
 
   </div>

@@ -1257,7 +1257,7 @@ runtime through containerd on the deployment nodes.</p>
 </span></span><span class="line"><span class="cl">        image: harbor.nbfc.io/kimage/hello-world@sha256:4554e30f8380ad74003fafe0f7136dc7511a3d437da2bfdc55fb4f913d641951
 </span></span><span class="line"><span class="cl">      runtimeClassName: kata-fc
 </span></span><span class="line"><span class="cl">EOF
-</span></span></code></pre></div><p>After a succesfull deployment we can <code>curl</code> the <code>Knative-Service</code> (through <code>kourier-internal</code> svc) and check its
+</span></span></code></pre></div><p>After a successful deployment we can <code>curl</code> the <code>Knative-Service</code> (through <code>kourier-internal</code> svc) and check its
 response.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">$ kubectl apply -f kata-fc-ksvc-hello-world.yaml 
 </span></span><span class="line"><span class="cl">Warning: Kubernetes default value is insecure, Knative may default this to secure in a future release: spec.template.spec.containers<span class="o">[</span>0<span class="o">]</span>.securityContext.allowPrivilegeEscalation, spec.template.spec.containers<span class="o">[</span>0<span class="o">]</span>.securityContext.capabilities, spec.template.spec.containers<span class="o">[</span>0<span class="o">]</span>.securityContext.runAsNonRoot, spec.template.spec.containers<span class="o">[</span>0<span class="o">]</span>.securityContext.seccompProfile

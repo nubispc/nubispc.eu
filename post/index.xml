@@ -661,7 +661,7 @@ Grant Agreements 101017168 (SERRANO) and 871900 (5G-COMPLETE).&lt;/p&gt;
         &lt;img src=&#34;images/hack-athens23.jpg#floatleft&#34; alt=&#34;&#34; style=&#34;border-radius: 12%&#34;/&gt;
 &lt;/figure&gt;
 &lt;p&gt;We are excited to host a Unikraft Hackathon in Athens, GR!  It is a great
-opportunity for students, professionals and systems software enthousiasts to
+opportunity for students, professionals and systems software enthusiasts to
 meet, exchange ideas, and code together in this two-day event!&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://nubificus.co.uk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nubificus LTD&lt;/a&gt;, along with the &lt;a href=&#34;https://unikraft.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unikraft
 community&lt;/a&gt;, the &lt;a href=&#34;http://hscnl.ece.ntua.gr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;High Speed Communication Networks Lab
@@ -729,7 +729,7 @@ open-source, available on &lt;a href=&#34;https://github.com/cloudkernels/vaccel
 environments that do not have direct (physical) access to acceleration devices.
 With a slim design and precise abstractions, &lt;a href=&#34;https://vaccel.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vAccel&lt;/a&gt;
 semantically exposes hardware acceleration features to users with little to no
-knoweldge of software acceleration framework internals.&lt;/p&gt;
+knowledge of software acceleration framework internals.&lt;/p&gt;
 &lt;figure&gt;
         &lt;img src=&#34;images/kata-logo.png#floatleft&#34; alt=&#34;&#34; /&gt;
 &lt;/figure&gt;
@@ -930,7 +930,7 @@ resource orchestration and lightweight virtualization mechanisms.&lt;/p&gt;
       <description>&lt;p&gt;Today, Nubificus LTD introduced &lt;a href=&#34;https://blog.cloudkernels.net/posts/vaccel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vAccel&lt;/a&gt; support on &lt;a href=&#34;https://firecracker-microvm.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AWS Firecracker&lt;/a&gt;,
 opening the door for enabling hardware acceleration for serverless computing.&lt;/p&gt;
 &lt;p&gt;With a slim design and precise abstractions, &lt;a href=&#34;https://blog.cloudkernels.net/posts/vaccel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vAccel&lt;/a&gt; semantically exposes
-hardware acceleration features to users with little to no knoweldge of software
+hardware acceleration features to users with little to no knowledge of software
 acceleration framework internals.&lt;/p&gt;
 &lt;p&gt;Serverless computing workflows are now able to enjoy compute-offload mechanisms
 to provide AI/ML services as functions, triggered thousands or millions of
@@ -943,7 +943,7 @@ such as TensorRT, Tensorflow, Jetson-inference, or even lower-level
 abstractions such as CUDA, OpenCL, OpenACC, are now easily usable by the
 end-user via vAccel. Moreover, vAccel offers a virtualization backend,
 facilitating the execution of functions on Virtual Machines. Apart from support
-for AWS Firecracker, &lt;a href=&#34;https://blog.cloudkernels.net/posts/vaccel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QEMU/KVM support&lt;/a&gt; is also availabe.&lt;/p&gt;
+for AWS Firecracker, &lt;a href=&#34;https://blog.cloudkernels.net/posts/vaccel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QEMU/KVM support&lt;/a&gt; is also available.&lt;/p&gt;
 &lt;p&gt;End-users can get a sneak peek at what vAccel on AWS Firecracker has to offer
 on the project&amp;rsquo;s &lt;a href=&#34;https://vaccel.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;website&lt;/a&gt;, on &lt;a href=&#34;https://github.com/cloudkernels/vaccelrt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt;, or on-prem, by using the
 distributed binaries, or just a container image. To get started, follow one of

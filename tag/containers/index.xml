@@ -1262,7 +1262,7 @@ prepares the storage backend with the container rootfs (eg. a block device
 for the &lt;code&gt;devmapper&lt;/code&gt; snapshotter).&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;containerd&lt;/code&gt; invokes &lt;code&gt;urunc&lt;/code&gt; with the bundle &amp;amp; storage backend&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;urunc&lt;/code&gt; parses the annotations in the bundle and extracts the unikernel binary&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;urunc&lt;/code&gt; constructs the apropriate command-line parameters for the respective hypervisor and spawns the unikernel&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;urunc&lt;/code&gt; constructs the appropriate command-line parameters for the respective hypervisor and spawns the unikernel&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Regarding network handling, &lt;code&gt;urunc&lt;/code&gt; creates a new &lt;code&gt;tap&lt;/code&gt; device inside the container netns (&lt;code&gt;tap0_urunc&lt;/code&gt;). &lt;code&gt;urunc&lt;/code&gt; maps all incoming traffic from the CNI &lt;code&gt;veth&lt;/code&gt; endpoint to the &lt;code&gt;tap&lt;/code&gt; interface and all outgoing traffic to the &lt;code&gt;veth&lt;/code&gt; endpoint. This process is shown in Figure 3.&lt;/p&gt;
 

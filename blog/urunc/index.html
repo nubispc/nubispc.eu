@@ -1033,7 +1033,7 @@ prepares the storage backend with the container rootfs (eg. a block device
 for the <code>devmapper</code> snapshotter).</li>
 <li><code>containerd</code> invokes <code>urunc</code> with the bundle &amp; storage backend</li>
 <li><code>urunc</code> parses the annotations in the bundle and extracts the unikernel binary</li>
-<li><code>urunc</code> constructs the apropriate command-line parameters for the respective hypervisor and spawns the unikernel</li>
+<li><code>urunc</code> constructs the appropriate command-line parameters for the respective hypervisor and spawns the unikernel</li>
 </ul>
 <p>Regarding network handling, <code>urunc</code> creates a new <code>tap</code> device inside the container netns (<code>tap0_urunc</code>). <code>urunc</code> maps all incoming traffic from the CNI <code>veth</code> endpoint to the <code>tap</code> interface and all outgoing traffic to the <code>veth</code> endpoint. This process is shown in Figure 3.</p>
 
