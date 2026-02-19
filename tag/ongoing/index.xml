@@ -39,14 +39,5 @@
 </description>
     </item>
     
-    <item>
-      <title>NEPHELE: DROP</title>
-      <link>/projects/nephele-drop/</link>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>/projects/nephele-drop/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;NUBIS contribution:&lt;/strong&gt; Through the DROP proposal, NUBIS develops a distributed resource offloading mechanism leveraging the vAccel framework for ESP32-based IoT devices. DROP enables real-time processing capabilities for resource-constrained devices while reducing latency and improving system efficiency, fostering innovation in logistics, smart home, and industrial automation.&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>
